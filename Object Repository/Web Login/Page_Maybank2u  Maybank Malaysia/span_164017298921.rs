@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_164017298921</name>
+   <tag></tag>
+   <elementGuidId>455b1475-1078-4545-9213-5009af0e24aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '164017298921' or . = '164017298921')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDashboard']/div/div[4]/div[3]/div/div/div/div/div/div[3]/div/div/div/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-5.col-md-5.col-sm-6.col-xs-12.CardsContainer---even---1Hxv8 > div.Card---container---2DA8r > div.panel.panel-default > div.panel-body > div.Card---cardSummary---1Cw3s > div.Card---accountSummary---1S7jK > span.Card---accountNumber---1sg8I</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29292bea-c3c5-49b9-82d3-39a62effc819</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Card---accountNumber---1sg8I</value>
+      <webElementGuid>c652addd-04ff-40a5-9c78-fa72536342fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>164017298921</value>
+      <webElementGuid>967de1ca-8843-4067-a770-12d275efb99a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDashboard&quot;)/div[@class=&quot;Dashboard---container---2yC4Z&quot;]/div[@class=&quot;Dashboard---contentContainer---1JCRb Dashboard---noAccumulatedBal---3hN9T&quot;]/div[3]/div[@class=&quot;Dashboard---backgroundTile---LJ_N1&quot;]/div[@class=&quot;CardsContainer---cardsContainer---3qleo&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;CardsContainer---cards---DWLWF col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5 col-md-5 col-sm-6 col-xs-12 CardsContainer---even---1Hxv8&quot;]/div[@class=&quot;Card---container---2DA8r&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;Card---cardSummary---1Cw3s&quot;]/div[@class=&quot;Card---accountSummary---1S7jK&quot;]/span[@class=&quot;Card---accountNumber---1sg8I&quot;]</value>
+      <webElementGuid>0ad51167-e743-4431-b419-02b0e6c55adf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDashboard']/div/div[4]/div[3]/div/div/div/div/div/div[3]/div/div/div/div/div/span[2]</value>
+      <webElementGuid>576127da-7e1b-4d33-a23d-b44ec2e8add4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Savings Account-i'])[1]/following::span[1]</value>
+      <webElementGuid>e58dc2ef-0594-44fe-ac1c-bb224a1379a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[1]/following::span[3]</value>
+      <webElementGuid>04b59b41-a1dd-46e7-8119-eeccd3e203a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[2]/preceding::span[2]</value>
+      <webElementGuid>acb12db6-a0b0-4ffe-8659-afce559daebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get more from your money!'])[1]/preceding::span[4]</value>
+      <webElementGuid>16205c11-8fa4-4c42-a304-063f6d574676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='164017298921']/parent::*</value>
+      <webElementGuid>b8ee3239-6b71-425d-846a-1d6f29658928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/span[2]</value>
+      <webElementGuid>7cfd2e30-f45c-4a69-8eea-e9715720bf51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '164017298921' or . = '164017298921')]</value>
+      <webElementGuid>c5a05674-de33-45dd-8c11-2f0ef1f660c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

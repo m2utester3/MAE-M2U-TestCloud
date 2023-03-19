@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_TRANSFER</name>
+   <tag></tag>
+   <elementGuidId>59e07792-0fb0-42a1-b3d4-24445c934642</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToTransactions']/div/div/div/div/div/div[2]/div/div[7]/div[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.TransferModal---pay-btn-text---3HIQW</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9c475480-d08c-45b1-a91f-47b301c09ac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TransferModal---pay-btn-text---3HIQW</value>
+      <webElementGuid>6fdb6d72-43eb-4cfd-bf4e-067a9471163c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TRANSFER </value>
+      <webElementGuid>6fec1400-fd9e-4eee-bce6-926b64059214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToTransactions&quot;)/div[1]/div[@class=&quot;GeneralModal---container---1MI-M undefined&quot;]/div[@class=&quot;GeneralModal---modal---2RPFr TransferModal---container---2JZnN TransferModal---withNote---23xqo&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---2vfJQ GeneralModal---slideInDown---3of__&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;undefined modal-body&quot;]/div[@class=&quot;TransferModal---whitebg---c-ZSZ&quot;]/div[@class=&quot;row TransferModal---inputPair---2v4pK&quot;]/div[@class=&quot;col-sm-4 col-xs-12&quot;]/button[@class=&quot;btn pull-right TransferModal---pay-btn---1f-7i btn btn-default&quot;]/span[@class=&quot;TransferModal---pay-btn-text---3HIQW&quot;]</value>
+      <webElementGuid>51811ce8-7c94-4767-bff7-d762e9c50600</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToTransactions']/div/div/div/div/div/div[2]/div/div[7]/div[2]/button/span</value>
+      <webElementGuid>b6adc79b-5bc7-4390-a572-0ede4b51fb31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notify Via Email'])[1]/following::span[1]</value>
+      <webElementGuid>b9c6772b-2e95-4a0b-ba5d-22b62e81be6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other Transfer Details'])[1]/following::span[1]</value>
+      <webElementGuid>309ed9a9-bd9e-4ca7-8393-d9b15925a529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MY ACCOUNTS'])[1]/preceding::span[2]</value>
+      <webElementGuid>97ef5089-6e35-4ad6-a520-5d30947203eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAY &amp; TRANSFER'])[1]/preceding::span[2]</value>
+      <webElementGuid>bc83080f-114e-4122-967d-8aa8664e708d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TRANSFER']/parent::*</value>
+      <webElementGuid>a3db2eae-7f90-402a-87df-0a0b59d839da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>2776b429-ca0d-439e-86bf-4c1a88f199e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'TRANSFER ' or . = 'TRANSFER ')]</value>
+      <webElementGuid>18476834-fae6-4d2a-b949-2e2da7e01935</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

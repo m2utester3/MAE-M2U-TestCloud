@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_BUSINESS</name>
+   <tag></tag>
+   <elementGuidId>36fcf336-89a2-424d-b610-fc2b34049441</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'BUSINESS' or . = 'BUSINESS')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.hidden-xs > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>94225172-3e2b-4f95-b939-190e43dcd792</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page</value>
+      <webElementGuid>32ccc7b4-7d3e-4d4d-adef-779ebcabe874</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BUSINESS</value>
+      <webElementGuid>e83b6067-2144-43c3-8483-f89acb44e020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainNav&quot;)/div[@class=&quot;container-fluid Header---heightInherit---3fY2U&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7 col-sm-8 col-xs-7 Header---noPadRight---QLE8a&quot;]/div[@class=&quot;Header---rightSideHeader---4wodI&quot;]/ul[@class=&quot;nav navbar-nav white navbar-right Header---navbar-right-shift---28YOL&quot;]/li[@class=&quot;hidden-xs&quot;]/a[1]</value>
+      <webElementGuid>0555aab6-6478-4583-8601-1453ed005ae2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[2]/a</value>
+      <webElementGuid>9fdb22e1-6c9c-4a33-8367-261a7a48fc95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'BUSINESS')]</value>
+      <webElementGuid>41327c4c-f774-4aa7-9b7b-2840d83db6fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL'])[1]/following::a[1]</value>
+      <webElementGuid>2627439e-c183-441c-8921-fc5d44b103d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tap me if you need some help'])[1]/following::a[4]</value>
+      <webElementGuid>a970858f-615a-476f-90d2-e89329265764</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HELP &amp; TIPS'])[1]/preceding::a[1]</value>
+      <webElementGuid>76223f8d-7191-49b9-aa9e-ff21440c4358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REGISTER NOW'])[1]/preceding::a[2]</value>
+      <webElementGuid>4664433b-220d-4a3f-ad0e-d3d837f754aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page')]</value>
+      <webElementGuid>2418a324-a5a8-43b1-98b5-d72b3c32a3a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>1aaa2193-8de8-4a3b-8a5e-7dcab53cf59e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page' and (text() = 'BUSINESS' or . = 'BUSINESS')]</value>
+      <webElementGuid>71547acb-d8ba-4206-b24d-65b29dce86c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

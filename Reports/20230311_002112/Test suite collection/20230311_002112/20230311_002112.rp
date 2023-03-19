@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230311_002112</name>
+   <tag></tag>
+   <displayName>20230311_002112</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 1/20230311_002114</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 166,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 2/20230311_002116</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 166,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 3/20230311_002118</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 166,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 4/20230311_002120</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 166,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 5/20230311_002122</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 166,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 6/20230311_002124</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 165,
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;osDisplayName&quot;: &quot;Windows&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;107&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test suite collection</testSuiteCollectionId>
+</ReportCollectionEntity>

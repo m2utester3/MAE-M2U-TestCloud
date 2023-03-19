@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="XE" time="44.116" tests="1" failures="0" errors="0">
+   <testsuite name="XE" tests="1" failures="0" errors="0" time="44.116" skipped="0" timestamp="2023-03-16 23:05:02" hostname="00123955 - L181102205W10.mshome.net" id="Test Suites/XE">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\00123955\\git\\showcaseGITmarch\\Reports\\20230316_230452\\XE\\20230316_230455"/>
+         <property name="logFiles" value="C:\\Users\\00123955\\git\\showcaseGITmarch\\Reports\\20230316_230452\\XE\\20230316_230455\\appium.log, C:\\Users\\00123955\\git\\showcaseGITmarch\\Reports\\20230316_230452\\XE\\20230316_230455\\execution0.log"/>
+         <property name="attachments" value="C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png, C:\Users\00123955\git\screenshot\XE\1.png, C:\Users\00123955\git\screenshot\XE\2.png, C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png"/>
+         <property name="hostName" value="00123955 - L181102205W10.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.18.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.18.1"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="192.168.174.129"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR704KXSR"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile TC/XE" time="43.633" classname="Test Cases/Mobile TC/XE" status="PASSED">
+         <system-out><![CDATA[2023-03-16 23:05:02 - [TEST_CASE][PASSED] - Test Cases/Mobile TC/XE: Test Cases/Mobile TC/XE
+
+2023-03-16 23:05:03 - [TEST_STEP][PASSED] - startExistingApplication("com.xe.currency"): Starting app with application ID: 'com.xe.currency'
+
+2023-03-16 23:05:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-16 23:05:09 - [MESSAGE][INFO] - Appium server started on port 52,219
+
+2023-03-16 23:05:24 - [MESSAGE][PASSED] - Starting app with application ID: 'com.xe.currency'
+
+2023-03-16 23:05:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Mobile - XE/android.widget.TextView - Convert"), 0): Text of element 'Object Repository/Mobile - XE/android.widget.TextView - Convert' is: 'Convert'
+
+2023-03-16 23:05:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-16 23:05:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Mobile - XE/android.widget.TextView - Convert' is: 'Convert'
+
+2023-03-16 23:05:28 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png"): Screenshot is taken
+
+2023-03-16 23:05:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png]]
+
+2023-03-16 23:05:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile - XE/android.widget.Button - currency_myr MYR custom icon-xe-chevron-down RM 130,000.00 custom icon-calculator"), 0): Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - currency_myr MYR custom icon-xe-chevron-down RM 130,000.00 custom icon-calculator'
+
+2023-03-16 23:05:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-16 23:05:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - currency_myr MYR custom icon-xe-chevron-down RM 130,000.00 custom icon-calculator'
+
+2023-03-16 23:05:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-16 23:05:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-16 23:05:34 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\00123955\git\screenshot\XE\1.png"): Screenshot is taken
+
+2023-03-16 23:05:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\00123955\git\screenshot\XE\1.png]]
+
+2023-03-16 23:05:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile - XE/android.widget.TextView - Done"), 0): Tapped on element 'Object Repository/Mobile - XE/android.widget.TextView - Done'
+
+2023-03-16 23:05:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-16 23:05:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile - XE/android.widget.TextView - Done'
+
+2023-03-16 23:05:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-charts Charts"), 0): Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-charts Charts'
+
+2023-03-16 23:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-16 23:05:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-charts Charts'
+
+2023-03-16 23:05:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-16 23:05:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-16 23:05:44 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\00123955\git\screenshot\XE\2.png"): Screenshot is taken
+
+2023-03-16 23:05:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\00123955\git\screenshot\XE\2.png]]
+
+2023-03-16 23:05:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-send"), 0): Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-send'
+
+2023-03-16 23:05:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-16 23:05:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-send'
+
+2023-03-16 23:05:45 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png"): Screenshot is taken
+
+2023-03-16 23:05:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\00123955\AppData\Local\Temp\screenshot3952194844805156765.png]]
+
+2023-03-16 23:05:45 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-03-16 23:05:46 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-16 23:05:02 - [TEST_SUITE][PASSED] - XE: Test Cases/Mobile TC/XE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

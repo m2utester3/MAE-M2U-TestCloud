@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebLoginSuiteKSE" time="113.174" tests="1" failures="0" errors="0">
+   <testsuite name="WebLoginSuiteKSE" tests="1" failures="0" errors="0" time="113.174" skipped="0" timestamp="2023-02-15 18:02:21" hostname="00123955 - L181102205W10.MAYBANK-MY.MBB.DIR" id="Test Suites/WebLoginSuite/WebLoginSuiteKSE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154"/>
+         <property name="logFiles" value="C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455398512.png, C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455422212.png, C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455424806.png, C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455435060.png"/>
+         <property name="hostName" value="00123955 - L181102205W10.MAYBANK-MY.MBB.DIR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="169.254.96.98"/>
+         <property name="sessionId" value="7350bbc0dd984ba79499761c816ee179"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web Login/Transfer_OpenThirdParty" time="112.861" classname="Test Cases/Web Login/Transfer_OpenThirdParty" status="PASSED">
+         <system-out><![CDATA[2023-02-15 18:02:21 - [TEST_CASE][PASSED] - Test Cases/Web Login/Transfer_OpenThirdParty: Test Cases/Web Login/Transfer_OpenThirdParty
+
+2023-02-15 18:02:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web Login/Login_Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Web Login/Login_Logout' successfully
+
+2023-02-15 18:02:22 - [TEST_CASE][PASSED] - Test Cases/Web Login/Login_Logout: Test Cases/Web Login/Login_Logout
+
+2023-02-15 18:02:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-15 18:02:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-15 18:02:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-15 18:02:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-15 18:02:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.maybank2u.com.my/home/m2u/common/login.do"): Navigate to 'https://www.maybank2u.com.my/home/m2u/common/login.do' successfully
+
+2023-02-15 18:03:03 - [MESSAGE][PASSED] - Navigate to 'https://www.maybank2u.com.my/home/m2u/common/login.do' successfully
+
+2023-02-15 18:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username"), findTestData("DevOps").getValue(1, 1)): Text 'mosajgohar1' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'
+
+2023-02-15 18:03:09 - [MESSAGE][PASSED] - Text 'mosajgohar1' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'
+
+2023-02-15 18:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN' is clicked on
+
+2023-02-15 18:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN' is clicked on
+
+2023-02-15 18:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES' is clicked on
+
+2023-02-15 18:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES' is clicked on
+
+2023-02-15 18:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input"), findTestData("DevOps").getValue(2, 1)): Text 'Amazonaws@23' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'
+
+2023-02-15 18:03:12 - [MESSAGE][PASSED] - Text 'Amazonaws@23' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'
+
+2023-02-15 18:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN' is clicked on
+
+2023-02-15 18:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN' is clicked on
+
+2023-02-15 18:03:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:03:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:03:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web Login/Login_Logout' successfully
+
+2023-02-15 18:03:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:03:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:03:17 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is: '164017298921'
+
+2023-02-15 18:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is: '164017298921'
+
+2023-02-15 18:03:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-02-15 18:03:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455398512.png]]
+
+2023-02-15 18:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is clicked on
+
+2023-02-15 18:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is clicked on
+
+2023-02-15 18:03:19 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' is: 'Late clearing/Outstation cheque float'
+
+2023-02-15 18:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' is: 'Late clearing/Outstation cheque float'
+
+2023-02-15 18:03:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float"), 0): Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' successfully
+
+2023-02-15 18:03:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-02-15 18:03:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' successfully
+
+2023-02-15 18:03:20 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History' is: 'All Transaction History'
+
+2023-02-15 18:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History' is: 'All Transaction History'
+
+2023-02-15 18:03:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History"), 0): Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History' successfully
+
+2023-02-15 18:03:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-02-15 18:03:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History' successfully
+
+2023-02-15 18:03:22 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' is: 'DESCRIPTION'
+
+2023-02-15 18:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' is: 'DESCRIPTION'
+
+2023-02-15 18:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS' is clicked on
+
+2023-02-15 18:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS' is clicked on
+
+2023-02-15 18:03:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:03:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER' is clicked on
+
+2023-02-15 18:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER' is clicked on
+
+2023-02-15 18:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x' is clicked on
+
+2023-02-15 18:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x' is clicked on
+
+2023-02-15 18:03:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is clicked on
+
+2023-02-15 18:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is clicked on
+
+2023-02-15 18:03:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:03:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Own Accounts")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Own Accounts' is clicked on
+
+2023-02-15 18:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Own Accounts' is clicked on
+
+2023-02-15 18:03:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:03:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )' is clicked on
+
+2023-02-15 18:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )' is clicked on
+
+2023-02-15 18:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d' is clicked on
+
+2023-02-15 18:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d' is clicked on
+
+2023-02-15 18:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic' is clicked on
+
+2023-02-15 18:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic' is clicked on
+
+2023-02-15 18:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount"), "164017298921"): Text '164017298921' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount'
+
+2023-02-15 18:03:39 - [MESSAGE][PASSED] - Text '164017298921' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount'
+
+2023-02-15 18:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount"), "0.1"): Text '0.1' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount'
+
+2023-02-15 18:03:40 - [MESSAGE][PASSED] - Text '0.1' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount'
+
+2023-02-15 18:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose"), "DevOps test"): Text 'DevOps test' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose'
+
+2023-02-15 18:03:41 - [MESSAGE][PASSED] - Text 'DevOps test' is set on object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose'
+
+2023-02-15 18:03:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Money withdrawn from your insured deposit_747020")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Money withdrawn from your insured deposit_747020' is: 'Money withdrawn from your insured deposit(s) is no longer protected by PIDM if transferred to a non PIDM members'
+
+2023-02-15 18:03:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Money withdrawn from your insured deposit_747020' is: 'Money withdrawn from your insured deposit(s) is no longer protected by PIDM if transferred to a non PIDM members'
+
+2023-02-15 18:03:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-02-15 18:03:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455422212.png]]
+
+2023-02-15 18:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER' is clicked on
+
+2023-02-15 18:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER' is clicked on
+
+2023-02-15 18:03:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h6_Tap on the notification on your smartpho_593a44")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h6_Tap on the notification on your smartpho_593a44' is: 'Tap on the notification on your smartphone to approve the transaction.'
+
+2023-02-15 18:03:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h6_Tap on the notification on your smartpho_593a44' is: 'Tap on the notification on your smartphone to approve the transaction.'
+
+2023-02-15 18:03:43 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST' is: 'REQUEST'
+
+2023-02-15 18:03:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST' is: 'REQUEST'
+
+2023-02-15 18:03:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-02-15 18:03:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455424806.png]]
+
+2023-02-15 18:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST' is clicked on
+
+2023-02-15 18:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST' is clicked on
+
+2023-02-15 18:03:45 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e' is: 'Check your Secure2u registered device and approve it within 50 seconds…'
+
+2023-02-15 18:03:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e' is: 'Check your Secure2u registered device and approve it within 50 seconds…'
+
+2023-02-15 18:03:47 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful' is: 'Status
+Successful'
+
+2023-02-15 18:03:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful' is: 'Status
+Successful'
+
+2023-02-15 18:03:53 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Successful")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Successful' is: 'Successful'
+
+2023-02-15 18:03:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Successful' is: 'Successful'
+
+2023-02-15 18:03:54 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful' is: 'Transaction Successful!'
+
+2023-02-15 18:03:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful' is: 'Transaction Successful!'
+
+2023-02-15 18:03:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful"), "Transaction Successful!"): Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful' are matched.
+
+2023-02-15 18:03:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful' are matched.
+
+2023-02-15 18:03:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-02-15 18:03:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\00123955\\git\\MosajDevOpsGIT\\Reports\\20230215_180135\\WebLoginSuite\\WebLoginSuiteKSE\\20230215_180154\\1676455435060.png]]
+
+2023-02-15 18:03:55 - [TEST_STEP][PASSED] - scrollToPosition(1300, 40): Browser is scrolled to position x = 1300, y = 40
+
+2023-02-15 18:03:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 1300, y = 40
+
+2023-02-15 18:03:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER")): Object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is visible
+
+2023-02-15 18:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is visible
+
+2023-02-15 18:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is clicked on
+
+2023-02-15 18:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER' is clicked on
+
+2023-02-15 18:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER' is clicked on
+
+2023-02-15 18:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER' is clicked on
+
+2023-02-15 18:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS' is clicked on
+
+2023-02-15 18:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS' is clicked on
+
+2023-02-15 18:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is clicked on
+
+2023-02-15 18:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921' is clicked on
+
+2023-02-15 18:03:59 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' is: 'Late clearing/Outstation cheque float'
+
+2023-02-15 18:03:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' is: 'Late clearing/Outstation cheque float'
+
+2023-02-15 18:03:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float"), 0): Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' successfully
+
+2023-02-15 18:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-02-15 18:04:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float' successfully
+
+2023-02-15 18:04:00 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' is: 'DESCRIPTION'
+
+2023-02-15 18:04:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' is: 'DESCRIPTION'
+
+2023-02-15 18:04:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION"), 0): Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' successfully
+
+2023-02-15 18:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-02-15 18:04:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION' successfully
+
+2023-02-15 18:04:01 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_12 Feb 2023")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_12 Feb 2023' is: '15 Feb 2023'
+
+2023-02-15 18:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_12 Feb 2023' is: '15 Feb 2023'
+
+2023-02-15 18:04:01 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test' is: 'MOHAMMAD MOSAJ GOHA* DevOps test'
+
+2023-02-15 18:04:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test' is: 'MOHAMMAD MOSAJ GOHA* DevOps test'
+
+2023-02-15 18:04:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test"), "MOHAMMAD MOSAJ GOHA* DevOps test"): Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test' are matched.
+
+2023-02-15 18:04:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test' are matched.
+
+2023-02-15 18:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS' is clicked on
+
+2023-02-15 18:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS' is clicked on
+
+2023-02-15 18:04:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-15 18:04:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-15 18:04:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT"), 0): Object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT' is present
+
+2023-02-15 18:04:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2023-02-15 18:04:05 - [MESSAGE][PASSED] - Object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT' is present
+
+2023-02-15 18:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT")): Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT' is clicked on
+
+2023-02-15 18:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT' is clicked on
+
+2023-02-15 18:04:05 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_ACTIVITY DETAILS")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_ACTIVITY DETAILS' is: 'ACTIVITY DETAILS'
+
+2023-02-15 18:04:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_ACTIVITY DETAILS' is: 'ACTIVITY DETAILS'
+
+2023-02-15 18:04:06 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out' is: 'You have logged out!'
+
+2023-02-15 18:04:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out' is: 'You have logged out!'
+
+2023-02-15 18:04:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out"), "You have logged out!"): Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out' are matched.
+
+2023-02-15 18:04:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out' are matched.
+
+2023-02-15 18:04:07 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176' is: 'Transfer from Savings Account-i 164017298921
+Transfer to MOHAMMAD MOSAJ GOHAR 164017298921
+15 Feb 2023'
+
+2023-02-15 18:04:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176' is: 'Transfer from Savings Account-i 164017298921
+Transfer to MOHAMMAD MOSAJ GOHAR 164017298921
+15 Feb 2023'
+
+2023-02-15 18:04:07 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747' is: '3678307839'
+
+2023-02-15 18:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747' is: '3678307839'
+
+2023-02-15 18:04:08 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful")): Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful' is: 'Successful'
+
+2023-02-15 18:04:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful' is: 'Successful'
+
+2023-02-15 18:04:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-15 18:04:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-15 18:04:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-15 18:04:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-15 18:02:21 - [TEST_SUITE][PASSED] - WebLoginSuiteKSE: Test Cases/Web Login/Transfer_OpenThirdParty]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

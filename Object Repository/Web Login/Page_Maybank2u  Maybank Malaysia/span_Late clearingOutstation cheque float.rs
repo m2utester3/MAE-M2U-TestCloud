@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Late clearingOutstation cheque float</name>
+   <tag></tag>
+   <elementGuidId>9a2357d3-1303-408d-b30f-ebcfdc292307</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[4]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>48e11290-37e0-433e-9e62-095340f52efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-xs-7</value>
+      <webElementGuid>81ee578e-3f55-4a35-a927-6c35f38fde8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Late clearing/Outstation cheque float</value>
+      <webElementGuid>17b84851-333e-4fb9-be79-967dac95d97f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-sm-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row SavingAccountContainer---accountInfo---Rop87&quot;]/div[@class=&quot;col-xs-12&quot;]/div[2]/div[@class=&quot;col-xs-12 AccountDetailsCard---container---3Ynlg&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;AccountDetailsCard---row---1_dXi&quot;]/span[@class=&quot;col-xs-7&quot;]</value>
+      <webElementGuid>c722347b-bb28-4044-9bc9-e0e1fd7f3a53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[4]/span</value>
+      <webElementGuid>28a25297-293e-4e7c-adb7-dcc6d0492e9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM0.00'])[2]/following::span[1]</value>
+      <webElementGuid>1244c028-dfd9-478a-8481-9a70b4396bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Two-day float'])[1]/following::span[3]</value>
+      <webElementGuid>33733fde-d5a4-43ad-b674-6a73d9a9f443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM0.00'])[3]/preceding::span[2]</value>
+      <webElementGuid>2d55780d-9a4e-4487-8248-93f93ccdefbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Transaction History'])[1]/preceding::span[3]</value>
+      <webElementGuid>7da0e46e-1db6-49fa-95e5-9f4e2f9a5210</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Late clearing/Outstation cheque float']/parent::*</value>
+      <webElementGuid>dea8da84-d1b4-4902-a5c0-c4de0dff2b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/span</value>
+      <webElementGuid>50420673-4960-4eb4-8f17-a431255a62b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Late clearing/Outstation cheque float' or . = 'Late clearing/Outstation cheque float')]</value>
+      <webElementGuid>db247386-c1f6-4938-a079-46f26e1d92d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

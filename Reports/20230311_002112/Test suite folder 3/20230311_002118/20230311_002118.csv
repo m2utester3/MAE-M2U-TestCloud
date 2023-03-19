@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test suite folder 3,Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:47,2023-03-11 00:33:51,12m - 3.556s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u registration,Linux - Chrome 107.0.0.0,,,2023-03-11 00:25:57,2023-03-11 00:27:31,1m - 34.600s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:25:57,2023-03-11 00:26:29,32.726s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:29,2023-03-11 00:26:30,0.733s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:30,2023-03-11 00:26:35,4.542s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:35,2023-03-11 00:26:37,2.005s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:37,2023-03-11 00:26:40,3.607s,PASSED
+"getText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:40,2023-03-11 00:26:44,3.764s,PASSED
+"setText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc""), ""11111111111111"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:44,2023-03-11 00:26:52,7.704s,PASSED
+"setText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S""), ""123456"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:52,2023-03-11 00:26:59,7.204s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:26:59,2023-03-11 00:27:03,3.815s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:27:03,2023-03-11 00:27:07,3.688s,PASSED
+"getText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:27:07,2023-03-11 00:27:12,5.725s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_Join us and become a Maybank2u user tod_06317a""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:27:12,2023-03-11 00:27:30,18.133s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:27:30,2023-03-11 00:27:31,0.924s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u home page,Linux - Chrome 107.0.0.0,,,2023-03-11 00:31:09,2023-03-11 00:33:51,2m - 41.492s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:31:09,2023-03-11 00:31:31,21.387s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:31:31,2023-03-11 00:31:32,0.821s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:31:32,2023-03-11 00:31:36,4.319s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), findTestData(""DevOps"").getValue(1, 2))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:31:36,2023-03-11 00:32:41,1m - 4.984s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:32:41,2023-03-11 00:33:14,33.501s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:33:14,2023-03-11 00:33:39,24.655s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), findTestData(""DevOps"").getValue(2, 1))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:33:39,2023-03-11 00:33:46,6.538s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:33:46,2023-03-11 00:33:48,2.011s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:33:48,2023-03-11 00:33:51,3.244s,PASSED

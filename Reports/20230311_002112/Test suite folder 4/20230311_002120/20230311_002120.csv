@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test suite folder 4,Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:50,2023-03-11 00:24:56,3m - 6.131s,PASSED
+,,,,,,,
+Test Cases/Web Login/Login_Logout,Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:52,2023-03-11 00:23:35,1m - 42.997s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:55,2023-03-11 00:22:36,41.301s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:36,2023-03-11 00:22:37,1.000s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:37,2023-03-11 00:22:43,5.413s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), findTestData(""DevOps"").getValue(1, 1))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:43,2023-03-11 00:22:52,9.215s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:52,2023-03-11 00:22:56,4.160s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:56,2023-03-11 00:23:01,5.061s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), findTestData(""DevOps"").getValue(2, 1))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:01,2023-03-11 00:23:10,9.336s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:10,2023-03-11 00:23:14,3.262s,PASSED
+delay(20),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:14,2023-03-11 00:23:34,20.141s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:34,2023-03-11 00:23:35,1.055s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u home page Navigation,Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:35,2023-03-11 00:24:56,1m - 21.631s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:36,2023-03-11 00:24:01,25.493s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:01,2023-03-11 00:24:02,0.764s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:02,2023-03-11 00:24:05,3.633s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:05,2023-03-11 00:24:07,2.012s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u  Maybank Malaysia/a_BUSINESS""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:07,2023-03-11 00:24:11,3.807s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:11,2023-03-11 00:24:13,2.010s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""), ""LOGIN"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:13,2023-03-11 00:24:17,3.870s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:17,2023-03-11 00:24:23,6.060s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/button_close""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:23,2023-03-11 00:24:32,8.854s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/input_Username_action""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:32,2023-03-11 00:24:40,7.581s,PASSED
+"getText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:40,2023-03-11 00:24:47,7.477s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""), ""Username is required."")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:47,2023-03-11 00:24:55,7.986s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:55,2023-03-11 00:24:56,1.393s,PASSED

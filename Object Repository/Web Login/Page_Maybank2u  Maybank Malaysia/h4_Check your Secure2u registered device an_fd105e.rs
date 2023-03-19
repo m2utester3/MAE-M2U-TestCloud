@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Check your Secure2u registered device an_fd105e</name>
+   <tag></tag>
+   <elementGuidId>9c95b517-c0f6-47a3-a99b-7e9663608f37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.OneTimePassword---header4---1PWZR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>7dc856ab-acd7-4ddd-a3e2-18b62d8abdc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>OneTimePassword---header4---1PWZR</value>
+      <webElementGuid>cdfc64d7-95be-404a-b2d4-2b41b6973546</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check your Secure2u registered device and approve it within 50 seconds…</value>
+      <webElementGuid>99508f78-16ea-45fa-9375-af6a2c9b3034</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToTransactions&quot;)/div[@class=&quot;Transactions---container---3sqaa&quot;]/div[@class=&quot;Transactions---content---2P7lC&quot;]/div[@class=&quot;Transactions---withSide---2taIP container-fluid Transactions---summaryContainer---1rNvj undefined&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;Transactions---stickyConfirmation---2aISx&quot;]/div[1]/div[@class=&quot;OneTimePassword---otp-wrapper---2Ykbh OneTimePassword---slide---2IJwL put-in-modal&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8 col-sm-12 col-xs-12&quot;]/div[@class=&quot;OneTimePassword---verification-content---2oWKu&quot;]/h4[@class=&quot;OneTimePassword---header4---1PWZR&quot;]</value>
+      <webElementGuid>b3c10593-0a9d-4054-9df1-b286a26bb96d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div/h4</value>
+      <webElementGuid>160ea47b-52f8-41db-8d9c-7762bc3a10ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM 0.10'])[2]/following::h4[1]</value>
+      <webElementGuid>4118a5d1-7012-4d28-842f-e599951831c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Amount'])[1]/following::h4[1]</value>
+      <webElementGuid>18b9f1b0-c446-4851-801f-e5c4ea68f523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click Here'])[1]/preceding::h4[1]</value>
+      <webElementGuid>2c96d85c-babc-4ffd-a5db-5c43d3e118b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check your Secure2u registered device and approve it within 50 seconds…']/parent::*</value>
+      <webElementGuid>bbe15f7e-22f8-41d8-afaa-e7c9a1d242a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>db48c254-5994-4a33-b946-3d1b71db2056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Check your Secure2u registered device and approve it within 50 seconds…' or . = 'Check your Secure2u registered device and approve it within 50 seconds…')]</value>
+      <webElementGuid>303e0f04-8102-4bac-b79b-2560c29ec9c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

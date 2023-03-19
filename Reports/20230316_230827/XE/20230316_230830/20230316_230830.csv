@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+XE,,,,2023-03-16 23:08:35,2023-03-16 23:09:17,41.309s,PASSED
+,,,,,,,
+Test Cases/Mobile TC/XE,,,,2023-03-16 23:08:36,2023-03-16 23:09:17,40.949s,PASSED
+"startExistingApplication(""com.xe.currency"")",,,,2023-03-16 23:08:36,2023-03-16 23:08:54,17.964s,PASSED
+"getText(findTestObject(""Object Repository/Mobile - XE/android.widget.TextView - Convert""), 0)",,,,2023-03-16 23:08:54,2023-03-16 23:08:58,4.258s,PASSED
+takeScreenshot(),,,,2023-03-16 23:08:58,2023-03-16 23:08:59,0.552s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - XE/android.widget.Button - currency_myr MYR custom icon-xe-chevron-down RM 130,000.00 custom icon-calculator""), 0)",,,,2023-03-16 23:08:59,2023-03-16 23:08:59,0.536s,PASSED
+delay(5),,,,2023-03-16 23:08:59,2023-03-16 23:09:05,5.084s,PASSED
+takeScreenshot(),,,,2023-03-16 23:09:05,2023-03-16 23:09:05,0.618s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - XE/android.widget.TextView - Done""), 0)",,,,2023-03-16 23:09:05,2023-03-16 23:09:07,1.541s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-charts Charts""), 0)",,,,2023-03-16 23:09:07,2023-03-16 23:09:09,2.102s,PASSED
+delay(5),,,,2023-03-16 23:09:09,2023-03-16 23:09:14,5.007s,PASSED
+takeScreenshot(),,,,2023-03-16 23:09:14,2023-03-16 23:09:14,0.659s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - XE/android.widget.Button - custom icon-xe-tab-send""), 0)",,,,2023-03-16 23:09:14,2023-03-16 23:09:15,0.550s,PASSED
+takeScreenshot(),,,,2023-03-16 23:09:15,2023-03-16 23:09:16,0.651s,PASSED
+closeApplication(),,,,2023-03-16 23:09:16,2023-03-16 23:09:17,0.832s,PASSED

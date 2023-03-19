@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Is your security phraseGreener pastures</name>
+   <tag></tag>
+   <elementGuidId>92a4c948-7d81-4d03-b05e-a583cba73374</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b9660723-16c4-4e1a-95fb-9ba8c97d9ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Is your security phraseGreener pastures?</value>
+      <webElementGuid>2eca2ace-9a99-4dc7-b750-e258f256187c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2GFqG container-fluid&quot;]/div[@class=&quot;login---loginContainer---216o2 login---freeze---C65sE row&quot;]/div[2]/div[@class=&quot;Header---container---kBsDt&quot;]/div[2]/div[@class=&quot;GeneralModal---container---1MI-M undefined&quot;]/div[@class=&quot;GeneralModal---modal---2RPFr SecurityPhrase---container---MbIaS&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---2vfJQ GeneralModal---slideInDown---3of__&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;modal-body&quot;]/p[1]</value>
+      <webElementGuid>ae07ead9-98d2-49bf-ac73-5cbea85ba8ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/p</value>
+      <webElementGuid>692270e8-476e-49ad-b5b1-849c72cd7c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Humanising Financial Services'])[1]/following::p[1]</value>
+      <webElementGuid>bb2de60a-764d-4be1-ac83-fde4ea4820cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOT ME'])[1]/preceding::p[1]</value>
+      <webElementGuid>bee0c122-a269-4f95-a0b4-0f01f1a90c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Is your security phrase']/parent::*</value>
+      <webElementGuid>4f29632b-0d1e-4f48-bd53-b526334a6b04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>498e09a9-4e24-43ec-9237-4ede3b4b186b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Is your security phraseGreener pastures?' or . = 'Is your security phraseGreener pastures?')]</value>
+      <webElementGuid>cca21d07-8399-42c8-976c-203b46cee303</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

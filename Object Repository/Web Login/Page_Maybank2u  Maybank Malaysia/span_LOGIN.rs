@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_LOGIN</name>
+   <tag></tag>
+   <elementGuidId>a1a4ca6c-c62b-4929-8d01-4b1e879669cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-success.btn.btn-default > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1b57e342-9f9b-45c7-837c-64bd741f0ac9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>fffb1e71-ada0-4559-81dc-c5926e762060</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2GFqG container-fluid&quot;]/div[@class=&quot;login---loginContainer---216o2 login---freeze---C65sE row&quot;]/div[2]/div[@class=&quot;Header---container---kBsDt&quot;]/div[2]/div[@class=&quot;GeneralModal---container---1MI-M undefined&quot;]/div[@class=&quot;GeneralModal---modal---2RPFr SecurityPhrase---container---MbIaS&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---2vfJQ GeneralModal---slideInDown---3of__&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5 col-md-5 col-sm-5 col-sm-push-7 col-xs-12 SecurityPhrase---right-btn-container---32k8-&quot;]/button[@class=&quot;btn btn-success btn btn-default&quot;]/span[1]</value>
+      <webElementGuid>b7962c90-be5e-4e77-9785-632823a24d1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/button/span</value>
+      <webElementGuid>4b681067-f1e2-4678-8a34-a54512bb571e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello'])[1]/following::span[2]</value>
+      <webElementGuid>2596d76d-8d86-4d95-8494-41feb1d258d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FORGOT LOGIN'])[1]/preceding::span[1]</value>
+      <webElementGuid>031e6526-3cbf-479b-be71-7bff33fee28c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LOGIN']/parent::*</value>
+      <webElementGuid>0107403c-e55b-4c35-8d02-751a4b9bacd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/span</value>
+      <webElementGuid>dfff093f-9b6e-4b4d-8df5-848efd66fb0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'LOGIN' or . = 'LOGIN')]</value>
+      <webElementGuid>029f1234-6fbb-45a1-9bc4-66a94e2b9a5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

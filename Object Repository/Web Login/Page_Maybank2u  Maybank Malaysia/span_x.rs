@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_x</name>
+   <tag></tag>
+   <elementGuidId>3b9effae-90d0-4da1-9e77-a244c270009a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='INDAH WATER CAP SQUARE'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.promotional-close > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e03e2544-f198-4cdf-9a7d-deb8a44cc719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7e1b0570-6a95-4810-ac5c-c6ad7b6659c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>x</value>
+      <webElementGuid>30b22f91-e30b-4224-b25c-4e03481f3c72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[4]/div[@class=&quot;fade PromotionalModal---container---1oaNH AnnouncementModal---announcementModal---3YygH in modal&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;promotional-header&quot;]/button[@class=&quot;promotional-close&quot;]/span[1]</value>
+      <webElementGuid>b4ee02a9-e23c-4ff8-8a90-41930d540bdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INDAH WATER CAP SQUARE'])[1]/following::span[1]</value>
+      <webElementGuid>c07df0fa-fd5b-48af-b4c3-bc080394eb61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indah Water Konsortium Sdn Bhd'])[1]/following::span[1]</value>
+      <webElementGuid>5c6e5907-e843-4ce1-807b-c9e13c226809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='x']/parent::*</value>
+      <webElementGuid>0113a074-352c-4834-8e13-8624b9caf5d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/button/span</value>
+      <webElementGuid>f5817cbf-7cde-42f0-bb09-d66f3f6d0341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'x' or . = 'x')]</value>
+      <webElementGuid>3f242bf8-f712-4b98-bab5-8ddf5acde7b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

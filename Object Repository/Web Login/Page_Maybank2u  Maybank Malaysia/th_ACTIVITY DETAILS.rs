@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_ACTIVITY DETAILS</name>
+   <tag></tag>
+   <elementGuidId>b4747943-3bb7-429d-a3e0-47ae9125887b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='original_table']/table/thead/tr/th[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>32eca049-9436-4ef1-aace-2c72bd4685b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ACTIVITY DETAILS</value>
+      <webElementGuid>d1c9a1c6-cb12-4e47-9038-3473eb53a761</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;original_table&quot;)/table[@class=&quot;table&quot;]/thead[@class=&quot;LogoutContent---tableHead---2Ak-3&quot;]/tr[1]/th[2]</value>
+      <webElementGuid>fb1a213f-ad9a-4e70-828a-da8097082a74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='original_table']/table/thead/tr/th[2]</value>
+      <webElementGuid>bff44ab4-9039-4c26-ac74-74e9dbbba6cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE'])[2]/following::th[1]</value>
+      <webElementGuid>66ffc11c-9a2b-46ac-b856-33446de8b980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MOHAMMAD MOSAJ GOHAR 164017298921'])[1]/following::th[2]</value>
+      <webElementGuid>37d727c9-e5f4-4e93-9fc0-a72a030f8372</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMOUNT'])[1]/preceding::th[1]</value>
+      <webElementGuid>2de7adc2-e7bb-42f5-93aa-a6011f630b3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STATUS &amp; REFERENCE'])[2]/preceding::th[2]</value>
+      <webElementGuid>e00e8f64-4f93-43df-a94e-60f38fe53fb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/table/thead/tr/th[2]</value>
+      <webElementGuid>abde5adc-9b8b-4f6b-808b-e0bbc754a508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'ACTIVITY DETAILS' or . = 'ACTIVITY DETAILS')]</value>
+      <webElementGuid>b4bcd6fb-351b-437f-96bd-6dc4165b94ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

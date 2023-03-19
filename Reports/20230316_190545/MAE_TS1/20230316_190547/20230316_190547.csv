@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE_TS1,,,,2023-03-16 19:05:54,2023-03-16 19:05:56,2.313s,FAILED
+,,,,,,,
+Test Cases/Mobile TC/MAE Onboarding,,,,2023-03-16 19:05:56,2023-03-16 19:05:56,0.153s,FAILED
+"startExistingApplication(""com.maybank2u.life"")",,,,2023-03-16 19:05:56,2023-03-16 19:05:56,0.016s,FAILED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Skip""), 0)",,,,2023-03-16 19:05:56,2023-03-16 19:05:56,0.105s,PASSED

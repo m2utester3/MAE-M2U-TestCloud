@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_DESCRIPTION</name>
+   <tag></tag>
+   <elementGuidId>e3f48830-223a-4e22-b3ad-b01ef528ed18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div/div/div/table/thead/tr/th[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>d0acecb0-2364-4406-bd03-3234087ba76c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hidden-sm hidden-xs</value>
+      <webElementGuid>c86feb5d-8155-4554-a692-7fdbbf104394</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DESCRIPTION</value>
+      <webElementGuid>cee693f7-e68a-461f-98f4-0b3d6e4f6f84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;row SavingAccountContainer---tableHolder---2U7EY&quot;]/div[@class=&quot;col-xs-12 col-sm-10&quot;]/div[@class=&quot;SavingAccountContainer---detailsTable---17Dxk&quot;]/div[@class=&quot;AccountTable---container---2Q_2a&quot;]/div[@class=&quot;AccountTable---table---3pPP6 undefined&quot;]/table[@class=&quot;AccountTable---table---3pPP6 AccountTable---table---3pPP6 AccountTable---table---3pPP6&quot;]/thead[@class=&quot;AccountTable---tableHead---3JYE3&quot;]/tr[1]/th[@class=&quot;hidden-sm hidden-xs&quot;]</value>
+      <webElementGuid>22041556-8f75-4f35-81f8-98065b4aa6db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div/div/div/table/thead/tr/th[2]</value>
+      <webElementGuid>47e04267-9d1b-47b9-bf16-7e973954a49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DATE'])[1]/following::th[1]</value>
+      <webElementGuid>ae5b47e5-777e-4318-9491-c3bae7f1c361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 90 days'])[1]/following::th[2]</value>
+      <webElementGuid>1717374d-1551-4dad-ba76-bee0c8d015d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[1]/preceding::th[1]</value>
+      <webElementGuid>5b06f6ed-052e-4795-8ce5-285572a9b673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMOUNT'])[1]/preceding::th[2]</value>
+      <webElementGuid>fcdaa924-3df3-4fee-961d-3bf598343f63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DESCRIPTION']/parent::*</value>
+      <webElementGuid>75d4e3a2-51ee-4dda-9ce4-66982011e1e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[2]</value>
+      <webElementGuid>21cc3e99-ae11-46a9-8838-927f646daa2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'DESCRIPTION' or . = 'DESCRIPTION')]</value>
+      <webElementGuid>9b63168e-7ccb-4e36-b67a-c7a70a7c7e72</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

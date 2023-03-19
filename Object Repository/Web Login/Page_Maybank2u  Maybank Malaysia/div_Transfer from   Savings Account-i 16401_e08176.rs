@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Transfer from   Savings Account-i 16401_e08176</name>
+   <tag></tag>
+   <elementGuidId>8fea5bbe-0276-4162-a401-fae7cb550c25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='original_table']/table/tbody/tr/td[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fb977ed9-5d2e-41df-84c3-8584cc28bba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transfer from   Savings Account-i 164017298921Transfer to   MOHAMMAD MOSAJ GOHAR 164017298921 12 Feb 2023</value>
+      <webElementGuid>0b0a5b9b-44d7-4cef-a892-d5cdaf660cc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;original_table&quot;)/table[@class=&quot;table&quot;]/tbody[@class=&quot;LogoutContent---tableBody---zcsfQ&quot;]/tr[1]/td[2]/div[@class=&quot;LogoutContent---activityDetails---3B5KA&quot;]/div[@class=&quot;LogoutContent---from---2Lhi2&quot;]/div[1]</value>
+      <webElementGuid>0397ecf3-d0fb-42b6-bfb4-e1828d1823b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='original_table']/table/tbody/tr/td[2]/div/div/div</value>
+      <webElementGuid>82f6b45e-5a7a-4aed-af3d-2ace9e34e812</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STATUS &amp; REFERENCE'])[2]/following::div[4]</value>
+      <webElementGuid>7918029f-f0a0-49b7-9a06-0421530e5189</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AMOUNT'])[1]/following::div[4]</value>
+      <webElementGuid>eadffdd7-d83b-440a-b655-63c6cd9fab06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/div</value>
+      <webElementGuid>333fc2b5-cdc9-4098-bcf5-604c9552da6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Transfer from   Savings Account-i 164017298921Transfer to   MOHAMMAD MOSAJ GOHAR 164017298921 12 Feb 2023' or . = 'Transfer from   Savings Account-i 164017298921Transfer to   MOHAMMAD MOSAJ GOHAR 164017298921 12 Feb 2023')]</value>
+      <webElementGuid>57e234e8-54a7-4fc8-b5cb-bc89e844b8ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

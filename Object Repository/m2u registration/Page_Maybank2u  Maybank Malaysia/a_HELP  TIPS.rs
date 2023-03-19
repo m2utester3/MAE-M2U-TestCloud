@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_HELP  TIPS</name>
+   <tag></tag>
+   <elementGuidId>808fb633-5491-4149-bf01-73351db602a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b72f3407-1421-42ef-a4f5-75aa254c0c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/frequent_queries/m2u_first_time_registration/how_to_register_for_a_new_maybank2u_account.page</value>
+      <webElementGuid>89a68166-df9e-44bb-be12-03783a455ddb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HELP &amp; TIPS</value>
+      <webElementGuid>b4afddc6-75d8-4fbe-a9b1-46c85766b20f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainNav&quot;)/div[@class=&quot;container-fluid Header---heightInherit---3fY2U&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7 col-sm-8 col-xs-7 Header---noPadRight---QLE8a&quot;]/div[@class=&quot;Header---rightSideHeader---4wodI&quot;]/ul[@class=&quot;nav navbar-nav white navbar-right Header---navbar-right-shift---28YOL&quot;]/li[@class=&quot;hidden-xs&quot;]/a[1]</value>
+      <webElementGuid>86c27c88-fd8d-46de-a85b-ce518aa95a54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[3]/a</value>
+      <webElementGuid>b4e3b9dd-72b8-404b-b308-dd42a4c60a3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'HELP &amp; TIPS')]</value>
+      <webElementGuid>5454c5ed-62c0-4565-a160-eb78ac7c32c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUSINESS'])[2]/following::a[1]</value>
+      <webElementGuid>9c0d847b-447f-44bd-959d-243562e17511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL'])[1]/following::a[2]</value>
+      <webElementGuid>ee280c17-71f3-4b2c-a57a-189040085de5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REGISTER NOW'])[1]/preceding::a[1]</value>
+      <webElementGuid>5fd969fd-2564-473a-a64b-f8246fb07705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Humanising Financial Services'])[1]/preceding::a[3]</value>
+      <webElementGuid>e7acbcf5-6808-4fcf-9d72-60c3bb3af513</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='HELP &amp; TIPS']/parent::*</value>
+      <webElementGuid>d91a6553-1b28-4b9f-bb5d-1ecdb9c85569</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/frequent_queries/m2u_first_time_registration/how_to_register_for_a_new_maybank2u_account.page')]</value>
+      <webElementGuid>af774b2b-024f-410e-9d1e-cd62a84addaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>b079c16d-761f-4f32-9420-493292e95924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/frequent_queries/m2u_first_time_registration/how_to_register_for_a_new_maybank2u_account.page' and (text() = 'HELP &amp; TIPS' or . = 'HELP &amp; TIPS')]</value>
+      <webElementGuid>bffa5b82-a03c-4146-b55f-4be5595b0a84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

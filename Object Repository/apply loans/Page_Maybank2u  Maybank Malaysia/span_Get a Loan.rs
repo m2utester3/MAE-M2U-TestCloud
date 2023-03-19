@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Get a Loan</name>
+   <tag></tag>
+   <elementGuidId>a452a357-905b-44b3-9235-b6f114e417a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='footer-items']/div[2]/div/div/ul/li[7]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ea10137c-91af-43af-b15e-ee0c9ea5fc8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Footer---caption---1ojHM</value>
+      <webElementGuid>9ad66ab7-e2f8-43b4-b537-c9f1b6c92985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get a Loan</value>
+      <webElementGuid>61b94150-9613-4cc1-a3cc-744ecf676e6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer-items&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/ul[1]/li[7]/span[@class=&quot;Footer---caption---1ojHM&quot;]</value>
+      <webElementGuid>0f9ffaf4-68f4-4169-a315-171242ff2a3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='footer-items']/div[2]/div/div/ul/li[7]/span</value>
+      <webElementGuid>5fea4476-20e6-4ebd-8826-99cc55d82f83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maybank Cards'])[1]/following::span[1]</value>
+      <webElementGuid>97b34d9b-ceb5-4f5b-b75e-1743965569e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insure Me'])[1]/following::span[2]</value>
+      <webElementGuid>8993f9d9-72a1-4edc-9751-176039449aa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trade Online'])[1]/preceding::span[1]</value>
+      <webElementGuid>5b32438e-7195-4dd2-af7a-b08a2b2afec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip the Queue'])[1]/preceding::span[2]</value>
+      <webElementGuid>124ea5e6-bd91-4fd0-a155-87929b639f52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Get a Loan']/parent::*</value>
+      <webElementGuid>321873cc-2998-4eee-a637-258dfb25c48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/span</value>
+      <webElementGuid>e5cfef96-5257-4f55-a9a2-f6ce55375324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Get a Loan' or . = 'Get a Loan')]</value>
+      <webElementGuid>ef4aac82-d979-4583-aacd-5d672c4baf55</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

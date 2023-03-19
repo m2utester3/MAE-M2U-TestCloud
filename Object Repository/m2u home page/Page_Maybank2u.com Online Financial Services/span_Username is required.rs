@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Username is required</name>
+   <tag></tag>
+   <elementGuidId>479be944-c125-4333-8097-27cb6ceeab06</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='username1Error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#username1Error</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'username1Error' and (text() = 'Username is required.' or . = 'Username is required.') and @ref_element = 'Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/frame']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dcd25853-b76f-4a45-bf14-3a05669253dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>username1Error</value>
+      <webElementGuid>4f533780-c499-4dba-a8fd-fa6ec644fcf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error</value>
+      <webElementGuid>50fde965-b983-4075-be9e-9452c39cb3bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Username is required.</value>
+      <webElementGuid>a3bc749e-47ad-4faa-aec1-733e7cce890f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;username1Error&quot;)</value>
+      <webElementGuid>78e7a2a0-35e3-4b6d-b924-7c53a3ffbe56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/frame</value>
+      <webElementGuid>03b20545-c489-4404-b848-344843c61568</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='username1Error']</value>
+      <webElementGuid>c583a9ab-fca4-4d96-921e-a35b2ac44164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='loginTable']/tbody/tr[2]/td[2]/span</value>
+      <webElementGuid>0de1d245-0b24-47e2-8882-90c07e853560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[1]/following::span[1]</value>
+      <webElementGuid>1147164d-8c7c-4197-8680-1dc2ceb3c17c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your Online Banking username.'])[1]/following::span[3]</value>
+      <webElementGuid>9f35c3dc-3bce-47d6-b3eb-5cfbfda0cd76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Login'])[1]/preceding::span[1]</value>
+      <webElementGuid>272ed3de-e36f-499f-ad3b-83f552b2b2e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register Now'])[1]/preceding::span[1]</value>
+      <webElementGuid>b74b7872-2e52-4b25-b581-2be0ee242353</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Username is required.']/parent::*</value>
+      <webElementGuid>57784287-a730-48b8-8345-9dfdd9ab3777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span</value>
+      <webElementGuid>f24629b7-c4fe-428f-b149-780dbcd7d074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'username1Error' and (text() = 'Username is required.' or . = 'Username is required.')]</value>
+      <webElementGuid>c05e4b35-3e58-4635-b552-47d0a57dd41f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

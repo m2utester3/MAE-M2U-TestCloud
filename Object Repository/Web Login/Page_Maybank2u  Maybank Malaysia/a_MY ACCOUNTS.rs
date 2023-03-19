@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_MY ACCOUNTS</name>
+   <tag></tag>
+   <elementGuidId>5ccd0b2a-e6b9-4481-a5cc-bc5e333560a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='mainNav']/div/div[2]/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b090b3be-63d3-4a64-bfae-70f242a18bbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>active</value>
+      <webElementGuid>28606df4-5b6e-4cc5-8e2c-5a3c643da8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MY ACCOUNTS</value>
+      <webElementGuid>cc9496bf-e08e-49d8-830c-93b0642ea399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainNav&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-sm-7 hidden-xs&quot;]/div[@class=&quot;navbar-collapse&quot;]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[2]/a[@class=&quot;active&quot;]</value>
+      <webElementGuid>b96e0b5c-6ffe-465d-adde-8a3e28fb9723</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='mainNav']/div/div[2]/div/ul/li[2]/a</value>
+      <webElementGuid>43366da1-5f93-43b4-966a-9efcba71c93c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'MY ACCOUNTS')]</value>
+      <webElementGuid>e198f816-aa44-4e53-884d-0974f6771d82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAY &amp; TRANSFER'])[1]/preceding::a[1]</value>
+      <webElementGuid>4e61a3cd-2604-46d4-9915-559c9182df56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='APPLY'])[1]/preceding::a[2]</value>
+      <webElementGuid>92916d14-cbff-45d6-8c3e-fe505d122614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='MY ACCOUNTS']/parent::*</value>
+      <webElementGuid>a3f19180-b6ef-4442-b90a-35a5b1812894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>cdd7d1ec-4fdc-4a79-a9c4-abadaf41af84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'MY ACCOUNTS' or . = 'MY ACCOUNTS')]</value>
+      <webElementGuid>6e2aaa98-9e85-4165-93fc-2e33d79e52dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

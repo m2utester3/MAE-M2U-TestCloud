@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful",
+      "brokenLocator": "//div[@id\u003d\u0027scrollToTransactions\u0027]/div/div/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[4]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027DevOps test\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230311_002112/Test suite folder 2/20230311_002116/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS",
+      "brokenLocator": "//div[@id\u003d\u0027scrollToDetails\u0027]/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTACT US\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230311_002112/Test suite folder 2/20230311_002116/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_All Transaction HistoryAll Transaction _43346a</name>
+   <tag></tag>
+   <elementGuidId>5953267d-bee8-4df9-91e0-c266b86d69cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.SavingAccountContainer---tableHolder---2U7EY</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fda7da13-8a74-416a-8b9e-c495f10f457e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row SavingAccountContainer---tableHolder---2U7EY</value>
+      <webElementGuid>07a6c4e6-3caa-4d37-bb34-e5d0d2bc182e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Transaction HistoryAll Transaction HistoryDebit Card TransactionM2U TransactionLast 30 daysLast 30 daysLast 60 daysLast 90 daysDATEDESCRIPTIONDETAILSAMOUNT12 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,12 Feb 2023RM47.7012 Feb 2023PAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPURPAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPUR12 Feb 2023RM36.3011 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,11 Feb 2023RM115.3511 Feb 2023579186390Q           Pharma 722 Sdn Bhd * MBBQR111111263579186390Q           Pharma 722 Sdn Bhd * MBBQR11111126311 Feb 2023RM17.2011 Feb 2023PAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPURPAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPUR11 Feb 2023RM11.8011 Feb 2023PAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPURPAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPUR11 Feb 2023RM134.0011 Feb 2023uZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjjuZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjj11 Feb 2023RM100.0010 Feb 20237cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs7cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs10 Feb 2023RM35.0010 Feb 2023526516449Q           MBBQR1548722       * 11111262767712526516449Q           MBBQR1548722       * 1111126276771210 Feb 2023RM10.0010 Feb 2023522291487Q           NURMART RESOURCES  * MBBQR111111262522291487Q           NURMART RESOURCES  * MBBQR11111126210 Feb 2023RM17.40VIEW STATEMENTS</value>
+      <webElementGuid>0406ce0a-ff06-4241-9ffa-fb96353ca464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;row SavingAccountContainer---tableHolder---2U7EY&quot;]</value>
+      <webElementGuid>2488a36f-7128-4af6-986c-8ed815e6b134</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div</value>
+      <webElementGuid>0e9b6f5d-1271-48cc-ba08-5c03a227f51c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM0.00'])[3]/following::div[5]</value>
+      <webElementGuid>0cffd2cd-d274-4fdd-9214-851de9509b09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Late clearing/Outstation cheque float'])[1]/following::div[6]</value>
+      <webElementGuid>24a644c4-21e4-47b1-9570-30a7b3ffa910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div</value>
+      <webElementGuid>6553822f-225c-4187-8bf5-9028fa53d591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All Transaction HistoryAll Transaction HistoryDebit Card TransactionM2U TransactionLast 30 daysLast 30 daysLast 60 daysLast 90 daysDATEDESCRIPTIONDETAILSAMOUNT12 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,12 Feb 2023RM47.7012 Feb 2023PAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPURPAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPUR12 Feb 2023RM36.3011 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,11 Feb 2023RM115.3511 Feb 2023579186390Q           Pharma 722 Sdn Bhd * MBBQR111111263579186390Q           Pharma 722 Sdn Bhd * MBBQR11111126311 Feb 2023RM17.2011 Feb 2023PAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPURPAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPUR11 Feb 2023RM11.8011 Feb 2023PAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPURPAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPUR11 Feb 2023RM134.0011 Feb 2023uZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjjuZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjj11 Feb 2023RM100.0010 Feb 20237cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs7cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs10 Feb 2023RM35.0010 Feb 2023526516449Q           MBBQR1548722       * 11111262767712526516449Q           MBBQR1548722       * 1111126276771210 Feb 2023RM10.0010 Feb 2023522291487Q           NURMART RESOURCES  * MBBQR111111262522291487Q           NURMART RESOURCES  * MBBQR11111126210 Feb 2023RM17.40VIEW STATEMENTS' or . = 'All Transaction HistoryAll Transaction HistoryDebit Card TransactionM2U TransactionLast 30 daysLast 30 daysLast 60 daysLast 90 daysDATEDESCRIPTIONDETAILSAMOUNT12 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,12 Feb 2023RM47.7012 Feb 2023PAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPURPAYMENT VIA MYDEBIT  MALABAR PALACE REST* KUALA LUMPUR12 Feb 2023RM36.3011 Feb 2023SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,SALE DEBIT           LULU-CAPITAL SQUARE* KUALA LUMPUR ,11 Feb 2023RM115.3511 Feb 2023579186390Q           Pharma 722 Sdn Bhd * MBBQR111111263579186390Q           Pharma 722 Sdn Bhd * MBBQR11111126311 Feb 2023RM17.2011 Feb 2023PAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPURPAYMENT VIA MYDEBIT  BASKIN-ROBBINS KLCC* KUALA LUMPUR11 Feb 2023RM11.8011 Feb 2023PAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPURPAYMENT VIA MYDEBIT  AQUAWALK SDN BHD   * KUALA LUMPUR11 Feb 2023RM134.0011 Feb 2023uZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjjuZ971676106469       GRABPAY MALAYSIA   * g4ip5vS3yiEpjj11 Feb 2023RM100.0010 Feb 20237cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs7cfk1676043547       GRABPAY MALAYSIA   * lATd08Ra0GWkTs10 Feb 2023RM35.0010 Feb 2023526516449Q           MBBQR1548722       * 11111262767712526516449Q           MBBQR1548722       * 1111126276771210 Feb 2023RM10.0010 Feb 2023522291487Q           NURMART RESOURCES  * MBBQR111111262522291487Q           NURMART RESOURCES  * MBBQR11111126210 Feb 2023RM17.40VIEW STATEMENTS')]</value>
+      <webElementGuid>8070475c-7a35-43de-b1ab-cce9ea91a2b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

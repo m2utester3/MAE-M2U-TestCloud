@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE_TS2,,,,2023-03-16 20:39:25,2023-03-16 20:39:47,21.657s,PASSED
+,,,,,,,
+Test Cases/Mobile TC/MAE Login,,,,2023-03-16 20:39:25,2023-03-16 20:39:47,21.315s,PASSED
+"startExistingApplication(""com.maybank2u.life"")",,,,2023-03-16 20:39:26,2023-03-16 20:39:43,16.784s,PASSED
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-16 20:39:43,2023-03-16 20:39:44,0.966s,PASSED
+"takeScreenshot(""C:\Users23955\git\screenshot\MAE\1.png"", CONTINUE_ON_FAILURE)",,,,2023-03-16 20:39:44,2023-03-16 20:39:45,0.912s,PASSED
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-16 20:39:45,2023-03-16 20:39:45,0.409s,PASSED
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Enter your 6-digit PIN""), 0)",,,,2023-03-16 20:39:45,2023-03-16 20:39:46,1.144s,PASSED
+"takeScreenshot(""C:\Users23955\git\screenshot\MAE\2.png"", CONTINUE_ON_FAILURE)",,,,2023-03-16 20:39:46,2023-03-16 20:39:47,0.457s,PASSED
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - 1""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Total Balance""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - View Transactions""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Transfer""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.015s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.EditText - M2U password""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"setText(findTestObject(""""), ""Mayesha@2"", 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+hideKeyboard(),,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Continue""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - MAE""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Enter amount""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - 1 (1)""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.ImageView""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Enter recipient reference""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/MAE Transfer/android.widget.EditText""), ""self transfer"", 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+hideKeyboard(),,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Continue (1)""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Transfer Now""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Transfer successful""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - 501652585M""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Share Receipt""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.016s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Successful""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Transfer/android.widget.ImageView (1)""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Transfer/android.widget.TextView - Done""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+"tap(findTestObject(""""), 0)",,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN
+closeApplication(),,,,2023-03-16 20:39:47,2023-03-16 20:39:47,0.000s,NOT_RUN

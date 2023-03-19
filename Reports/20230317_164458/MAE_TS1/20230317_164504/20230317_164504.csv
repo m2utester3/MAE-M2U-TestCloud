@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE_TS1,,,,2023-03-17 16:45:13,2023-03-17 16:46:23,1m - 10.142s,PASSED
+,,,,,,,
+Test Cases/Mobile TC/MAE Onboarding,,,,2023-03-17 16:45:14,2023-03-17 16:46:23,1m - 9.752s,PASSED
+"startExistingApplication(""com.maybank2u.life"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:14,2023-03-17 16:45:48,33.054s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\1.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:48,2023-03-17 16:45:48,0.590s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Skip""), 0)",,,,2023-03-17 16:45:48,2023-03-17 16:45:50,1.967s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\2.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:50,2023-03-17 16:45:51,0.782s,PASSED
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Skip""), 0)",,,,2023-03-17 16:45:51,2023-03-17 16:45:51,0.279s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Agree""), 0)",,,,2023-03-17 16:45:51,2023-03-17 16:45:52,0.702s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\3.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:52,2023-03-17 16:45:52,0.495s,PASSED
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Agree""), 0)",,,,2023-03-17 16:45:52,2023-03-17 16:45:53,0.198s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Hello""), 0)",,,,2023-03-17 16:45:53,2023-03-17 16:45:55,2.363s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\4.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:55,2023-03-17 16:45:56,0.805s,PASSED
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Hello""), 0)",,,,2023-03-17 16:45:56,2023-03-17 16:45:56,0.403s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Existing M2UMAE user Log in here""), 0)",,,,2023-03-17 16:45:56,2023-03-17 16:45:58,1.687s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\5.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:45:58,2023-03-17 16:45:59,0.740s,PASSED
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Existing M2UMAE user Log in here""), 0)",,,,2023-03-17 16:45:59,2023-03-17 16:45:59,0.372s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Login to Maybank2u""), 0)",,,,2023-03-17 16:45:59,2023-03-17 16:46:00,1.313s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\6.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:00,2023-03-17 16:46:01,0.463s,PASSED
+"setText(findTestObject(""MAE Onboarding/android.widget.EditText""), ""mosajgohar1"", 0)",,,,2023-03-17 16:46:01,2023-03-17 16:46:02,0.956s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\7.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:02,2023-03-17 16:46:02,0.446s,PASSED
+"getText(findTestObject(""MAE Onboarding/android.widget.TextView - Continue""), 0)",,,,2023-03-17 16:46:02,2023-03-17 16:46:17,14.571s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\8.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:17,2023-03-17 16:46:17,0.541s,PASSED
+"tap(findTestObject(""MAE Onboarding/android.widget.TextView - Continue""), 0)",,,,2023-03-17 16:46:17,2023-03-17 16:46:17,0.245s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - cap""), 0)",,,,2023-03-17 16:46:17,2023-03-17 16:46:20,2.074s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Yes, Its Mine""), 0)",,,,2023-03-17 16:46:20,2023-03-17 16:46:20,0.240s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\9.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:20,2023-03-17 16:46:20,0.456s,PASSED
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Yes, Its Mine""), 0)",,,,2023-03-17 16:46:20,2023-03-17 16:46:20,0.281s,PASSED
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Enter your password""), 0)",,,,2023-03-17 16:46:20,2023-03-17 16:46:22,1.255s,PASSED
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\10.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.499s,PASSED
+"setText(findTestObject(""Object Repository/MAE Onboarding/android.widget.EditText (1)""), findTestData(""DevOps"").getValue(2, 1), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.011s,NOT_RUN
+hideKeyboard(),,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Continue (1)""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Continue (1)""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Create your PIN for the app""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.006s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\11.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\12.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.ImageView""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Confirm your 6-digit PIN""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.016s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - 1""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\13.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.ImageView""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Set Up Later""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\14.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Set Up Later""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Verify Number""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Yes, Proceed""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\15.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Yes, Proceed""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+delay(20),,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\16.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.ImageView""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.EditText - Enter your name""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"setText(findTestObject(""Object Repository/MAE Onboarding/android.widget.EditText - Enter your name""), ""Mayesha"", 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\17.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+hideKeyboard(),,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""MAE Onboarding/android.widget.TextView - Continue""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\18.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""MAE Onboarding/android.widget.TextView - Continue""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Introducing Wallet""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""MAE Onboarding/android.widget.TextView - Continue""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Skip (1)""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Skip (1)""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Set Up Successful""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\19.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Done""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Mayesha""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\20.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Maybank2u""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Total Balance""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.008s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Savings Account-i""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.001s,NOT_RUN
+"takeScreenshot(""C:\Users\00123955\git\screenshot\M2U\21.png"", CONTINUE_ON_FAILURE)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Savings Account-i""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Transfer""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+"tap(findTestObject(""Object Repository/MAE Onboarding/android.widget.TextView - Transfer""), 0)",,,,2023-03-17 16:46:22,2023-03-17 16:46:22,0.000s,NOT_RUN
+closeApplication(),,,,2023-03-17 16:46:22,2023-03-17 16:46:23,1.046s,PASSED

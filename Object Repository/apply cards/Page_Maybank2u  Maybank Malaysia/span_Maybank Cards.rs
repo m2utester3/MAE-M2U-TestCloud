@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Maybank Cards</name>
+   <tag></tag>
+   <elementGuidId>74b2181e-0e59-44f4-b18e-96e5721b917d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='footer-items']/div[2]/div/div/ul/li[6]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>097b94e7-c5f1-4623-ad5f-98d09b0dec68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Footer---caption---1ojHM</value>
+      <webElementGuid>01954008-c310-4bc6-bb9c-005939552453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maybank Cards</value>
+      <webElementGuid>5d12613d-2a5d-4fb9-b43d-5854ea7a4749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;footer-items&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row&quot;]/ul[1]/li[6]/span[@class=&quot;Footer---caption---1ojHM&quot;]</value>
+      <webElementGuid>f843c689-f262-48a1-9bc0-3d53dbdab3af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='footer-items']/div[2]/div/div/ul/li[6]/span</value>
+      <webElementGuid>1693a986-b13e-465b-8251-ad4c64a29f69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insure Me'])[1]/following::span[1]</value>
+      <webElementGuid>e8dc8eb6-695f-4d10-bb89-097c364fa522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Account'])[1]/following::span[2]</value>
+      <webElementGuid>cea6ac33-3a24-4392-a11a-7417744fd215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get a Loan'])[1]/preceding::span[1]</value>
+      <webElementGuid>dbf36aed-1269-42aa-b2d3-f21bb3a8fb70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trade Online'])[1]/preceding::span[2]</value>
+      <webElementGuid>2a4f38fc-b466-4536-a1a1-1888908194b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Maybank Cards']/parent::*</value>
+      <webElementGuid>75d2309a-75fc-4594-b5b9-79759cf78bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/span</value>
+      <webElementGuid>72774c5d-0f38-41ea-99c1-0befbe1c1dcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Maybank Cards' or . = 'Maybank Cards')]</value>
+      <webElementGuid>ef7c8627-b0d6-45b9-a175-def182c70b68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

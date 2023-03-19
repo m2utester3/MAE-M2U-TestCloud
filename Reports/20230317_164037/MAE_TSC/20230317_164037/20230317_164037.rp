@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20230317_164037</name>
+   <tag></tag>
+   <displayName>20230317_164037</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230317_164037/MAE_TS1/20230317_164041</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-G998B (Android 11)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>R5CR704KXSR</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/MAE_TSC</testSuiteCollectionId>
+</ReportCollectionEntity>

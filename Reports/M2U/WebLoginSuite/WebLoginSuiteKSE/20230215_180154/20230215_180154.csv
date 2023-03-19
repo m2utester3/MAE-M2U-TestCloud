@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WebLoginSuiteKSE,Chrome 109.0.0.0,,,2023-02-15 18:02:21,2023-02-15 18:04:14,1m - 53.174s,PASSED
+,,,,,,,
+Test Cases/Web Login/Transfer_OpenThirdParty,Chrome 109.0.0.0,,,2023-02-15 18:02:21,2023-02-15 18:04:14,1m - 52.861s,PASSED
+"callTestCase(findTestCase(""Web Login/Login_Logout""), [:], CONTINUE_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-15 18:02:22,2023-02-15 18:03:15,53.235s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-15 18:03:15,2023-02-15 18:03:17,2.006s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921""))",Chrome 109.0.0.0,,,2023-02-15 18:03:17,2023-02-15 18:03:17,0.538s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2023-02-15 18:03:17,2023-02-15 18:03:19,1.037s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921""))",Chrome 109.0.0.0,,,2023-02-15 18:03:19,2023-02-15 18:03:19,0.582s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float""))",Chrome 109.0.0.0,,,2023-02-15 18:03:19,2023-02-15 18:03:20,0.951s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float""), 0)",Chrome 109.0.0.0,,,2023-02-15 18:03:20,2023-02-15 18:03:20,0.366s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History""))",Chrome 109.0.0.0,,,2023-02-15 18:03:20,2023-02-15 18:03:22,1.163s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History""), 0)",Chrome 109.0.0.0,,,2023-02-15 18:03:22,2023-02-15 18:03:22,0.344s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION""))",Chrome 109.0.0.0,,,2023-02-15 18:03:22,2023-02-15 18:03:22,0.572s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS""))",Chrome 109.0.0.0,,,2023-02-15 18:03:22,2023-02-15 18:03:25,2.875s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-15 18:03:25,2023-02-15 18:03:27,2.015s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:27,2023-02-15 18:03:28,0.687s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x""))",Chrome 109.0.0.0,,,2023-02-15 18:03:28,2023-02-15 18:03:29,1.010s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:29,2023-02-15 18:03:30,0.586s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-15 18:03:30,2023-02-15 18:03:32,2.007s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Own Accounts""))",Chrome 109.0.0.0,,,2023-02-15 18:03:32,2023-02-15 18:03:32,0.581s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-15 18:03:32,2023-02-15 18:03:34,2.018s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )""))",Chrome 109.0.0.0,,,2023-02-15 18:03:34,2023-02-15 18:03:35,0.460s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d""))",Chrome 109.0.0.0,,,2023-02-15 18:03:35,2023-02-15 18:03:37,2.000s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic""))",Chrome 109.0.0.0,,,2023-02-15 18:03:37,2023-02-15 18:03:37,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount""), ""164017298921"")",Chrome 109.0.0.0,,,2023-02-15 18:03:37,2023-02-15 18:03:39,1.507s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount""), ""0.1"")",Chrome 109.0.0.0,,,2023-02-15 18:03:39,2023-02-15 18:03:40,1.028s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose""), ""DevOps test"")",Chrome 109.0.0.0,,,2023-02-15 18:03:40,2023-02-15 18:03:41,1.147s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Money withdrawn from your insured deposit_747020""))",Chrome 109.0.0.0,,,2023-02-15 18:03:41,2023-02-15 18:03:41,0.457s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2023-02-15 18:03:41,2023-02-15 18:03:42,0.560s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:42,2023-02-15 18:03:42,0.411s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h6_Tap on the notification on your smartpho_593a44""))",Chrome 109.0.0.0,,,2023-02-15 18:03:42,2023-02-15 18:03:43,0.963s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST""))",Chrome 109.0.0.0,,,2023-02-15 18:03:43,2023-02-15 18:03:44,0.567s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2023-02-15 18:03:44,2023-02-15 18:03:45,0.693s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST""))",Chrome 109.0.0.0,,,2023-02-15 18:03:45,2023-02-15 18:03:45,0.445s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e""))",Chrome 109.0.0.0,,,2023-02-15 18:03:45,2023-02-15 18:03:47,1.523s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful""))",Chrome 109.0.0.0,,,2023-02-15 18:03:47,2023-02-15 18:03:53,6.595s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Successful""))",Chrome 109.0.0.0,,,2023-02-15 18:03:53,2023-02-15 18:03:54,0.360s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful""))",Chrome 109.0.0.0,,,2023-02-15 18:03:54,2023-02-15 18:03:54,0.383s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful""), ""Transaction Successful!"")",Chrome 109.0.0.0,,,2023-02-15 18:03:54,2023-02-15 18:03:54,0.365s,PASSED
+takeScreenshot(),Chrome 109.0.0.0,,,2023-02-15 18:03:54,2023-02-15 18:03:55,0.555s,PASSED
+"scrollToPosition(1300, 40)",Chrome 109.0.0.0,,,2023-02-15 18:03:55,2023-02-15 18:03:55,0.021s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:55,2023-02-15 18:03:55,0.487s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:55,2023-02-15 18:03:56,0.403s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 109.0.0.0,,,2023-02-15 18:03:56,2023-02-15 18:03:57,0.747s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS""))",Chrome 109.0.0.0,,,2023-02-15 18:03:57,2023-02-15 18:03:58,0.987s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921""))",Chrome 109.0.0.0,,,2023-02-15 18:03:58,2023-02-15 18:03:59,1.044s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float""))",Chrome 109.0.0.0,,,2023-02-15 18:03:59,2023-02-15 18:03:59,0.696s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float""), 0)",Chrome 109.0.0.0,,,2023-02-15 18:03:59,2023-02-15 18:04:00,0.461s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION""))",Chrome 109.0.0.0,,,2023-02-15 18:04:00,2023-02-15 18:04:00,0.493s,PASSED
+"scrollToElement(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION""), 0)",Chrome 109.0.0.0,,,2023-02-15 18:04:00,2023-02-15 18:04:01,0.345s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_12 Feb 2023""))",Chrome 109.0.0.0,,,2023-02-15 18:04:01,2023-02-15 18:04:01,0.494s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test""))",Chrome 109.0.0.0,,,2023-02-15 18:04:01,2023-02-15 18:04:01,0.401s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test""), ""MOHAMMAD MOSAJ GOHA* DevOps test"")",Chrome 109.0.0.0,,,2023-02-15 18:04:01,2023-02-15 18:04:02,0.332s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS""))",Chrome 109.0.0.0,,,2023-02-15 18:04:02,2023-02-15 18:04:02,0.451s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-15 18:04:02,2023-02-15 18:04:04,2.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""), 0)",Chrome 109.0.0.0,,,2023-02-15 18:04:04,2023-02-15 18:04:05,0.449s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""))",Chrome 109.0.0.0,,,2023-02-15 18:04:05,2023-02-15 18:04:05,0.526s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_ACTIVITY DETAILS""))",Chrome 109.0.0.0,,,2023-02-15 18:04:05,2023-02-15 18:04:06,0.775s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out""))",Chrome 109.0.0.0,,,2023-02-15 18:04:06,2023-02-15 18:04:06,0.409s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_You have logged out""), ""You have logged out!"")",Chrome 109.0.0.0,,,2023-02-15 18:04:06,2023-02-15 18:04:07,0.436s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176""))",Chrome 109.0.0.0,,,2023-02-15 18:04:07,2023-02-15 18:04:07,0.388s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747""))",Chrome 109.0.0.0,,,2023-02-15 18:04:07,2023-02-15 18:04:08,0.381s,PASSED
+"getText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful""))",Chrome 109.0.0.0,,,2023-02-15 18:04:08,2023-02-15 18:04:08,0.361s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-15 18:04:08,2023-02-15 18:04:11,3.016s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-15 18:04:11,2023-02-15 18:04:14,3.148s,PASSED

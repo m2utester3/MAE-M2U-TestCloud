@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test suite folder 5,Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:49,2023-03-11 00:24:44,2m - 54.257s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u home page,Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:51,2023-03-11 00:23:12,1m - 20.463s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:21:54,2023-03-11 00:22:35,41.357s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:35,2023-03-11 00:22:36,1.241s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:36,2023-03-11 00:22:41,4.554s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), findTestData(""DevOps"").getValue(1, 2))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:41,2023-03-11 00:22:51,9.704s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:51,2023-03-11 00:22:54,3.607s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:54,2023-03-11 00:22:58,3.520s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), findTestData(""DevOps"").getValue(2, 1))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:22:58,2023-03-11 00:23:06,7.906s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:06,2023-03-11 00:23:08,2.101s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:08,2023-03-11 00:23:12,4.070s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u home page Navigation,Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:12,2023-03-11 00:24:44,1m - 31.762s,PASSED
+"openBrowser("""")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:13,2023-03-11 00:23:45,32.472s,PASSED
+maximizeWindow(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:45,2023-03-11 00:23:46,0.935s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:46,2023-03-11 00:23:50,3.888s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:50,2023-03-11 00:23:52,2.011s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u  Maybank Malaysia/a_BUSINESS""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:52,2023-03-11 00:23:58,6.168s,PASSED
+delay(2),Linux - Chrome 107.0.0.0,,,2023-03-11 00:23:58,2023-03-11 00:24:00,2.012s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""), ""LOGIN"")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:00,2023-03-11 00:24:04,3.432s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:04,2023-03-11 00:24:09,5.831s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/button_close""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:09,2023-03-11 00:24:17,7.630s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/input_Username_action""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:17,2023-03-11 00:24:26,9.254s,PASSED
+"getText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""))",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:26,2023-03-11 00:24:35,8.190s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""), ""Username is required."")",Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:35,2023-03-11 00:24:42,7.680s,PASSED
+closeBrowser(),Linux - Chrome 107.0.0.0,,,2023-03-11 00:24:42,2023-03-11 00:24:44,1.435s,PASSED
