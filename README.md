@@ -4,7 +4,6 @@ https://github.com/m2utester3/MAE-M2U-TestCloud.git
 
 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
 
-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
 
 https://install.appcenter.ms/orgs/MBB-CFS/apps/MAE-Android-UAT/distribution_groups/UATTessters#x3D;7_Bwj4KesQ
 https://install.appcenter.ms/orgs/MBB-CFS/apps/MAE-Android-CIND/distribution_groups/Testers#x3D;XxwT4TMR-n 
