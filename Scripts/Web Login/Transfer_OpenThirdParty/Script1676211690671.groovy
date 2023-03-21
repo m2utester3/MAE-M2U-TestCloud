@@ -23,6 +23,10 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
+WebUI.getPageHeight()
+
+WebUI.getPageWidth()
+
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
     findTestData('DevOps').getValue(1, 1))
 
@@ -47,6 +51,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x'))
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER'))
@@ -66,15 +72,30 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount'), 
     '164017298921')
 
-WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount'), 
-    '0.1')
-
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose'), 
     'DevOps test')
 
 WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Money withdrawn from your insured deposit_747020'))
 
+WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER'))
+
+WebUI.getText(findTestObject('Web Login/SPY error message/Page_Maybank2u  Maybank Malaysia/span_Please do not leave field blank'))
+
+WebUI.getText(findTestObject('Web Login/SPY error message/Page_Maybank2u  Maybank Malaysia/span_Transfer Amount should not be empty'))
+
+WebUI.verifyElementText(findTestObject('Web Login/SPY error message/Page_Maybank2u  Maybank Malaysia/span_Transfer Amount should not be empty'), 
+    'Transfer Amount should not be empty')
+
 WebUI.takeScreenshot()
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Web Login/SPY error message/Page_Maybank2u  Maybank Malaysia/span_'))
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount'), 
+    '0.1')
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_TRANSFER'))
 

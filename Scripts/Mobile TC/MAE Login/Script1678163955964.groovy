@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('MAE.apk', false)
+not_run: Mobile.startApplication('/users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/MAE.apk', false)
 
-WebUI.delay(1)
+Mobile.startExistingApplication('com.maybank2u.life', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
@@ -29,7 +31,7 @@ Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextVie
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter your 6-digit PIN'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\2.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
@@ -47,7 +49,7 @@ Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.Tex
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\3.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
 
@@ -57,26 +59,26 @@ Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.Tex
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
-Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), findTestData('DevOps').getValue(2, 
-        1), 0)
+not_run: Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), findTestData('DevOps').getValue(
+        2, 1), 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Continue'), 0)
+not_run: Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Continue'), 0)
 
 WebUI.delay(5)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\5.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - MAE'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - MAE'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter amount'), 0)
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1 (1)'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\6.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView'), 0)
 
@@ -94,11 +96,11 @@ Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.Tex
 
 Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Transfer Now'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\8.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer successful'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\9.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 501652585M'), 0)
 
@@ -106,13 +108,17 @@ Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextVie
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Successful'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\10.png', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(10)
+
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView (1)'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Done'), 0)
 
 Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Done'), 0)
+
+WebUI.delay(5)
 
 Mobile.closeApplication()
 
