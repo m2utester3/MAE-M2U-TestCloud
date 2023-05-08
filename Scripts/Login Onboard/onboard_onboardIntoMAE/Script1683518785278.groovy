@@ -205,34 +205,3 @@ Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Obje
 
 Mobile.takeScreenshot()
 
-//if(Mobile.verifyElementExist(findTestObject('Text',[('Verify'):'Accounts']),2,FailureHandling.OPTIONAL)) {
-//
-//	Mobile.tap(findTestObject('Text',[('Verify'):'Accounts']),0)
-//}else {	
-//	
-//	Mobile.tap(findTestObject('Dashboard/mainBottomMenuMaybank2uBtn'), 0)
-//}
-//Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Kill Switch']), 
-//        0), 'Kill Switch')
-//
-//body = 'You can now temporarily deactivate your M2U access in just a few quick taps in case of fraud.'
-//
-//Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : body]), 0), 
-//    body)
-
-//if (Mobile.verifyElementExist(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Got It']), 0, FailureHandling.OPTIONAL)) {
-//    Mobile.tap(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Got It']), 0)
-//} else if (Mobile.verifyElementExist(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Next Time']), 
-//    0, FailureHandling.OPTIONAL)) {
-////    Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Next Time']), 
-////            0), 'Next Time')
-////
-////    Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Explore Now']), 
-////            0), 'Explore Now')
-//
-//    Mobile.tap(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Next Time']), 0)
-//}
-//
-//Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Maybank2u']), 
-//        0), 'Maybank2u')
-
