@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.maybank2u.life.uat'</initValue>
+      <name>startAPP</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

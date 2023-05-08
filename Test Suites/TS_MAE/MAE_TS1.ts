@@ -14,8 +14,33 @@
    <testCaseLink>
       <guid>d8b09b16-484d-4366-81e0-2d6861eb741d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Mobile TC/MAE Onboarding</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1fa82fd9-8513-4a13-a219-16f4895aec26</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login Onboard/onboard_onboardIntoMAE</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>514189f4-0f50-4fc5-8f87-6b6e5311aa3f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d62a261-211f-48ea-9b7d-0b01f111d556</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d1e138ee-9fb6-43c8-9a22-b587b3e537e6</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
