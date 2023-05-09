@@ -18,8 +18,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //'Datafiles TestData, sheet test_data'
-Mobile.startExistingApplication(GlobalVariable.startAPP, FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.startExistingApplication(GlobalVariable.startAPP, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.startApplication('/Users/APK/app-uat-MAE.apk', true)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
@@ -34,7 +35,7 @@ if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeS
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Login Onboarding/onboardTNCAgreeBtn'), 0)
-} else if (Mobile.verifyElementExist(findTestObject('Text',[('Verify'):'Your enhanced experience\nis here.']), 10, FailureHandling.OPTIONAL)) {
+} else if (Mobile.verifyElementExist(findTestObject('Text', [('Verify') : 'Your enhanced experience\nis here.']), 10, FailureHandling.OPTIONAL)) {
     Mobile.verifyElementExist(findTestObject('Text', [('Verify') : 'Next']), 0)
 
     Mobile.takeScreenshot()
@@ -47,8 +48,6 @@ if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeS
 
     Mobile.tap(findTestObject('Login Onboarding/onboardTNCAgreeBtn'), 0)
 }
-
-
 
 if (Mobile.verifyElementExist(findTestObject('Dashboard/dashboardSetUpWalletIcon'), 10, FailureHandling.OPTIONAL)) {
     Mobile.tap(findTestObject('Dashboard/dashboardSetUpWalletIcon'), 0)
@@ -172,17 +171,16 @@ Mobile.verifyElementVisible(findTestObject('Object Repository/Transfer/onboardSe
 
 Mobile.tap(findTestObject('Object Repository/Transfer/onboardSelectWallet_AccountType'), 0)
 
-Last = Mobile.getText(findTestObject('TextNo',[('No'):'last()']),0)
+Last = Mobile.getText(findTestObject('TextNo', [('No') : 'last()']), 0)
 
-if(Last=='Continue') {
+if (Last == 'Continue') {
+    Mobile.verifyElementExist(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
-	Mobile.verifyElementExist(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
-
-	Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
+    Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 } else {
-    Mobile.verifyElementExist(findTestObject('Text',[('Verify'):'Next']), 0)
+    Mobile.verifyElementExist(findTestObject('Text', [('Verify') : 'Next']), 0)
 
-    Mobile.tap(findTestObject('Text',[('Verify'):'Next']), 0)
+    Mobile.tap(findTestObject('Text', [('Verify') : 'Next']), 0)
 }
 
 Mobile.takeScreenshot()
@@ -198,7 +196,6 @@ Mobile.tap(findTestObject('Login Onboarding/Main/mainDoneBtn'), 0)
 Mobile.delay(5)
 
 Mobile.takeScreenshot()
-
 
 Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Quick Actions']), 
         0), 'Quick Actions')
