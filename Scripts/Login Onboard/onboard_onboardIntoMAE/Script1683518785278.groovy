@@ -18,7 +18,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //'Datafiles TestData, sheet test_data'
-not_run: Mobile.startExistingApplication(GlobalVariable.startAPP, FailureHandling.STOP_ON_FAILURE)
+
 
 Mobile.startApplication('/Users/APK/app-uat-MAE.apk', true)
 
