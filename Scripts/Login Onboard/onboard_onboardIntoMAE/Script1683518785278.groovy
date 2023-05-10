@@ -20,7 +20,7 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 //'Datafiles TestData, sheet test_data'
 not_run: Mobile.startExistingApplication(GlobalVariable.startAPP, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.startApplication('/Users/APK/app-uat-MAE.apk', true)
+Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
