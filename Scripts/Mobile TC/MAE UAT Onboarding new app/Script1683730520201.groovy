@@ -40,30 +40,30 @@ Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
-Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Got It'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Got It'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Got It'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Got It'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Agree'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Agree'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Log In Now'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Log In Now'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 
     0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
 not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 0)
 
