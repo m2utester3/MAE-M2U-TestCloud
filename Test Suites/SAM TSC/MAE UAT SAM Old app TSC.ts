@@ -33,7 +33,7 @@
             <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SAM/MAE UAT SAM OLS app</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SAM/MAE UAT SAM NEW app</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

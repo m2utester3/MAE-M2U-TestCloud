@@ -182,17 +182,43 @@ if (Last == 'Continue') {
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/onboardReferSkipBtn'), 0, FailureHandling.OPTIONAL)
+WebUI.delay(7)
 
-Mobile.delay(2)
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+
+WebUI.delay(7)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/Main/mainDoneBtn'), 0)
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Got It'), 0)
 
-Mobile.delay(5)
+WebUI.delay(7)
+
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Skip'), 0)
+
+WebUI.delay(7)
 
 Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Done'), 0)
+
+not_run: Mobile.tap(findTestObject('Login Onboarding/onboardReferSkipBtn'), 0, FailureHandling.OPTIONAL)
+
+not_run: Mobile.delay(2)
+
+not_run: Mobile.tap(findTestObject('Login Onboarding/Main/mainDoneBtn'), 0)
+
+not_run: Mobile.delay(5)
+
+not_run: Mobile.takeScreenshot()
 
 Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Quick Actions']), 
         0), 'Quick Actions')
