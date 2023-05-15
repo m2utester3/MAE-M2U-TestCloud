@@ -99,55 +99,57 @@ Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.Text
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
     0)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.ImageView'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.ImageView'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN'), 
+    0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - 1'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.ImageView'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.ImageView'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Set Up Later'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Set Up Later'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Yes, Proceed'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Yes, Proceed'), 0)
 
-OTP = Mobile.getText(findTestObject('MAE UAT new app/spy OTP/android.widget.TextView - Your OTP no. is 121727'), 0)
+not_run: OTP = Mobile.getText(findTestObject('MAE UAT new app/spy OTP/android.widget.TextView - Your OTP no. is 121727'), 
+    0)
 
 Mobile.takeScreenshot()
 
