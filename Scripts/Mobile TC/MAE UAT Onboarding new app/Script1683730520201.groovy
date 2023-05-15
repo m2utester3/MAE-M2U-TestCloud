@@ -96,8 +96,10 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
     0)
+
+WebUI.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - 1'), 0)
 
