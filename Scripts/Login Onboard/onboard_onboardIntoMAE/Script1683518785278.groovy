@@ -18,8 +18,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //'Datafiles TestData, sheet test_data'
-
-
 Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
@@ -59,8 +57,7 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Login Onboarding/getStartedExistingUserBtn'), 0)
 
-Mobile.setText(findTestObject('Login Onboarding/loginExistingUsernameInputField'), findTestData('test_data').getValue(3, 
-        19), 0)
+Mobile.setText(findTestObject('Login Onboarding/loginExistingUsernameInputField'), 'ninalee', 0)
 
 Mobile.hideKeyboard()
 
@@ -74,7 +71,7 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 0)
 
-Mobile.setText(findTestObject('Login Onboarding/loginPasswordInputField'), findTestData('test_data').getValue(3, 20), 0)
+Mobile.setText(findTestObject('Login Onboarding/loginPasswordInputField'), 'Maybank@1', 0)
 
 Mobile.hideKeyboard()
 
