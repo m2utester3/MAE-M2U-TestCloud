@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_LOGOUT</name>
+   <tag></tag>
+   <elementGuidId>a033e3ea-798c-4b88-8bcd-7e8c9b47d5df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-xs-4.SideBar---logout_icon_wrapper---1GxNQ > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDashboard']/div[2]/div/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6e630ec0-7a49-43c3-903a-f1640f7f3a3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LOGOUT</value>
+      <webElementGuid>e4fbb7d8-d6d2-4db7-b3b8-31c4b981a84e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDashboard&quot;)/div[@class=&quot;hidden-sm hidden-xs hidden-md SideBar---side_bar_wrapper---26MIT&quot;]/div[@class=&quot;SideBar---container---13EHw&quot;]/div[@class=&quot;row SideBar---side_bar_top_nav---1l-T8&quot;]/div[@class=&quot;col-xs-4 SideBar---logout_icon_wrapper---1GxNQ&quot;]/span[1]</value>
+      <webElementGuid>68ab67b1-4b77-418e-ba49-add0b74508a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDashboard']/div[2]/div/div/div[3]/span</value>
+      <webElementGuid>4bbfc330-593f-4b97-b51d-35068a41d201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SETTINGS'])[1]/following::span[1]</value>
+      <webElementGuid>ea3d33c6-fec5-41d7-857d-6c2cca305257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INBOX'])[1]/following::span[2]</value>
+      <webElementGuid>246eb6e5-864b-4804-9a7d-bf64045a82a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Good AfternoonMMG'])[1]/preceding::span[1]</value>
+      <webElementGuid>ad5b3224-d3c4-412c-aa36-c0c228b773d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Total Donation'])[1]/preceding::span[2]</value>
+      <webElementGuid>1aac22f8-845a-489e-b879-3bda555eeb47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LOGOUT']/parent::*</value>
+      <webElementGuid>5efa8280-eb29-41e1-8140-3a313b8f00de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>42638318-ebdf-4cef-9dc8-0813e5df432e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'LOGOUT' or . = 'LOGOUT')]</value>
+      <webElementGuid>514af649-f999-429a-bd43-72db6c3cd4a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
