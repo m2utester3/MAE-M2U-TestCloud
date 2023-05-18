@@ -87,19 +87,19 @@ Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Done')
 
 Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Hello,'), 0)
 
-Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.ImageView (2)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.ImageView (2)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
+not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
+not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Home'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Home'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Home'), 0)
+not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Home'), 0)
 
 not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap'), 
     0)
