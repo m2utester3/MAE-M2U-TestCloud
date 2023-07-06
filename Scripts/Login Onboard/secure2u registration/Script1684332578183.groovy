@@ -23,8 +23,8 @@ import io.appium.java_client.MobileElement as MobileElement
 AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 
 driver.lockDevice()
-//driver.unlockDevice()
 
+//driver.unlockDevice()
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
 Mobile.takeScreenshot()
@@ -37,7 +37,6 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Now'), 0)
 
-
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
 Mobile.takeScreenshot()
@@ -47,7 +46,7 @@ Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'),
 not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481'), 
     0)
 
-def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
+not_run: def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
 
 Mobile.takeScreenshot()
 
