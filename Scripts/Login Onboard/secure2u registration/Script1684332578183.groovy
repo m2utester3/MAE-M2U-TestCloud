@@ -19,28 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
+Mobile.takeScreenshot()
+
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Now'), 0)
+
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Now'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
+Mobile.takeScreenshot()
 
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
 
 not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481'), 
     0)
 
 def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
 
+Mobile.takeScreenshot()
+
 Mobile.delay(2)
 
 for (def i = 16; i <= 21; i++) {
-	def TapNo = OTP[i]
+    def TapNo = OTP[i]
 
-	Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
+    Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
 Mobile.takeScreenshot()
@@ -59,17 +66,23 @@ Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget
 
 Mobile.hideKeyboard()
 
+Mobile.takeScreenshot()
+
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
 
+Mobile.takeScreenshot()
+
 Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 0)
+
+Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
 
@@ -79,5 +92,9 @@ Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-not_run: Mobile.closeApplication()
+Mobile.delay(5)
+
+Mobile.takeScreenshot()
+
+Mobile.closeApplication()
 
