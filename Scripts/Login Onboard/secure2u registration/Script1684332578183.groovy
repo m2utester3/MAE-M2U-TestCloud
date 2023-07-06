@@ -22,9 +22,7 @@ import io.appium.java_client.MobileElement as MobileElement
 
 AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 
-driver.lockDevice()
 
-//driver.unlockDevice()
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
 Mobile.takeScreenshot()
@@ -36,6 +34,8 @@ Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Now'), 0)
+driver.lockDevice()
+driver.unlockDevice()
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
