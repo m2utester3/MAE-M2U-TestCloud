@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mosaj S2U" time="191.821" tests="2" failures="0" errors="0">
+   <testsuite name="Mosaj S2U" tests="2" failures="0" errors="0" time="191.821" skipped="0" timestamp="2023-07-06 12:18:01" hostname="mosaj - localhost" id="Test Suites/Mosaj S2U">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748"/>
+         <property name="logFiles" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/execution0.log, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/appium.log"/>
+         <property name="attachments" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617114759.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617116951.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617128843.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617134001.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617137596.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617141665.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617161536.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617177325.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617180064.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617182751.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617197700.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617210667.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617215744.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617230994.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617251796.png"/>
+         <property name="hostName" value="mosaj - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="192.168.0.45"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR704KXSR"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy" time="149.781" classname="Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy" status="PASSED">
+         <system-out><![CDATA[2023-07-06 12:18:01 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy: Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy
+
+2023-07-06 12:18:03 - [TEST_STEP][PASSED] - startApplication("/Users/APK/uat-universal-release.apk", false): Started app at: '/Users/APK/uat-universal-release.apk'
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - User set preference: ['deviceId', 'R5CR704KXSR']
+
+2023-07-06 12:18:03 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-07-06 12:18:06 - [MESSAGE][INFO] - Appium server started on port 55,611
+
+2023-07-06 12:18:22 - [MESSAGE][PASSED] - Started app at: '/Users/APK/uat-universal-release.apk'
+
+2023-07-06 12:18:22 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 10, OPTIONAL)): Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:33 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' not found
+
+2023-07-06 12:18:34 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:34 - [TEST_STEP][PASSED] - else if (verifyElementExist(findTestObject("Text", ["Verify":"Your enhanced experience
+is here."]), 10, OPTIONAL)): Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-06 12:18:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Next"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:34 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:34 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:18:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617114759.png]]
+
+2023-07-06 12:18:35 - [TEST_STEP][PASSED] - tap(findTestObject("ImageNo", ["No":2]), 0): Tapped on element 'Object Repository/ImageNo'
+
+2023-07-06 12:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ImageNo'
+
+2023-07-06 12:18:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Agree"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:36 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-06 12:18:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:18:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617116951.png]]
+
+2023-07-06 12:18:37 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardTNCAgreeBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-06 12:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-06 12:18:37 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("Dashboard/dashboardSetUpWalletIcon"), 10, OPTIONAL)): Element 'Object Repository/Dashboard/dashboardSetUpWalletIcon' not found
+
+2023-07-06 12:18:48 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard/dashboardSetUpWalletIcon' not found
+
+2023-07-06 12:18:48 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:18:48 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":"Log In Now"]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:18:48 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:18:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617128843.png]]
+
+2023-07-06 12:18:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/getStartedExistingUserBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2023-07-06 12:18:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2023-07-06 12:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginExistingUsernameInputField"), "samuat05", 0): Text 'samuat05' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2023-07-06 12:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:52 - [MESSAGE][PASSED] - Text 'samuat05' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2023-07-06 12:18:52 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-06 12:18:53 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-06 12:18:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:18:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617134001.png]]
+
+2023-07-06 12:18:54 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:18:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 50): Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2023-07-06 12:18:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2023-07-06 12:18:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:18:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617137596.png]]
+
+2023-07-06 12:18:57 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2023-07-06 12:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:18:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2023-07-06 12:18:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginPasswordInputField"), "Maybank@1", 0): Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2023-07-06 12:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:00 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2023-07-06 12:19:00 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-06 12:19:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-06 12:19:01 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617141665.png]]
+
+2023-07-06 12:19:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:19:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-06 12:19:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-06 12:19:07 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/Proceed"), 3, OPTIONAL)): Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2023-07-06 12:19:10 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2023-07-06 12:19:10 - [TEST_STEP][PASSED] - pinNO = findTestData("test_data").getValue(11, 1): null
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - length = pinNO.length(): null
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:12 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:14 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:14 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:16 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:16 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:18 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:18 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:19 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:21 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:21 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617161536.png]]
+
+2023-07-06 12:19:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:19:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:19:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:19:25 - [TEST_STEP][PASSED] - pinNO = findTestData("test_data").getValue(11, 1): null
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - length = pinNO.length(): null
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:26 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:28 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:28 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:30 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:30 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:31 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:31 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:33 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-06 12:19:33 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:19:37 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617177325.png]]
+
+2023-07-06 12:19:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:19:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:19:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:19:40 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617180064.png]]
+
+2023-07-06 12:19:40 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginTouchIDSetUpLaterBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2023-07-06 12:19:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2023-07-06 12:19:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:19:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:19:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617182751.png]]
+
+2023-07-06 12:19:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginVerifyNumberYesProceedBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2023-07-06 12:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2023-07-06 12:19:43 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 568744'
+
+2023-07-06 12:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:45 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 568744'
+
+2023-07-06 12:19:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:19:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:19:47 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:47 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:47 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:49 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:49 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:50 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:50 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:51 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:51 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:53 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:53 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:55 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:19:55 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:19:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:19:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617197700.png]]
+
+2023-07-06 12:19:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-06 12:20:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-06 12:20:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:20:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/onboardNameInputField"), 0): Element 'Object Repository/Login Onboarding/onboardNameInputField' is present
+
+2023-07-06 12:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:06 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardNameInputField' is present
+
+2023-07-06 12:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/onboardNameInputField"), findTestData("test_data").getValue(3, 21), 0): Text 'Sam Test' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2023-07-06 12:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:08 - [MESSAGE][PASSED] - Text 'Sam Test' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2023-07-06 12:20:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-06 12:20:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-06 12:20:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:20:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:20:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:20:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617210667.png]]
+
+2023-07-06 12:20:11 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:20:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-06 12:20:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:20:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:20:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Transfer/onboardSelectWallet_AccountType"), 0): Element 'Object Repository/Transfer/onboardSelectWallet_AccountType' is visible
+
+2023-07-06 12:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:13 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/onboardSelectWallet_AccountType' is visible
+
+2023-07-06 12:20:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Transfer/onboardSelectWallet_AccountType"), 0): Tapped on element 'Object Repository/Transfer/onboardSelectWallet_AccountType'
+
+2023-07-06 12:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/onboardSelectWallet_AccountType'
+
+2023-07-06 12:20:13 - [TEST_STEP][PASSED] - Last = getText(findTestObject("TextNo", ["No":"last()"]), 0): Text of element 'Object Repository/TextNo' is: 'Next'
+
+2023-07-06 12:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/TextNo' is: 'Next'
+
+2023-07-06 12:20:14 - [TEST_STEP][PASSED] - if (Last == "Continue"): null
+
+2023-07-06 12:20:14 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Next"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-06 12:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:15 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-06 12:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":"Next"]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:15 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:20:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617215744.png]]
+
+2023-07-06 12:20:16 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-07-06 12:20:23 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - takeScreenshot(): NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Next"), 0)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - delay(7): NOT_RUN: delay(7)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(7)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - takeScreenshot(): NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Got It"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Got It"), 0)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Got It"), 0)
+
+2023-07-06 12:20:23 - [TEST_STEP][NOT_RUN] - delay(7): NOT_RUN: delay(7)
+
+2023-07-06 12:20:23 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(7)
+
+2023-07-06 12:20:23 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/MAE UAT new app/SAM new app/android.widget.TextView - Skip'
+
+2023-07-06 12:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/SAM new app/android.widget.TextView - Skip'
+
+2023-07-06 12:20:23 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-07-06 12:20:30 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-07-06 12:20:30 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:20:31 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617230994.png]]
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Done"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Done"), 0)
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Done"), 0)
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Login Onboarding/onboardReferSkipBtn"), 0, OPTIONAL): NOT_RUN: tap(findTestObject("Login Onboarding/onboardReferSkipBtn"), 0, OPTIONAL)
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Login Onboarding/onboardReferSkipBtn"), 0, OPTIONAL)
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Login Onboarding/Main/mainDoneBtn"), 0): NOT_RUN: tap(findTestObject("Login Onboarding/Main/mainDoneBtn"), 0)
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Login Onboarding/Main/mainDoneBtn"), 0)
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - takeScreenshot(): NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - verifyEqual(getText(findTestObject("Object Repository/Dynamic Object/VerifyText", ["text":"Quick Actions"]), 0), "Quick Actions"): NOT_RUN: verifyEqual(getText(findTestObject("Object Repository/Dynamic Object/VerifyText", ["text":"Quick Actions"]), 0), "Quick Actions")
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(getText(findTestObject("Object Repository/Dynamic Object/VerifyText", ["text":"Quick Actions"]), 0), "Quick Actions")
+
+2023-07-06 12:20:31 - [TEST_STEP][NOT_RUN] - takeScreenshot(): NOT_RUN: takeScreenshot()
+
+2023-07-06 12:20:31 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Onboard/secure2u registration" time="41.425" classname="Test Cases/Login Onboard/secure2u registration" status="PASSED">
+         <system-out><![CDATA[2023-07-06 12:20:31 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/secure2u registration: Test Cases/Login Onboard/secure2u registration
+
+2023-07-06 12:20:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Secure2u"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u' is: 'Activate Secure2u'
+
+2023-07-06 12:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u' is: 'Activate Secure2u'
+
+2023-07-06 12:20:32 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Secure2u"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'
+
+2023-07-06 12:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'
+
+2023-07-06 12:20:32 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Now"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-06 12:20:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-06 12:20:33 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Now"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-06 12:20:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-06 12:20:34 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Confirm"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-06 12:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-06 12:20:35 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Confirm"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-06 12:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-06 12:20:36 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481"), 0): NOT_RUN: getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481"), 0)
+
+2023-07-06 12:20:36 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481"), 0)
+
+2023-07-06 12:20:36 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 683872'
+
+2023-07-06 12:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 683872'
+
+2023-07-06 12:20:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:20:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:20:40 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:40 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:40 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:41 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:41 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:43 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:43 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:45 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:45 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:47 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:47 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:49 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-06 12:20:49 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-06 12:20:51 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-06 12:20:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230706_121748/Mosaj S2U/20230706_121748/1688617251796.png]]
+
+2023-07-06 12:20:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-06 12:20:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-06 12:20:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-06 12:20:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-06 12:20:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-06 12:20:57 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Enter your ID number"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-06 12:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-06 12:20:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/s2u registration/android.widget.EditText - Your ID number"), "960829149762", 0): Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-06 12:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:20:59 - [MESSAGE][PASSED] - Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-06 12:20:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-06 12:21:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-06 12:21:00 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-06 12:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-06 12:21:01 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-06 12:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-06 12:21:02 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Device Name"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-06 12:21:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-06 12:21:04 - [TEST_STEP][PASSED] - getText(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-06 12:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-06 12:21:04 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-06 12:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-06 12:21:05 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Secure2u enabled"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-06 12:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-06 12:21:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-06 12:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-06 12:21:09 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-06 12:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-06 12:21:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Home"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-06 12:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-06 12:21:12 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-06 12:21:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-06 12:21:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-06 12:21:13 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2023-07-06 12:21:13 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-06 12:18:01 - [TEST_SUITE][PASSED] - Mosaj S2U: Test Cases/Login Onboard/secure2u registration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

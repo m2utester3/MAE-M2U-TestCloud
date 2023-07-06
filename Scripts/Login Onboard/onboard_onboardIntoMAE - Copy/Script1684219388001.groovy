@@ -18,7 +18,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //'Datafiles TestData, sheet test_data'
-Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
+Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
@@ -184,23 +184,23 @@ Mobile.takeScreenshot()
 
 WebUI.delay(7)
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Next'), 0)
 
-WebUI.delay(7)
+not_run: WebUI.delay(7)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Got It'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Got It'), 0)
 
-WebUI.delay(7)
+not_run: WebUI.delay(7)
 
 Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Skip'), 0)
 
@@ -208,7 +208,7 @@ WebUI.delay(7)
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Done'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Done'), 0)
 
 not_run: Mobile.tap(findTestObject('Login Onboarding/onboardReferSkipBtn'), 0, FailureHandling.OPTIONAL)
 
@@ -220,8 +220,8 @@ not_run: Mobile.delay(5)
 
 not_run: Mobile.takeScreenshot()
 
-Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Quick Actions']), 
+not_run: Mobile.verifyEqual(Mobile.getText(findTestObject('Object Repository/Dynamic Object/VerifyText', [('text') : 'Quick Actions']), 
         0), 'Quick Actions')
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 

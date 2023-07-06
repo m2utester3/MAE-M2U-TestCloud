@@ -17,146 +17,67 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: Mobile.startExistingApplication('com.maybank2u.life.uat')
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
-Mobile.takeScreenshot()
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Now'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Transfer'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Now'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
-Mobile.takeScreenshot()
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - 5623 6601 0806'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - 1'), 0)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.ImageView'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference'), 
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481'), 
     0)
 
-Mobile.setText(findTestObject('Object Repository/MAE new app Transfer/android.widget.EditText'), 'samuat06', 0)
+def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
+
+Mobile.delay(2)
+
+for (def i = 16; i <= 21; i++) {
+	def TapNo = OTP[i]
+
+	Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
+}
 
 Mobile.takeScreenshot()
+
+Mobile.delay(3)
+
+'Tick button'
+Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+
+WebUI.delay(2)
+
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Enter your ID number'), 0)
+
+Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget.EditText - Your ID number'), '960829149762', 
+    0)
 
 Mobile.hideKeyboard()
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Continue'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Continue'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
 
-Mobile.takeScreenshot()
+Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Transfer Now'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.takeScreenshot()
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Home'), 0)
 
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Share Receipt'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer'), 
-    0)
-
-Mobile.takeScreenshot()
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Successful'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.ImageView (1)'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Done'), 0)
-
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Done'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Hello,'), 0)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Object Repository/MAE new app Transfer/android.widget.ImageView (2)'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Maybank2u'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
-
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Secure2u'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Home'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Home'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Activate Now'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Confirm'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Confirm'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number'), 
-    0)
-
-not_run: Mobile.setText(findTestObject('Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number'), 
-    '960829143986', 0)
-
-not_run: Mobile.hideKeyboard()
-
-not_run: Mobile.getText(findTestObject('MAE new app Transfer/android.widget.TextView - Continue'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Continue'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAE UAT new app/android.widget.TextView - Done'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Done'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAE new app Transfer/android.widget.TextView - Continue'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Continue'), 0)
-
-not_run: Mobile.getText(findTestObject('MAE new app Transfer/android.widget.TextView - Transfer'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - Transfer'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK'), 0)
-
-not_run: Mobile.tap(findTestObject('MAE new app Transfer/android.widget.TextView - MAYBANK'), 0)
-
-not_run: Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Account number'), 
-    0)
-
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

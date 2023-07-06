@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mosaj S2U,,,,2023-07-06 12:09:08,2023-07-06 12:12:19,3m - 10.642s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy,,,,2023-07-06 12:09:09,2023-07-06 12:11:44,2m - 35.278s,PASSED
+"startApplication(""/Users/APK/uat-universal-release.apk"", false)",,,,2023-07-06 12:09:10,2023-07-06 12:09:31,20.545s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/onboardWelcomeSkipBtn""), 10, OPTIONAL))",,,,2023-07-06 12:09:31,2023-07-06 12:09:42,11.360s,PASSED
+"else if (verifyElementExist(findTestObject(""Text"", [""Verify"":""Your enhanced experience
+is here.""]), 10, OPTIONAL))",,,,2023-07-06 12:09:42,2023-07-06 12:09:46,3.920s,PASSED
+"if (verifyElementExist(findTestObject(""Dashboard/dashboardSetUpWalletIcon""), 10, OPTIONAL))",,,,2023-07-06 12:09:46,2023-07-06 12:09:56,10.289s,PASSED
+else,,,,2023-07-06 12:09:56,2023-07-06 12:09:57,0.360s,PASSED
+takeScreenshot(),,,,2023-07-06 12:09:57,2023-07-06 12:09:57,0.677s,PASSED
+"tap(findTestObject(""Login Onboarding/getStartedExistingUserBtn""), 0)",,,,2023-07-06 12:09:57,2023-07-06 12:09:58,1.021s,PASSED
+"setText(findTestObject(""Login Onboarding/loginExistingUsernameInputField""), ""samuat05"", 0)",,,,2023-07-06 12:09:58,2023-07-06 12:10:01,2.226s,PASSED
+hideKeyboard(),,,,2023-07-06 12:10:01,2023-07-06 12:10:02,1.417s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:02,2023-07-06 12:10:02,0.359s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2023-07-06 12:10:02,2023-07-06 12:10:03,0.320s,PASSED
+"waitForElementPresent(findTestObject(""Login Onboarding/loginExistingMineConfirmationBtn""), 50)",,,,2023-07-06 12:10:03,2023-07-06 12:10:05,1.903s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:05,2023-07-06 12:10:05,0.379s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingMineConfirmationBtn""), 0)",,,,2023-07-06 12:10:05,2023-07-06 12:10:05,0.305s,PASSED
+"setText(findTestObject(""Login Onboarding/loginPasswordInputField""), ""Maybank@1"", 0)",,,,2023-07-06 12:10:05,2023-07-06 12:10:07,1.938s,PASSED
+hideKeyboard(),,,,2023-07-06 12:10:07,2023-07-06 12:10:09,1.304s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:09,2023-07-06 12:10:09,0.369s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2023-07-06 12:10:09,2023-07-06 12:10:09,0.398s,PASSED
+delay(5),,,,2023-07-06 12:10:09,2023-07-06 12:10:14,5.056s,PASSED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/Proceed""), 3, OPTIONAL))",,,,2023-07-06 12:10:14,2023-07-06 12:10:18,3.167s,PASSED
+"pinNO = findTestData(""test_data"").getValue(11, 1)",,,,2023-07-06 12:10:18,2023-07-06 12:10:19,1.771s,PASSED
+length = pinNO.length(),,,,2023-07-06 12:10:19,2023-07-06 12:10:19,0.003s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2023-07-06 12:10:19,2023-07-06 12:10:28,9.041s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:28,2023-07-06 12:10:29,0.476s,PASSED
+"tap(findTestObject(""Object Repository/Dynamic Object/Tap Image Following 2"", [""text"":""0""]), 0)",,Tick button,,2023-07-06 12:10:29,2023-07-06 12:10:31,2.187s,PASSED
+delay(2),,,,2023-07-06 12:10:31,2023-07-06 12:10:33,2.006s,PASSED
+"pinNO = findTestData(""test_data"").getValue(11, 1)",,,,2023-07-06 12:10:33,2023-07-06 12:10:34,0.628s,PASSED
+length = pinNO.length(),,,,2023-07-06 12:10:34,2023-07-06 12:10:34,0.003s,PASSED
+"for ([i = 0, i < length, (i++)])",,,,2023-07-06 12:10:34,2023-07-06 12:10:45,11.236s,PASSED
+delay(2),,,,2023-07-06 12:10:45,2023-07-06 12:10:47,2.007s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:47,2023-07-06 12:10:47,0.399s,PASSED
+"tap(findTestObject(""Object Repository/Dynamic Object/Tap Image Following 2"", [""text"":""0""]), 0)",,Tick button,,2023-07-06 12:10:47,2023-07-06 12:10:48,0.365s,PASSED
+delay(2),,,,2023-07-06 12:10:48,2023-07-06 12:10:50,2.007s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:50,2023-07-06 12:10:50,0.405s,PASSED
+"tap(findTestObject(""Login Onboarding/loginTouchIDSetUpLaterBtn""), 0)",,,,2023-07-06 12:10:50,2023-07-06 12:10:50,0.312s,PASSED
+delay(2),,,,2023-07-06 12:10:50,2023-07-06 12:10:52,2.008s,PASSED
+takeScreenshot(),,,,2023-07-06 12:10:52,2023-07-06 12:10:53,0.383s,PASSED
+"tap(findTestObject(""Login Onboarding/loginVerifyNumberYesProceedBtn""), 0)",,,,2023-07-06 12:10:53,2023-07-06 12:10:53,0.273s,PASSED
+"OTP = getText(findTestObject(""Object Repository/Login Onboarding/Your OTP no. is 2""), 0)",,,,2023-07-06 12:10:53,2023-07-06 12:10:56,3.053s,PASSED
+delay(2),,,,2023-07-06 12:10:56,2023-07-06 12:10:58,2.008s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2023-07-06 12:10:58,2023-07-06 12:11:10,12.017s,PASSED
+takeScreenshot(),,,,2023-07-06 12:11:10,2023-07-06 12:11:11,0.512s,PASSED
+delay(3),,,,2023-07-06 12:11:11,2023-07-06 12:11:14,3.007s,PASSED
+"tap(findTestObject(""Object Repository/Dynamic Object/Tap Image Following 2"", [""text"":""0""]), 0)",,Tick button,,2023-07-06 12:11:14,2023-07-06 12:11:14,0.569s,PASSED
+"waitForElementPresent(findTestObject(""Login Onboarding/onboardNameInputField""), 0)",,,,2023-07-06 12:11:14,2023-07-06 12:11:19,4.817s,PASSED
+"setText(findTestObject(""Login Onboarding/onboardNameInputField""), findTestData(""test_data"").getValue(3, 21), 0)",,,,2023-07-06 12:11:19,2023-07-06 12:11:21,1.639s,PASSED
+hideKeyboard(),,,,2023-07-06 12:11:21,2023-07-06 12:11:21,0.554s,PASSED
+delay(2),,,,2023-07-06 12:11:21,2023-07-06 12:11:23,2.006s,PASSED
+takeScreenshot(),,,,2023-07-06 12:11:23,2023-07-06 12:11:24,0.371s,PASSED
+"tap(findTestObject(""Login Onboarding/loginExistingContinueBtn""), 0)",,,,2023-07-06 12:11:24,2023-07-06 12:11:24,0.335s,PASSED
+delay(2),,,,2023-07-06 12:11:24,2023-07-06 12:11:26,2.004s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Transfer/onboardSelectWallet_AccountType""), 0)",,,,2023-07-06 12:11:26,2023-07-06 12:11:26,0.252s,PASSED
+"tap(findTestObject(""Object Repository/Transfer/onboardSelectWallet_AccountType""), 0)",,,,2023-07-06 12:11:26,2023-07-06 12:11:26,0.260s,PASSED
+"Last = getText(findTestObject(""TextNo"", [""No"":""last()""]), 0)",,,,2023-07-06 12:11:26,2023-07-06 12:11:28,1.042s,PASSED
+"if (Last == ""Continue"")",,,,2023-07-06 12:11:28,2023-07-06 12:11:28,0.002s,PASSED
+else,,,,2023-07-06 12:11:28,2023-07-06 12:11:28,0.543s,PASSED
+takeScreenshot(),,,,2023-07-06 12:11:28,2023-07-06 12:11:29,1.008s,PASSED
+delay(7),,,,2023-07-06 12:11:29,2023-07-06 12:11:36,7.061s,PASSED
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Next""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.003s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Next""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Next""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+takeScreenshot(),,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Next""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+delay(7),,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.005s,NOT_RUN
+takeScreenshot(),,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Got It""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+delay(7),,,,2023-07-06 12:11:36,2023-07-06 12:11:36,0.001s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Skip""), 0)",,,,2023-07-06 12:11:36,2023-07-06 12:11:37,0.346s,PASSED
+delay(7),,,,2023-07-06 12:11:37,2023-07-06 12:11:44,7.009s,PASSED
+takeScreenshot(),,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.733s,PASSED
+"tap(findTestObject(""MAE UAT new app/SAM new app/android.widget.TextView - Done""), 0)",,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.001s,NOT_RUN
+"tap(findTestObject(""Login Onboarding/onboardReferSkipBtn""), 0, OPTIONAL)",,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.002s,NOT_RUN
+delay(2),,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.001s,NOT_RUN
+"tap(findTestObject(""Login Onboarding/Main/mainDoneBtn""), 0)",,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.001s,NOT_RUN
+delay(5),,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.001s,NOT_RUN
+takeScreenshot(),,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.000s,NOT_RUN
+"verifyEqual(getText(findTestObject(""Object Repository/Dynamic Object/VerifyText"", [""text"":""Quick Actions""]), 0), ""Quick Actions"")",,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.001s,NOT_RUN
+takeScreenshot(),,,,2023-07-06 12:11:44,2023-07-06 12:11:44,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/Login Onboard/secure2u registration,,,,2023-07-06 12:11:44,2023-07-06 12:12:19,34.805s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Activate Secure2u""), 0)",,,,2023-07-06 12:11:45,2023-07-06 12:11:45,0.219s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Activate Secure2u""), 0)",,,,2023-07-06 12:11:45,2023-07-06 12:11:45,0.321s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-06 12:11:45,2023-07-06 12:11:46,1.080s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-06 12:11:46,2023-07-06 12:11:47,0.270s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Confirm""), 0)",,,,2023-07-06 12:11:47,2023-07-06 12:11:49,2.049s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Confirm""), 0)",,,,2023-07-06 12:11:49,2023-07-06 12:11:49,0.265s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Your OTP no. is 303481""), 0)",,,,2023-07-06 12:11:49,2023-07-06 12:11:49,0.004s,NOT_RUN
+delay(15),,,,2023-07-06 12:11:49,2023-07-06 12:12:04,15.009s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Enter your ID number""), 0)",,,,2023-07-06 12:12:04,2023-07-06 12:12:04,0.276s,PASSED
+"setText(findTestObject(""Object Repository/s2u registration/android.widget.EditText - Your ID number""), ""960829149762"", 0)",,,,2023-07-06 12:12:04,2023-07-06 12:12:06,1.597s,PASSED
+hideKeyboard(),,,,2023-07-06 12:12:06,2023-07-06 12:12:07,1.393s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Continue""), 0)",,,,2023-07-06 12:12:07,2023-07-06 12:12:08,0.270s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue""), 0)",,,,2023-07-06 12:12:08,2023-07-06 12:12:08,0.256s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Device Name""), 0)",,,,2023-07-06 12:12:08,2023-07-06 12:12:11,2.756s,PASSED
+"getText(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-06 12:12:11,2023-07-06 12:12:11,0.240s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-06 12:12:11,2023-07-06 12:12:11,0.255s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Secure2u enabled""), 0)",,,,2023-07-06 12:12:11,2023-07-06 12:12:15,4.204s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-06 12:12:15,2023-07-06 12:12:16,0.178s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-06 12:12:16,2023-07-06 12:12:16,0.270s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Home""), 0)",,,,2023-07-06 12:12:16,2023-07-06 12:12:17,1.491s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Home""), 0)",,,,2023-07-06 12:12:17,2023-07-06 12:12:19,1.809s,PASSED
+closeApplication(),,,,2023-07-06 12:12:19,2023-07-06 12:12:19,0.001s,NOT_RUN
