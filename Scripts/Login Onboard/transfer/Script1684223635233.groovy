@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: Mobile.startExistingApplication('com.maybank2u.life.uat')
+Mobile.startExistingApplication('com.maybank2u.life.uat')
 
 Mobile.getText(findTestObject('Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'), 0)
 

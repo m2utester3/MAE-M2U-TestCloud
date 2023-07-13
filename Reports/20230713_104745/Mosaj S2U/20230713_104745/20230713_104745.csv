@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mosaj S2U,,,,2023-07-13 10:48:08,2023-07-13 10:48:22,14.170s,FAILED
+,,,,,,,
+Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy,,,,2023-07-13 10:48:08,2023-07-13 10:48:21,12.286s,FAILED
+unlockScreen(),,,,2023-07-13 10:48:10,2023-07-13 10:48:10,0.005s,NOT_RUN
+"startApplication(""/Users/APK/uat-universal-release.apk"", false)",,,,2023-07-13 10:48:10,2023-07-13 10:48:20,10.665s,FAILED
+"if (verifyElementVisible(findTestObject(""Login Onboarding/onboardWelcomeSkipBtn""), 10, OPTIONAL))",,,,2023-07-13 10:48:20,2023-07-13 10:48:21,0.289s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/secure2u registration,,,,2023-07-13 10:48:21,2023-07-13 10:48:22,1.030s,FAILED
+"startApplication(""/Users/APK/uat-universal-release.apk"", false)",,,,2023-07-13 10:48:21,2023-07-13 10:48:21,0.003s,NOT_RUN
+"startExistingApplication(""com.maybank2u.life"")",,,,2023-07-13 10:48:21,2023-07-13 10:48:21,0.002s,NOT_RUN
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Activate Secure2u""), 0)",,,,2023-07-13 10:48:21,2023-07-13 10:48:22,0.275s,PASSED

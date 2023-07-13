@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "C1214B639A2A3BE4E41C8E97BF42245C",
+  "keywordClasses": [
+    {
+      "name": "customKeyword.ChangeAndroidPasscode",
+      "keywordMethods": [
+        {
+          "name": "createPasscode",
+          "parameters": [
+            {
+              "name": "appId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Create passcode for the device. This keyword should be called if the device doesn\u0027t have any lock settings\n\t */"
+        },
+        {
+          "name": "getCurrentSessionMobileDriver",
+          "parameters": [],
+          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

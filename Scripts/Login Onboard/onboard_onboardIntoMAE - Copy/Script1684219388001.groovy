@@ -16,9 +16,15 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 //'Datafiles TestData, sheet test_data'
-Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
+not_run: Mobile.unlockScreen()
+
+Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
+
+//CustomKeywords.'customKeyword.ChangeAndroidPasscode.createPasscode'('')
+CustomKeywords.'customKeyword.ChangeAndroidPasscode.createPasscode'('io.appium.android.apis')
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
