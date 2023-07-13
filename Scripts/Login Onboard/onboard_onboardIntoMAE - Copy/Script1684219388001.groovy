@@ -59,13 +59,13 @@ if (Mobile.verifyElementExist(findTestObject('Dashboard/dashboardSetUpWalletIcon
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/getStartedExistingUserBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/getStartedExistingUserBtn'), 0)
 
-Mobile.setText(findTestObject('Login Onboarding/loginExistingUsernameInputField'), 'samuat05', 0)
+not_run: Mobile.setText(findTestObject('Login Onboarding/loginExistingUsernameInputField'), 'samuat05', 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
 not_run: Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
