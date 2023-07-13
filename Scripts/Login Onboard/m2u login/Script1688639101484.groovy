@@ -27,12 +27,12 @@ WebUI.delay(15)
 
 WebUI.takeScreenshot()
 
-not_run: WebUI.setText(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
+WebUI.setText(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
     'tunnel')
 
-not_run: WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'))
+WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'))
 
-not_run: WebUI.takeScreenshot()
+WebUI.takeScreenshot()
 
 not_run: WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
 

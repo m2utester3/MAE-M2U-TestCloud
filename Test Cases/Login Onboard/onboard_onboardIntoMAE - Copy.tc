@@ -5,24 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>64883971-e8e2-497a-b856-0780f50adaba</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>56dff825-072f-4e07-ab81-8821f013d012</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>2cf38218-346f-451c-aacf-b063ad944327</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>973f4c41-85a5-4299-b258-db3a8d4a6c0e</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'Trinity_60'</defaultValue>
       <description></description>

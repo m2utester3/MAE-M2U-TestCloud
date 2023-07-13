@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mosaj S2U" time="564.622" tests="3" failures="1" errors="0">
+   <testsuite name="Mosaj S2U" tests="3" failures="1" errors="0" time="564.622" skipped="0" timestamp="2023-07-14 00:36:33" hostname="mosaj - localhost" id="Test Suites/Mosaj S2U">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620"/>
+         <property name="logFiles" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/execution0.log, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/appium.log"/>
+         <property name="attachments" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266229188.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266231578.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266243363.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266248670.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266251013.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266255062.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266275534.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266291087.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266294139.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266296872.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266311703.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266322666.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266327471.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266342964.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266344470.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266346559.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266557964.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266561154.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266574183.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266582822.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266585896.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266590355.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266599837.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266618929.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266680945.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266736495.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266740728.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266742890.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266746395.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266750374.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266753526.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266755446.png"/>
+         <property name="hostName" value="mosaj - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR704KXSR"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy" time="149.72" classname="Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy" status="PASSED">
+         <system-out><![CDATA[2023-07-14 00:36:34 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy: Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy
+
+2023-07-14 00:36:35 - [TEST_STEP][PASSED] - startApplication("/Users/APK/app-uat-universal-release.apk", false): Started app at: '/Users/APK/app-uat-universal-release.apk'
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['unlockType', 'pattern']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['unlockKey', '2458']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-14 00:36:35 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-07-14 00:36:39 - [MESSAGE][INFO] - Appium server started on port 60,655
+
+2023-07-14 00:36:58 - [MESSAGE][PASSED] - Started app at: '/Users/APK/app-uat-universal-release.apk'
+
+2023-07-14 00:36:58 - [TEST_STEP][NOT_RUN] - customKeyword.ChangeAndroidPasscode.createPasscode("io.appium.android.apis"): NOT_RUN: customKeyword.ChangeAndroidPasscode.createPasscode("io.appium.android.apis")
+
+2023-07-14 00:36:58 - [MESSAGE][NOT_RUN] - NOT_RUN: customKeyword.ChangeAndroidPasscode.createPasscode("io.appium.android.apis")
+
+2023-07-14 00:36:58 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/onboardWelcomeSkipBtn"), 10, OPTIONAL)): Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:08 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/onboardWelcomeSkipBtn' not found
+
+2023-07-14 00:37:08 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:08 - [TEST_STEP][PASSED] - else if (verifyElementExist(findTestObject("Text", ["Verify":"Your enhanced experience
+is here."]), 10, OPTIONAL)): Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-14 00:37:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Next"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:09 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:09 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266229188.png]]
+
+2023-07-14 00:37:10 - [TEST_STEP][PASSED] - tap(findTestObject("ImageNo", ["No":2]), 0): Tapped on element 'Object Repository/ImageNo'
+
+2023-07-14 00:37:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ImageNo'
+
+2023-07-14 00:37:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Agree"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:11 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-14 00:37:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266231578.png]]
+
+2023-07-14 00:37:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/onboardTNCAgreeBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-14 00:37:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/onboardTNCAgreeBtn'
+
+2023-07-14 00:37:12 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("Dashboard/dashboardSetUpWalletIcon"), 10, OPTIONAL)): Element 'Object Repository/Dashboard/dashboardSetUpWalletIcon' not found
+
+2023-07-14 00:37:22 - [MESSAGE][WARNING] - Element 'Object Repository/Dashboard/dashboardSetUpWalletIcon' not found
+
+2023-07-14 00:37:22 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:22 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":"Log In Now"]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:23 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266243363.png]]
+
+2023-07-14 00:37:24 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/getStartedExistingUserBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2023-07-14 00:37:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/getStartedExistingUserBtn'
+
+2023-07-14 00:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginExistingUsernameInputField"), "samuat05", 0): Text 'samuat05' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2023-07-14 00:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:27 - [MESSAGE][PASSED] - Text 'samuat05' has been set to element 'Object Repository/Login Onboarding/loginExistingUsernameInputField'
+
+2023-07-14 00:37:27 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 00:37:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 00:37:28 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266248670.png]]
+
+2023-07-14 00:37:29 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:37:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:37:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 50): Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2023-07-14 00:37:31 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn' is present
+
+2023-07-14 00:37:31 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:31 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266251013.png]]
+
+2023-07-14 00:37:31 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingMineConfirmationBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2023-07-14 00:37:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingMineConfirmationBtn'
+
+2023-07-14 00:37:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/loginPasswordInputField"), "Maybank@1", 0): Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2023-07-14 00:37:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:33 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/Login Onboarding/loginPasswordInputField'
+
+2023-07-14 00:37:33 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 00:37:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 00:37:35 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266255062.png]]
+
+2023-07-14 00:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:37:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-14 00:37:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-14 00:37:40 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Login Onboarding/Proceed"), 3, OPTIONAL)): Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2023-07-14 00:37:44 - [MESSAGE][WARNING] - Element 'Object Repository/Login Onboarding/Proceed' not found
+
+2023-07-14 00:37:44 - [TEST_STEP][PASSED] - pinNO = findTestData("test_data").getValue(11, 1): null
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - length = pinNO.length(): null
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:46 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:48 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:48 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:50 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:50 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:52 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:52 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:53 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:37:53 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:37:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:37:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266275534.png]]
+
+2023-07-14 00:37:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:37:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:37:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:37:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:37:59 - [TEST_STEP][PASSED] - pinNO = findTestData("test_data").getValue(11, 1): null
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - length = pinNO.length(): null
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:00 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:02 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:02 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:03 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:03 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:05 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:05 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:07 - [TEST_STEP][PASSED] - TapNo = pinNO[i]: null
+
+2023-07-14 00:38:07 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266291087.png]]
+
+2023-07-14 00:38:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:38:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:14 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266294139.png]]
+
+2023-07-14 00:38:14 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginTouchIDSetUpLaterBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2023-07-14 00:38:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginTouchIDSetUpLaterBtn'
+
+2023-07-14 00:38:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:16 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:17 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266296872.png]]
+
+2023-07-14 00:38:17 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginVerifyNumberYesProceedBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2023-07-14 00:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginVerifyNumberYesProceedBtn'
+
+2023-07-14 00:38:17 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 450019'
+
+2023-07-14 00:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:19 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 450019'
+
+2023-07-14 00:38:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:21 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:21 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:21 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:22 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:22 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:23 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:23 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:25 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:25 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:27 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:27 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:29 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:38:29 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:31 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266311703.png]]
+
+2023-07-14 00:38:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:38:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:38:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:38:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Onboarding/onboardNameInputField"), 0): Element 'Object Repository/Login Onboarding/onboardNameInputField' is present
+
+2023-07-14 00:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:38 - [MESSAGE][PASSED] - Element 'Object Repository/Login Onboarding/onboardNameInputField' is present
+
+2023-07-14 00:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login Onboarding/onboardNameInputField"), findTestData("test_data").getValue(3, 21), 0): Text 'Sam Test' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2023-07-14 00:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:40 - [MESSAGE][PASSED] - Text 'Sam Test' has been set to element 'Object Repository/Login Onboarding/onboardNameInputField'
+
+2023-07-14 00:38:40 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 00:38:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 00:38:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266322666.png]]
+
+2023-07-14 00:38:43 - [TEST_STEP][PASSED] - tap(findTestObject("Login Onboarding/loginExistingContinueBtn"), 0): Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:38:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login Onboarding/loginExistingContinueBtn'
+
+2023-07-14 00:38:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:38:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:38:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Transfer/onboardSelectWallet_AccountType"), 0): Element 'Object Repository/Transfer/onboardSelectWallet_AccountType' is visible
+
+2023-07-14 00:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:45 - [MESSAGE][PASSED] - Element 'Object Repository/Transfer/onboardSelectWallet_AccountType' is visible
+
+2023-07-14 00:38:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Transfer/onboardSelectWallet_AccountType"), 0): Tapped on element 'Object Repository/Transfer/onboardSelectWallet_AccountType'
+
+2023-07-14 00:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/onboardSelectWallet_AccountType'
+
+2023-07-14 00:38:45 - [TEST_STEP][PASSED] - Last = getText(findTestObject("TextNo", ["No":"last()"]), 0): Text of element 'Object Repository/TextNo' is: 'Next'
+
+2023-07-14 00:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/TextNo' is: 'Next'
+
+2023-07-14 00:38:46 - [TEST_STEP][PASSED] - if (Last == "Continue"): null
+
+2023-07-14 00:38:46 - [TEST_STEP][PASSED] - else: Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Text", ["Verify":"Next"]), 0): Element 'Object Repository/Text' is exist
+
+2023-07-14 00:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:47 - [MESSAGE][PASSED] - Element 'Object Repository/Text' is exist
+
+2023-07-14 00:38:47 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":"Next"]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:38:47 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:38:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266327471.png]]
+
+2023-07-14 00:38:48 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-07-14 00:38:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-07-14 00:38:55 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/SAM new app/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/MAE UAT new app/SAM new app/android.widget.TextView - Skip'
+
+2023-07-14 00:38:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:38:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/SAM new app/android.widget.TextView - Skip'
+
+2023-07-14 00:38:55 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-07-14 00:39:02 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-07-14 00:39:02 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:39:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266342964.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Onboard/secure2u registration" time="257.092" classname="Test Cases/Login Onboard/secure2u registration" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Onboard/secure2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2023-07-14 00:39:03 - [TEST_CASE][FAILED] - Test Cases/Login Onboard/secure2u registration: Test Cases/Login Onboard/secure2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2023-07-14 00:39:04 - [TEST_STEP][NOT_RUN] - startApplication("/Users/APK/uat-universal-release.apk", false): NOT_RUN: startApplication("/Users/APK/uat-universal-release.apk", false)
+
+2023-07-14 00:39:04 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication("/Users/APK/uat-universal-release.apk", false)
+
+2023-07-14 00:39:04 - [TEST_STEP][NOT_RUN] - startExistingApplication("com.maybank2u.life"): NOT_RUN: startExistingApplication("com.maybank2u.life")
+
+2023-07-14 00:39:04 - [MESSAGE][NOT_RUN] - NOT_RUN: startExistingApplication("com.maybank2u.life")
+
+2023-07-14 00:39:04 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Secure2u"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u' is: 'Activate Secure2u'
+
+2023-07-14 00:39:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u' is: 'Activate Secure2u'
+
+2023-07-14 00:39:04 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:39:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266344470.png]]
+
+2023-07-14 00:39:05 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Secure2u"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'
+
+2023-07-14 00:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'
+
+2023-07-14 00:39:05 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Now"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-14 00:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-14 00:39:06 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:39:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266346559.png]]
+
+2023-07-14 00:39:06 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Now"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-14 00:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-14 00:39:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:39:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:39:09 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Login Onboard/cloud device PIN registration"), [:], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2023-07-14 00:39:09 - [TEST_CASE][FAILED] - Test Cases/Login Onboard/cloud device PIN registration: Test Cases/Login Onboard/cloud device PIN registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+
+
+2023-07-14 00:39:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Proceed"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed' is: 'Proceed'
+
+2023-07-14 00:39:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed' is: 'Proceed'
+
+2023-07-14 00:39:09 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Proceed"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'
+
+2023-07-14 00:39:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:39:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'
+
+2023-07-14 00:39:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:39:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:39:13 - [TEST_STEP][PASSED] - swipe(550, 2000, 550, 1000): Swiped from 550,2,000 to 550,1,000
+
+2023-07-14 00:39:14 - [MESSAGE][PASSED] - Swiped from 550,2,000 to 550,1,000
+
+2023-07-14 00:39:14 - [TEST_STEP][FAILED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen"), 0): Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+
+2023-07-14 00:39:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:40:34 - [MESSAGE][FAILED] - Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+
+2023-07-14 00:40:34 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Lock screen"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'
+
+2023-07-14 00:40:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'
+
+2023-07-14 00:41:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:41:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:41:38 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type' is: 'Screen lock type'
+
+2023-07-14 00:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type' is: 'Screen lock type'
+
+2023-07-14 00:41:39 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Screen lock type"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'
+
+2023-07-14 00:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'
+
+2023-07-14 00:41:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:41:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:41:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN' is: 'PIN'
+
+2023-07-14 00:41:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN' is: 'PIN'
+
+2023-07-14 00:41:42 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - PIN"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN'
+
+2023-07-14 00:41:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN'
+
+2023-07-14 00:41:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:41:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:41:45 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-14 00:41:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-14 00:41:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:41:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:41:49 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:41:50 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:41:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:41:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:41:51 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:41:52 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:41:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:41:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:41:53 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:41:54 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:41:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:41:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:41:55 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:41:56 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:41:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:41:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:41:59 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.Button - Continue"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue' is: 'Continue'
+
+2023-07-14 00:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:41:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue' is: 'Continue'
+
+2023-07-14 00:41:59 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.Button - Continue"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue'
+
+2023-07-14 00:42:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue'
+
+2023-07-14 00:42:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-14 00:42:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-14 00:42:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:06 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:42:07 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:42:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:42:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:42:08 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:42:09 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:42:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:42:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:42:10 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:42:11 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:42:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-14 00:42:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-14 00:42:12 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-14 00:42:13 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-14 00:42:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:16 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.Button - OK"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - OK' is: 'OK'
+
+2023-07-14 00:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:16 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - OK' is: 'OK'
+
+2023-07-14 00:42:16 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - OK'
+
+2023-07-14 00:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - OK'
+
+2023-07-14 00:42:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:19 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-14 00:42:20 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-14 00:42:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-14 00:42:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-14 00:42:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-14 00:42:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-14 00:42:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-14 00:42:30 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-14 00:42:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:33 - [TEST_STEP][PASSED] - getText(findTestObject("cloud device PIN registration/android.widget.TextView - Activate Now"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-14 00:42:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-14 00:42:36 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Activate Now"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now'
+
+2023-07-14 00:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now'
+
+2023-07-14 00:42:36 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2023-07-14 00:42:36 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Confirm"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-14 00:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-14 00:42:37 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:42:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266557964.png]]
+
+2023-07-14 00:42:38 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Confirm"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-14 00:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-14 00:42:38 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 632280'
+
+2023-07-14 00:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 632280'
+
+2023-07-14 00:42:41 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:42:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266561154.png]]
+
+2023-07-14 00:42:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:42:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:42:43 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:43 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:43 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:44 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:44 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:46 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:46 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:48 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:48 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:50 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:50 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:52 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-14 00:42:52 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-14 00:42:54 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:42:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266574183.png]]
+
+2023-07-14 00:42:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-14 00:42:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-14 00:42:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:42:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:42:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-14 00:42:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-14 00:43:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-14 00:43:00 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Enter your ID number"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-14 00:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:00 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-14 00:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/s2u registration/android.widget.EditText - Your ID number"), "960829149762", 0): Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-14 00:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:01 - [MESSAGE][PASSED] - Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-14 00:43:01 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 00:43:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 00:43:02 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:43:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266582822.png]]
+
+2023-07-14 00:43:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-14 00:43:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-14 00:43:03 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-14 00:43:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-14 00:43:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Device Name"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-14 00:43:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:05 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-14 00:43:05 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:43:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266585896.png]]
+
+2023-07-14 00:43:06 - [TEST_STEP][PASSED] - getText(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-14 00:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-14 00:43:06 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-14 00:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-14 00:43:06 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Secure2u enabled"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-14 00:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-14 00:43:10 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:43:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266590355.png]]
+
+2023-07-14 00:43:11 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-14 00:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-14 00:43:11 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-14 00:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-14 00:43:11 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Home"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-14 00:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-14 00:43:14 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-14 00:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-14 00:43:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-14 00:43:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-14 00:43:19 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:43:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266599837.png]]
+
+2023-07-14 00:43:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-14 00:43:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2023-07-14 00:39:03 - [TEST_CASE][FAILED] - Test Cases/Login Onboard/secure2u registration: Test Cases/Login Onboard/secure2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Onboard/transfer" time="157.069" classname="Test Cases/Login Onboard/transfer" status="PASSED">
+         <system-out><![CDATA[2023-07-14 00:43:20 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/transfer: Test Cases/Login Onboard/transfer
+
+2023-07-14 00:43:21 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['unlockType', 'pattern']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['unlockKey', '2458']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-14 00:43:21 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-07-14 00:43:25 - [MESSAGE][INFO] - Appium server started on port 61,338
+
+2023-07-14 00:43:33 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2023-07-14 00:43:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer' is: 'Transfer'
+
+2023-07-14 00:43:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer' is: 'Transfer'
+
+2023-07-14 00:43:38 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:43:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266618929.png]]
+
+2023-07-14 00:43:39 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'
+
+2023-07-14 00:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:43:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'
+
+2023-07-14 00:43:39 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806' is: '5623 6601 0785'
+
+2023-07-14 00:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:44:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806' is: '5623 6601 0785'
+
+2023-07-14 00:44:40 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:44:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266680945.png]]
+
+2023-07-14 00:44:41 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - 5623 6601 0806"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806'
+
+2023-07-14 00:44:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806'
+
+2023-07-14 00:45:33 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount' is: 'Enter amount'
+
+2023-07-14 00:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount' is: 'Enter amount'
+
+2023-07-14 00:45:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 1'
+
+2023-07-14 00:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 1'
+
+2023-07-14 00:45:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266736495.png]]
+
+2023-07-14 00:45:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView'
+
+2023-07-14 00:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView'
+
+2023-07-14 00:45:37 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference' is: 'Enter recipient reference'
+
+2023-07-14 00:45:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference' is: 'Enter recipient reference'
+
+2023-07-14 00:45:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText"), "samuat06", 0): Text 'samuat06' has been set to element 'Object Repository/MAE new app Transfer/android.widget.EditText'
+
+2023-07-14 00:45:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:40 - [MESSAGE][PASSED] - Text 'samuat06' has been set to element 'Object Repository/MAE new app Transfer/android.widget.EditText'
+
+2023-07-14 00:45:40 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266740728.png]]
+
+2023-07-14 00:45:41 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-14 00:45:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-14 00:45:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-14 00:45:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-14 00:45:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266742890.png]]
+
+2023-07-14 00:45:43 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue'
+
+2023-07-14 00:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue'
+
+2023-07-14 00:45:43 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation' is: 'Confirmation'
+
+2023-07-14 00:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation' is: 'Confirmation'
+
+2023-07-14 00:45:46 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now' is: 'Transfer Now'
+
+2023-07-14 00:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now' is: 'Transfer Now'
+
+2023-07-14 00:45:46 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:46 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266746395.png]]
+
+2023-07-14 00:45:46 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer Now"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now'
+
+2023-07-14 00:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now'
+
+2023-07-14 00:45:47 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful' is: 'Transfer successful'
+
+2023-07-14 00:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful' is: 'Transfer successful'
+
+2023-07-14 00:45:50 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt' is: 'Share Receipt'
+
+2023-07-14 00:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt' is: 'Share Receipt'
+
+2023-07-14 00:45:50 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266750374.png]]
+
+2023-07-14 00:45:50 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Share Receipt"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt'
+
+2023-07-14 00:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt'
+
+2023-07-14 00:45:51 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer' is: 'Own Account Transfer'
+
+2023-07-14 00:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer' is: 'Own Account Transfer'
+
+2023-07-14 00:45:53 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Successful"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Successful' is: 'Successful'
+
+2023-07-14 00:45:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Successful' is: 'Successful'
+
+2023-07-14 00:45:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266753526.png]]
+
+2023-07-14 00:45:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView (1)'
+
+2023-07-14 00:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView (1)'
+
+2023-07-14 00:45:54 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Done"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done' is: 'Done'
+
+2023-07-14 00:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done' is: 'Done'
+
+2023-07-14 00:45:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-14 00:45:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230714_003620/Mosaj S2U/20230714_003620/1689266755446.png]]
+
+2023-07-14 00:45:55 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Done"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done'
+
+2023-07-14 00:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done'
+
+2023-07-14 00:45:56 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Hello,"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-14 00:45:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '80'
+
+2023-07-14 00:45:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0): NOT_RUN: tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0): NOT_RUN: setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - hideKeyboard(): NOT_RUN: hideKeyboard()
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard()
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0): NOT_RUN: getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0)
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0)
+
+2023-07-14 00:45:57 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2023-07-14 00:45:57 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-14 00:36:33 - [TEST_SUITE][FAILED] - Mosaj S2U: Test Cases/Login Onboard/secure2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2023-07-14 00:36:33 - [TEST_SUITE][FAILED] - Mosaj S2U: Test Cases/Login Onboard/secure2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at secure2u registration.run(secure2u registration:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689266180571.run(TempTestSuite1689266180571.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:1274)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$8.call(Unknown Source)
+	at cloud device PIN registration.run(cloud device PIN registration:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

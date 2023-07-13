@@ -40,6 +40,10 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Now'), 0)
 
+Mobile.delay(2)
+
+WebUI.callTestCase(findTestCase('Login Onboard/cloud device PIN registration'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
 Mobile.takeScreenshot()
@@ -103,6 +107,4 @@ Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 Mobile.delay(5)
 
 Mobile.takeScreenshot()
-
-Mobile.closeApplication()
 

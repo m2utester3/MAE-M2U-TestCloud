@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('com.maybank2u.life.uat', false)
+Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('Object Repository/mosaj/android.widget.TextView - Next'), 0)
-
-Mobile.closeApplication()
+WebUI.callTestCase(findTestCase('Login Onboard/login_logout-callTestCase'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
