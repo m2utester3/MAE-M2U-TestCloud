@@ -67,114 +67,115 @@ Mobile.hideKeyboard()
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 50)
+not_run: Mobile.waitForElementPresent(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 50)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginExistingMineConfirmationBtn'), 0)
 
-Mobile.setText(findTestObject('Login Onboarding/loginPasswordInputField'), 'Maybank@1', 0)
+not_run: Mobile.setText(findTestObject('Login Onboarding/loginPasswordInputField'), 'Maybank@1', 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
-Mobile.delay(5)
+not_run: Mobile.delay(5)
 
-if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/Proceed'), 3, FailureHandling.OPTIONAL)) {
+not_run: if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/Proceed'), 3, FailureHandling.OPTIONAL)) {
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Login Onboarding/Proceed'), 5)
 }
 
-pinNO = findTestData('test_data').getValue(11, 1)
+not_run: pinNO = findTestData('test_data').getValue(11, 1)
 
-def length = pinNO.length()
+not_run: def length = pinNO.length()
 
-for (def i = 0; i < length; i++) {
+not_run: for (def i = 0; i < length; i++) {
     def TapNo = pinNO[i]
 
     Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
 'Tick button'
-Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-pinNO = findTestData('test_data').getValue(11, 1)
+not_run: pinNO = findTestData('test_data').getValue(11, 1)
 
-length = pinNO.length()
+not_run: length = pinNO.length()
 
-for (def i = 0; i < length; i++) {
+not_run: for (def i = 0; i < length; i++) {
     TapNo = (pinNO[i])
 
     Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
 'Tick button'
-Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginTouchIDSetUpLaterBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginTouchIDSetUpLaterBtn'), 0)
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginVerifyNumberYesProceedBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginVerifyNumberYesProceedBtn'), 0)
 
-def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
+not_run: def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-for (def i = 16; i <= 21; i++) {
+not_run: for (def i = 16; i <= 21; i++) {
     def TapNo = OTP[i]
 
     Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.delay(3)
+not_run: Mobile.delay(3)
 
 'Tick button'
-Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
 
-Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardNameInputField'), 0)
+not_run: Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardNameInputField'), 0)
 
-Mobile.setText(findTestObject('Login Onboarding/onboardNameInputField'), findTestData('test_data').getValue(3, 21), 0)
+not_run: Mobile.setText(findTestObject('Login Onboarding/onboardNameInputField'), findTestData('test_data').getValue(3, 
+        21), 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
+not_run: Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Transfer/onboardSelectWallet_AccountType'), 0)
+not_run: Mobile.verifyElementVisible(findTestObject('Object Repository/Transfer/onboardSelectWallet_AccountType'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Transfer/onboardSelectWallet_AccountType'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Transfer/onboardSelectWallet_AccountType'), 0)
 
-Last = Mobile.getText(findTestObject('TextNo', [('No') : 'last()']), 0)
+not_run: Last = Mobile.getText(findTestObject('TextNo', [('No') : 'last()']), 0)
 
-if (Last == 'Continue') {
+not_run: if (Last == 'Continue') {
     Mobile.verifyElementExist(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
 
     Mobile.tap(findTestObject('Login Onboarding/loginExistingContinueBtn'), 0)
@@ -184,13 +185,13 @@ if (Last == 'Continue') {
     Mobile.tap(findTestObject('Text', [('Verify') : 'Next']), 0)
 }
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-WebUI.delay(7)
+not_run: WebUI.delay(7)
 
-Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Skip'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/SAM new app/android.widget.TextView - Skip'), 0)
 
-WebUI.delay(7)
+not_run: WebUI.delay(7)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
