@@ -28,11 +28,16 @@ not_run: Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
 //Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
 not_run: Mobile.startExistingApplication('com.maybank2u.life')
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 0)
+Mobile.getText(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
-Mobile.takeScreenshot()
+Mobile.tap(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Secure2u'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 
+    0)
+
+not_run: Mobile.takeScreenshot()
+
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Secure2u'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Now'), 0)
 

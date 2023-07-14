@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>onboard_onboardIntoMAE - Copy</name>
+   <name>onboard-Old-withoutFirebase</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>64883971-e8e2-497a-b856-0780f50adaba</testCaseGuid>

@@ -15,7 +15,7 @@
       <guid>370551c3-a857-42bb-b0ed-3738ccb5c456</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy</testCaseId>
+      <testCaseId>Test Cases/Login Onboard/onboard-Old-withoutFirebase</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -39,14 +39,14 @@
    <testCaseLink>
       <guid>cb5df6f5-bccf-4b3c-94e8-886c3f75ad75</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login Onboard/secure2u registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dde40c48-9c13-4f9b-a0ef-e4ba8c8dc82d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login Onboard/transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

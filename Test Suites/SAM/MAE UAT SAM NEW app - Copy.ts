@@ -15,7 +15,7 @@
       <guid>6f9a06c1-4233-4301-8402-aecefa103a94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Onboard/onboard_onboardIntoMAE - Copy</testCaseId>
+      <testCaseId>Test Cases/Login Onboard/onboard-Old-withoutFirebase</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

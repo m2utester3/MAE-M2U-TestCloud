@@ -18,7 +18,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 //'Datafiles TestData, sheet test_data'
-Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
+Mobile.startApplication('/Users/APK/uat_latest_withoutFirebase.apk', false)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
