@@ -21,7 +21,7 @@ import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 //'Datafiles TestData, sheet test_data'
 Mobile.startApplication('/Users/APK/uat_latest_withoutFirebase.apk', false)
 
-WebUI.delay(10)
+WebUI.delay(15)
 
 //Mobile.waitForElementPresent(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 03)
 if (Mobile.verifyElementVisible(findTestObject('Login Onboarding/onboardWelcomeSkipBtn'), 10, FailureHandling.OPTIONAL)) {
