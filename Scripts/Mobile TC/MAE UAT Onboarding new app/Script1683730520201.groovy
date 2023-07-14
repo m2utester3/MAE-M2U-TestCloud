@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('/Users/APK/app-uat-universal-release.apk', false)
 
+not_run: WebUI.delay(10)
+
 Mobile.takeScreenshot()
 
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.Button - While using the app'), 
@@ -32,23 +34,21 @@ not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.Button - Allo
 
 not_run: Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.Button - Allow'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
 
 not_run: Mobile.takeScreenshot()
 
 not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Agree'), 0)
-
-not_run: WebUI.delay(10)
 
 not_run: Mobile.takeScreenshot()
 
