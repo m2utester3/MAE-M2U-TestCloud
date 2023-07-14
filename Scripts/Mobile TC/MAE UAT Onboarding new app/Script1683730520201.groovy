@@ -42,59 +42,60 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Agree'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Agree'), 0)
 
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'), 0)
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Log In Now'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Log In Now'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 
     0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username'), 
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username'), 
     0)
 
-Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText'), 'ninalee', 0)
+not_run: Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText'), 'ninalee', 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Continue'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Continue'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Yes, Its Mine'), 0)
+not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Yes, Its Mine'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Enter your password'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Enter your password'), 
+    0)
 
-Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText (1)'), 'Maybank@1', 0)
+not_run: Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText (1)'), 'Maybank@1', 0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.hideKeyboard()
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
     0)
@@ -151,7 +152,7 @@ not_run: Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Ye
 not_run: OTP = Mobile.getText(findTestObject('MAE UAT new app/spy OTP/android.widget.TextView - Your OTP no. is 121727'), 
     0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText - Enter your name'), 0)
 
@@ -190,5 +191,5 @@ not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/androi
 not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts'), 
     0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 
