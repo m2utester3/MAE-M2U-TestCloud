@@ -86,15 +86,10 @@ Mobile.takeScreenshot()
 Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
 if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/Proceed'), 'Proceed') == true) {
-	Mobile.tap(findTestObject('SPY MAE without firebase/Proceed'), 0)
+    Mobile.tap(findTestObject('SPY MAE without firebase/Proceed'), 0)
 }
 
 //Mobile.getText(findTestObject('SPY MAE without firebase/Proceed'), 0)
-
-
-
-
-
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
     0)
 
@@ -178,8 +173,6 @@ Mobile.hideKeyboard()
 Mobile.getText(findTestObject('MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
 Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Maybank2u.Premier'), 0)
 
 Mobile.getText(findTestObject('SPY MAE without firebase/CASA account'), 0)
 
