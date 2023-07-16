@@ -109,6 +109,8 @@ Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget
 
 Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
+
 Mobile.delay(5)
 
 Mobile.takeScreenshot()

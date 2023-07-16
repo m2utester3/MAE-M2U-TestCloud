@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MAE S2U no Firebase" time="450.412" tests="3" failures="0" errors="0">
+   <testsuite name="MAE S2U no Firebase" tests="3" failures="0" errors="0" time="450.412" skipped="0" timestamp="2023-07-17 02:52:01" hostname="mosaj - localhost" id="Test Suites/MAE S2U no Firebase">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147"/>
+         <property name="logFiles" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/execution0.log, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/appium.log"/>
+         <property name="attachments" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533556167.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533559955.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533562179.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533566541.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533569799.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533575399.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533578349.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533583917.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533601452.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533609765.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533622963.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533624902.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533641473.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533648552.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533684441.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533697073.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533705364.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533719039.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533736475.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533740480.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533745707.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533749658.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533753765.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533757340.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533758180.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533760705.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533764272.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533778332.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533787552.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533790305.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533794735.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533840702.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533844799.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533897055.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533949793.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533953356.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533955352.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533958756.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533964822.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533967744.png, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533969501.png"/>
+         <property name="hostName" value="mosaj - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR704KXSR"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Mobile TC/MAE UAT Onboarding new app" time="159.424" classname="Test Cases/Mobile TC/MAE UAT Onboarding new app" status="PASSED">
+         <system-out><![CDATA[2023-07-17 02:52:01 - [TEST_CASE][PASSED] - Test Cases/Mobile TC/MAE UAT Onboarding new app: Test Cases/Mobile TC/MAE UAT Onboarding new app
+
+2023-07-17 02:52:02 - [TEST_STEP][PASSED] - startApplication("/Users/APK/uat_latest_withoutFirebase.apk", false): Started app at: '/Users/APK/uat_latest_withoutFirebase.apk'
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['unlockType', 'pattern']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['unlockKey', '2458']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-17 02:52:03 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-07-17 02:52:07 - [MESSAGE][INFO] - Appium server started on port 63,293
+
+2023-07-17 02:52:25 - [MESSAGE][PASSED] - Started app at: '/Users/APK/uat_latest_withoutFirebase.apk'
+
+2023-07-17 02:52:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-07-17 02:52:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-17 02:52:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533556167.png]]
+
+2023-07-17 02:52:37 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Next"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Next' is: 'Next'
+
+2023-07-17 02:52:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Next' is: 'Next'
+
+2023-07-17 02:52:38 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Next"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:38 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Next"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:39 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533559955.png]]
+
+2023-07-17 02:52:41 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Next"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next'
+
+2023-07-17 02:52:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Agree"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Agree' is: 'Agree'
+
+2023-07-17 02:52:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Agree' is: 'Agree'
+
+2023-07-17 02:52:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533562179.png]]
+
+2023-07-17 02:52:42 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Agree"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Agree'
+
+2023-07-17 02:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Agree'
+
+2023-07-17 02:52:43 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Log In Now"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Log In Now' is: 'Log In Now'
+
+2023-07-17 02:52:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Log In Now' is: 'Log In Now'
+
+2023-07-17 02:52:46 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533566541.png]]
+
+2023-07-17 02:52:47 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Log In Now"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'
+
+2023-07-17 02:52:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Log In Now'
+
+2023-07-17 02:52:48 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here' is: 'Existing M2U/MAE user? Log in here'
+
+2023-07-17 02:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here' is: 'Existing M2U/MAE user? Log in here'
+
+2023-07-17 02:52:49 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533569799.png]]
+
+2023-07-17 02:52:50 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2023-07-17 02:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here'
+
+2023-07-17 02:52:52 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username' is: 'Please enter your username'
+
+2023-07-17 02:52:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username' is: 'Please enter your username'
+
+2023-07-17 02:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MAE UAT new app/android.widget.EditText"), "samuat05", 0): Text 'samuat05' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText'
+
+2023-07-17 02:52:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:53 - [MESSAGE][PASSED] - Text 'samuat05' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText'
+
+2023-07-17 02:52:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:52:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:52:55 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:52:55 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533575399.png]]
+
+2023-07-17 02:52:55 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:52:56 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue'
+
+2023-07-17 02:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue'
+
+2023-07-17 02:52:56 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine' is: 'Yes, It’s Mine'
+
+2023-07-17 02:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine' is: 'Yes, It’s Mine'
+
+2023-07-17 02:52:58 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:52:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533578349.png]]
+
+2023-07-17 02:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Yes, Its Mine"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine'
+
+2023-07-17 02:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine'
+
+2023-07-17 02:52:59 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Enter your password"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Enter your password' is: 'Enter your password'
+
+2023-07-17 02:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:00 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Enter your password' is: 'Enter your password'
+
+2023-07-17 02:53:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MAE UAT new app/android.widget.EditText (1)"), "Maybank@1", 0): Text 'Maybank@1' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText (1)'
+
+2023-07-17 02:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:02 - [MESSAGE][PASSED] - Text 'Maybank@1' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText (1)'
+
+2023-07-17 02:53:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:53:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:53:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:53:03 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:53:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533583917.png]]
+
+2023-07-17 02:53:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:53:04 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app' is: 'Create your PIN for the app'
+
+2023-07-17 02:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:07 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app' is: 'Create your PIN for the app'
+
+2023-07-17 02:53:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-07-17 02:53:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-17 02:53:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:17 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:19 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:21 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:53:21 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533601452.png]]
+
+2023-07-17 02:53:21 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:23 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:25 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.ImageView"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView'
+
+2023-07-17 02:53:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView'
+
+2023-07-17 02:53:28 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN' is: 'Confirm your 6-digit PIN'
+
+2023-07-17 02:53:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN' is: 'Confirm your 6-digit PIN'
+
+2023-07-17 02:53:29 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:53:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533609765.png]]
+
+2023-07-17 02:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:32 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:34 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:35 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:37 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - 1'
+
+2023-07-17 02:53:39 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.ImageView"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView'
+
+2023-07-17 02:53:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView'
+
+2023-07-17 02:53:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later' is: 'Set Up Later'
+
+2023-07-17 02:53:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later' is: 'Set Up Later'
+
+2023-07-17 02:53:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:53:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533622963.png]]
+
+2023-07-17 02:53:43 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Set Up Later"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later'
+
+2023-07-17 02:53:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later'
+
+2023-07-17 02:53:43 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed' is: 'Yes, Proceed'
+
+2023-07-17 02:53:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed' is: 'Yes, Proceed'
+
+2023-07-17 02:53:44 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:53:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533624902.png]]
+
+2023-07-17 02:53:45 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Yes, Proceed"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed'
+
+2023-07-17 02:53:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed'
+
+2023-07-17 02:53:45 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 859922'
+
+2023-07-17 02:53:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:48 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 859922'
+
+2023-07-17 02:53:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-17 02:53:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-17 02:53:50 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:50 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:50 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:53 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:53 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:53 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:53 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:55 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:55 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:57 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:57 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:53:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:59 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:53:59 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:53:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:54:01 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:54:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533641473.png]]
+
+2023-07-17 02:54:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:54:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:54:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-17 02:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-17 02:54:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:54:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:54:08 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:54:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533648552.png]]
+
+2023-07-17 02:54:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.EditText - Enter your name"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.EditText - Enter your name' is: 'Enter your name'
+
+2023-07-17 02:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.EditText - Enter your name' is: 'Enter your name'
+
+2023-07-17 02:54:09 - [TEST_STEP][PASSED] - setText(findTestObject("MAE UAT new app/android.widget.EditText - Enter your name"), "Mosaj", 0): Text 'Mosaj' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText - Enter your name'
+
+2023-07-17 02:54:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:10 - [MESSAGE][PASSED] - Text 'Mosaj' has been set to element 'Object Repository/MAE UAT new app/android.widget.EditText - Enter your name'
+
+2023-07-17 02:54:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:54:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:54:11 - [TEST_STEP][PASSED] - getText(findTestObject("MAE UAT new app/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:54:11 - [TEST_STEP][PASSED] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:54:11 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Maybank2u.Premier"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Maybank2u.Premier"), 0)
+
+2023-07-17 02:54:11 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Maybank2u.Premier"), 0)
+
+2023-07-17 02:54:11 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/CASA account"), 0): Text of element 'Object Repository/SPY MAE without firebase/CASA account' is: 'Current Account-i'
+
+2023-07-17 02:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:13 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/CASA account' is: 'Current Account-i'
+
+2023-07-17 02:54:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView (1)'
+
+2023-07-17 02:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.ImageView (1)'
+
+2023-07-17 02:54:13 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/CASA account number"), 0): Text of element 'Object Repository/SPY MAE without firebase/CASA account number' is: '5623 6601 0785'
+
+2023-07-17 02:54:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/CASA account number' is: '5623 6601 0785'
+
+2023-07-17 02:54:14 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Next (2)"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Next (2)' is: 'Next'
+
+2023-07-17 02:54:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Next (2)' is: 'Next'
+
+2023-07-17 02:54:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Next (2)"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next (2)'
+
+2023-07-17 02:54:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Next (2)'
+
+2023-07-17 02:54:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-17 02:54:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-17 02:54:19 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/NEXT your enhanced exp"), 0): Text of element 'Object Repository/SPY MAE without firebase/NEXT your enhanced exp' is: 'Next'
+
+2023-07-17 02:54:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:20 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/NEXT your enhanced exp' is: 'Next'
+
+2023-07-17 02:54:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-07-17 02:54:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-17 02:54:30 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:30 - [TEST_STEP][PASSED] - tap(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:30 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:31 - [TEST_STEP][PASSED] - tap(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:31 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:32 - [TEST_STEP][PASSED] - tap(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:32 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard' is: 'Next'
+
+2023-07-17 02:54:33 - [TEST_STEP][PASSED] - tap(findTestObject("SPY MAE without firebase/spy 2/Next 1 post onboard"), 0): Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Next 1 post onboard'
+
+2023-07-17 02:54:33 - [TEST_STEP][PASSED] - getText(findTestObject("SPY MAE without firebase/spy 2/Got It"), 0): Text of element 'Object Repository/SPY MAE without firebase/spy 2/Got It' is: 'Got It'
+
+2023-07-17 02:54:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/SPY MAE without firebase/spy 2/Got It' is: 'Got It'
+
+2023-07-17 02:54:34 - [TEST_STEP][PASSED] - tap(findTestObject("SPY MAE without firebase/spy 2/Got It"), 0): Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Got It'
+
+2023-07-17 02:54:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SPY MAE without firebase/spy 2/Got It'
+
+2023-07-17 02:54:34 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Skip"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Skip' is: 'Skip'
+
+2023-07-17 02:54:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Skip' is: 'Skip'
+
+2023-07-17 02:54:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Skip'
+
+2023-07-17 02:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Skip'
+
+2023-07-17 02:54:35 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Set Up Successful"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Successful' is: 'Set Up Successful'
+
+2023-07-17 02:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Set Up Successful' is: 'Set Up Successful'
+
+2023-07-17 02:54:37 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Done"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Done' is: 'Done'
+
+2023-07-17 02:54:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Done' is: 'Done'
+
+2023-07-17 02:54:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Done"), 0): Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Done'
+
+2023-07-17 02:54:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE UAT new app/android.widget.TextView - Done'
+
+2023-07-17 02:54:38 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Mosaj"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Mosaj' is: 'Mosaj'
+
+2023-07-17 02:54:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Mosaj' is: 'Mosaj'
+
+2023-07-17 02:54:40 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - Hello,"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-17 02:54:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-17 02:54:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts"), 0): Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts' is: 'View All Accounts'
+
+2023-07-17 02:54:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts' is: 'View All Accounts'
+
+2023-07-17 02:54:41 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2023-07-17 02:54:41 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Onboard/secure2u registration" time="160.12" classname="Test Cases/Login Onboard/secure2u registration" status="PASSED">
+         <system-out><![CDATA[2023-07-17 02:54:41 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/secure2u registration: Test Cases/Login Onboard/secure2u registration
+
+2023-07-17 02:54:41 - [TEST_STEP][NOT_RUN] - startApplication("/Users/APK/uat-universal-release.apk", false): NOT_RUN: startApplication("/Users/APK/uat-universal-release.apk", false)
+
+2023-07-17 02:54:41 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication("/Users/APK/uat-universal-release.apk", false)
+
+2023-07-17 02:54:41 - [TEST_STEP][NOT_RUN] - startExistingApplication("com.maybank2u.life"): NOT_RUN: startExistingApplication("com.maybank2u.life")
+
+2023-07-17 02:54:41 - [MESSAGE][NOT_RUN] - NOT_RUN: startExistingApplication("com.maybank2u.life")
+
+2023-07-17 02:54:41 - [TEST_STEP][PASSED] - getText(findTestObject("Transfer/android.widget.TextView - Secure2u"), 0): Text of element 'Object Repository/Transfer/android.widget.TextView - Secure2u' is: 'Secure2u'
+
+2023-07-17 02:54:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/Transfer/android.widget.TextView - Secure2u' is: 'Secure2u'
+
+2023-07-17 02:54:42 - [TEST_STEP][PASSED] - tap(findTestObject("Transfer/android.widget.TextView - Secure2u"), 0): Tapped on element 'Object Repository/Transfer/android.widget.TextView - Secure2u'
+
+2023-07-17 02:54:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transfer/android.widget.TextView - Secure2u'
+
+2023-07-17 02:54:42 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Secure2u"), 0): NOT_RUN: getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Secure2u"), 0)
+
+2023-07-17 02:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Secure2u"), 0)
+
+2023-07-17 02:54:42 - [TEST_STEP][NOT_RUN] - takeScreenshot(): NOT_RUN: takeScreenshot()
+
+2023-07-17 02:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot()
+
+2023-07-17 02:54:42 - [TEST_STEP][NOT_RUN] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Secure2u"), 0): NOT_RUN: tap(findTestObject("s2u registration/android.widget.TextView - Activate Secure2u"), 0)
+
+2023-07-17 02:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("s2u registration/android.widget.TextView - Activate Secure2u"), 0)
+
+2023-07-17 02:54:42 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Activate Now"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-17 02:54:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-17 02:54:44 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:54:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533684441.png]]
+
+2023-07-17 02:54:44 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Activate Now"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-17 02:54:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Activate Now'
+
+2023-07-17 02:54:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-17 02:54:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-17 02:54:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login Onboard/cloud device PIN registration"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' successfully
+
+2023-07-17 02:54:47 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/cloud device PIN registration: Test Cases/Login Onboard/cloud device PIN registration
+
+2023-07-17 02:54:48 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Proceed"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed' is: 'Proceed'
+
+2023-07-17 02:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:48 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed' is: 'Proceed'
+
+2023-07-17 02:54:48 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Proceed"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'
+
+2023-07-17 02:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'
+
+2023-07-17 02:54:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:54:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:54:51 - [TEST_STEP][PASSED] - swipe(550, 2000, 550, 1600): Swiped from 550,2,000 to 550,1,600
+
+2023-07-17 02:54:52 - [MESSAGE][PASSED] - Swiped from 550,2,000 to 550,1,600
+
+2023-07-17 02:54:52 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen' is: 'Lock screen'
+
+2023-07-17 02:54:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen' is: 'Lock screen'
+
+2023-07-17 02:54:53 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Lock screen"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'
+
+2023-07-17 02:54:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'
+
+2023-07-17 02:54:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:54:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:54:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:54:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533697073.png]]
+
+2023-07-17 02:54:57 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type' is: 'Screen lock type'
+
+2023-07-17 02:54:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type' is: 'Screen lock type'
+
+2023-07-17 02:54:57 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Screen lock type"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'
+
+2023-07-17 02:54:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:54:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'
+
+2023-07-17 02:54:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:01 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN' is: 'PIN'
+
+2023-07-17 02:55:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN' is: 'PIN'
+
+2023-07-17 02:55:01 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - PIN"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN'
+
+2023-07-17 02:55:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - PIN'
+
+2023-07-17 02:55:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:05 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533705364.png]]
+
+2023-07-17 02:55:05 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-17 02:55:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-17 02:55:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:09 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:10 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:11 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:11 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:12 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:13 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:14 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:16 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:19 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533719039.png]]
+
+2023-07-17 02:55:19 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.Button - Continue"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue' is: 'Continue'
+
+2023-07-17 02:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:20 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue' is: 'Continue'
+
+2023-07-17 02:55:20 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.Button - Continue"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue'
+
+2023-07-17 02:55:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - Continue'
+
+2023-07-17 02:55:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:23 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-17 02:55:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN' is: 'Set PIN'
+
+2023-07-17 02:55:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:26 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:27 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:28 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:29 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:30 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:31 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2023-07-17 02:55:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-07-17 02:55:32 - [TEST_STEP][PASSED] - tapAtPosition(200, 1635): Tapped at [200, 1,635]
+
+2023-07-17 02:55:33 - [MESSAGE][PASSED] - Tapped at [200, 1,635]
+
+2023-07-17 02:55:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:36 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533736475.png]]
+
+2023-07-17 02:55:36 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/cloud device PIN registration/android.widget.Button - OK"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - OK' is: 'OK'
+
+2023-07-17 02:55:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.Button - OK' is: 'OK'
+
+2023-07-17 02:55:37 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.Button - OK"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - OK'
+
+2023-07-17 02:55:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.Button - OK'
+
+2023-07-17 02:55:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:40 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533740480.png]]
+
+2023-07-17 02:55:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-17 02:55:42 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-17 02:55:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:45 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:46 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533745707.png]]
+
+2023-07-17 02:55:46 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-17 02:55:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-17 02:55:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:49 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533749658.png]]
+
+2023-07-17 02:55:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-17 02:55:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-17 02:55:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533753765.png]]
+
+2023-07-17 02:55:54 - [TEST_STEP][NOT_RUN] - pressBack(): NOT_RUN: pressBack()
+
+2023-07-17 02:55:54 - [MESSAGE][NOT_RUN] - NOT_RUN: pressBack()
+
+2023-07-17 02:55:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:55:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:55:57 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533757340.png]]
+
+2023-07-17 02:55:57 - [TEST_STEP][PASSED] - getText(findTestObject("cloud device PIN registration/android.widget.TextView - Activate Now"), 0): Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-17 02:55:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now' is: 'Activate Now'
+
+2023-07-17 02:55:58 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:55:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533758180.png]]
+
+2023-07-17 02:55:58 - [TEST_STEP][PASSED] - tap(findTestObject("cloud device PIN registration/android.widget.TextView - Activate Now"), 0): Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now'
+
+2023-07-17 02:55:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:55:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cloud device PIN registration/android.widget.TextView - Activate Now'
+
+2023-07-17 02:55:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login Onboard/cloud device PIN registration' successfully
+
+2023-07-17 02:55:58 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Confirm"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-17 02:55:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:00 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Confirm' is: 'Confirm'
+
+2023-07-17 02:56:00 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533760705.png]]
+
+2023-07-17 02:56:01 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Confirm"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-17 02:56:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Confirm'
+
+2023-07-17 02:56:01 - [TEST_STEP][PASSED] - OTP = getText(findTestObject("Object Repository/Login Onboarding/Your OTP no. is 2"), 0): Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 584880'
+
+2023-07-17 02:56:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login Onboarding/Your OTP no. is 2' is: 'Your OTP no. is 584880'
+
+2023-07-17 02:56:04 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533764272.png]]
+
+2023-07-17 02:56:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-17 02:56:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-17 02:56:06 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:06 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:06 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:07 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:07 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:09 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:09 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:12 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:12 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:14 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:14 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:16 - [TEST_STEP][PASSED] - TapNo = OTP[i]: null
+
+2023-07-17 02:56:16 - [TEST_STEP][PASSED] - tap(findTestObject("Text", ["Verify":TapNo]), 0): Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Text'
+
+2023-07-17 02:56:18 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533778332.png]]
+
+2023-07-17 02:56:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-17 02:56:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-17 02:56:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Dynamic Object/Tap Image Following 2", ["text":"0"]), 0): Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-17 02:56:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Dynamic Object/Tap Image Following 2'
+
+2023-07-17 02:56:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-07-17 02:56:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-07-17 02:56:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Enter your ID number"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-17 02:56:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Enter your ID number' is: 'Enter your ID number'
+
+2023-07-17 02:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/s2u registration/android.widget.EditText - Your ID number"), "960829149762", 0): Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-17 02:56:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:26 - [MESSAGE][PASSED] - Text '960829149762' has been set to element 'Object Repository/s2u registration/android.widget.EditText - Your ID number'
+
+2023-07-17 02:56:26 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:56:27 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:56:27 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533787552.png]]
+
+2023-07-17 02:56:28 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:56:28 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-17 02:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue'
+
+2023-07-17 02:56:28 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Device Name"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-17 02:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Device Name' is: 'Device Name'
+
+2023-07-17 02:56:30 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533790305.png]]
+
+2023-07-17 02:56:30 - [TEST_STEP][PASSED] - getText(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:56:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:30 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:56:30 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:56:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Secure2u enabled"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-17 02:56:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Secure2u enabled' is: 'Secure2u enabled'
+
+2023-07-17 02:56:34 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:56:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533794735.png]]
+
+2023-07-17 02:56:35 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Continue (1)"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:56:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)' is: 'Continue'
+
+2023-07-17 02:56:35 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Continue (1)"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:56:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:56:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Continue (1)'
+
+2023-07-17 02:56:36 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/s2u registration/android.widget.TextView - Home"), 0): Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-17 02:56:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:57:15 - [MESSAGE][PASSED] - Text of element 'Object Repository/s2u registration/android.widget.TextView - Home' is: 'Home'
+
+2023-07-17 02:57:15 - [TEST_STEP][PASSED] - tap(findTestObject("s2u registration/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-17 02:57:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:57:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/s2u registration/android.widget.TextView - Home'
+
+2023-07-17 02:57:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-17 02:57:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-17 02:57:20 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:57:21 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533840702.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Onboard/transfer" time="130.138" classname="Test Cases/Login Onboard/transfer" status="PASSED">
+         <system-out><![CDATA[2023-07-17 02:57:21 - [TEST_CASE][PASSED] - Test Cases/Login Onboard/transfer: Test Cases/Login Onboard/transfer
+
+2023-07-17 02:57:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer' is: 'Transfer'
+
+2023-07-17 02:57:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:57:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer' is: 'Transfer'
+
+2023-07-17 02:57:24 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:57:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533844799.png]]
+
+2023-07-17 02:57:25 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'
+
+2023-07-17 02:57:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:57:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer'
+
+2023-07-17 02:57:26 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806' is: '5623 6601 0785'
+
+2023-07-17 02:57:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:58:17 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806' is: '5623 6601 0785'
+
+2023-07-17 02:58:17 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:58:17 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533897055.png]]
+
+2023-07-17 02:58:17 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - 5623 6601 0806"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806'
+
+2023-07-17 02:58:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806'
+
+2023-07-17 02:59:09 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount' is: 'Enter amount'
+
+2023-07-17 02:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount' is: 'Enter amount'
+
+2023-07-17 02:59:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - 1"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 1'
+
+2023-07-17 02:59:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - 1'
+
+2023-07-17 02:59:09 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533949793.png]]
+
+2023-07-17 02:59:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView'
+
+2023-07-17 02:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView'
+
+2023-07-17 02:59:10 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference' is: 'Enter recipient reference'
+
+2023-07-17 02:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference' is: 'Enter recipient reference'
+
+2023-07-17 02:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText"), "samuat06", 0): Text 'samuat06' has been set to element 'Object Repository/MAE new app Transfer/android.widget.EditText'
+
+2023-07-17 02:59:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:13 - [MESSAGE][PASSED] - Text 'samuat06' has been set to element 'Object Repository/MAE new app Transfer/android.widget.EditText'
+
+2023-07-17 02:59:13 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:13 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533953356.png]]
+
+2023-07-17 02:59:13 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2023-07-17 02:59:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2023-07-17 02:59:15 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Continue"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:15 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue' is: 'Continue'
+
+2023-07-17 02:59:15 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533955352.png]]
+
+2023-07-17 02:59:15 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue'
+
+2023-07-17 02:59:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Continue'
+
+2023-07-17 02:59:15 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation' is: 'Confirmation'
+
+2023-07-17 02:59:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation' is: 'Confirmation'
+
+2023-07-17 02:59:18 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now' is: 'Transfer Now'
+
+2023-07-17 02:59:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now' is: 'Transfer Now'
+
+2023-07-17 02:59:18 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533958756.png]]
+
+2023-07-17 02:59:19 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer Now"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now'
+
+2023-07-17 02:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now'
+
+2023-07-17 02:59:19 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful' is: 'Transfer successful'
+
+2023-07-17 02:59:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful' is: 'Transfer successful'
+
+2023-07-17 02:59:24 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt' is: 'Share Receipt'
+
+2023-07-17 02:59:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt' is: 'Share Receipt'
+
+2023-07-17 02:59:24 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533964822.png]]
+
+2023-07-17 02:59:25 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Share Receipt"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt'
+
+2023-07-17 02:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt'
+
+2023-07-17 02:59:25 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer' is: 'Own Account Transfer'
+
+2023-07-17 02:59:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer' is: 'Own Account Transfer'
+
+2023-07-17 02:59:27 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Successful"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Successful' is: 'Successful'
+
+2023-07-17 02:59:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Successful' is: 'Successful'
+
+2023-07-17 02:59:27 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533967744.png]]
+
+2023-07-17 02:59:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView (1)'
+
+2023-07-17 02:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.ImageView (1)'
+
+2023-07-17 02:59:28 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Done"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done' is: 'Done'
+
+2023-07-17 02:59:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done' is: 'Done'
+
+2023-07-17 02:59:29 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-07-17 02:59:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230717_025147/MAE S2U no Firebase/20230717_025147/1689533969501.png]]
+
+2023-07-17 02:59:29 - [TEST_STEP][PASSED] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Done"), 0): Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done'
+
+2023-07-17 02:59:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MAE new app Transfer/android.widget.TextView - Done'
+
+2023-07-17 02:59:30 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Hello,"), 0): Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-17 02:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-07-17 02:59:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/MAE new app Transfer/android.widget.TextView - Hello,' is: 'Hello,'
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0): NOT_RUN: tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Object Repository/MAE new app Transfer/android.widget.ImageView (2)"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Maybank2u"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Secure2u"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Home"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Activate Now"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Confirm"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0): NOT_RUN: setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number"), "960829143986", 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - hideKeyboard(): NOT_RUN: hideKeyboard()
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard()
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0): NOT_RUN: getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0): NOT_RUN: tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE UAT new app/android.widget.TextView - Done"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Continue"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - Transfer"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0): NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAE new app Transfer/android.widget.TextView - MAYBANK"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0): NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0)
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Object Repository/MAE new app Transfer/android.widget.TextView - Account number"), 0)
+
+2023-07-17 02:59:31 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2023-07-17 02:59:31 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-17 02:52:01 - [TEST_SUITE][PASSED] - MAE S2U no Firebase: Test Cases/Login Onboard/transfer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -20,14 +20,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Create passcode for the device. This keyword should be called if the device doesn\u0027t have any lock settings\n\t */"
         },
         {
           "name": "getCurrentSessionMobileDriver",
-          "parameters": []
+          "parameters": [],
+          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
