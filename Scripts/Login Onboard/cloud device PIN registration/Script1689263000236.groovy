@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView
 
 WebUI.delay(3)
 
-Mobile.swipe(550, 2000, 550, 1600)
+Mobile.swipe(550, 2000, 550, 1450)
 
 Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'), 
     0)
@@ -46,6 +46,7 @@ Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/a
 Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - PIN'), 0)
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 0)
@@ -67,6 +68,7 @@ WebUI.delay(1)
 Mobile.tapAtPosition(200, 1635)
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - Continue'), 0)
@@ -94,6 +96,7 @@ WebUI.delay(1)
 Mobile.tapAtPosition(200, 1635)
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - OK'), 0)
@@ -101,29 +104,35 @@ Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/a
 Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - OK'), 0)
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.pressBack()
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 not_run: Mobile.pressBack()
 
 WebUI.delay(3)
+
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
+
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
