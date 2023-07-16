@@ -37,73 +37,189 @@ Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate N
 
 Mobile.delay(2)
 
-WebUI.callTestCase(findTestCase('Login Onboard/cloud device PIN registration'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Proceed'), 0)
+
+WebUI.delay(3)
+
+Mobile.swipe(550, 2000, 550, 1450)
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'), 
+    0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Lock screen'), 0)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'), 
+    0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Screen lock type'), 0)
+
+WebUI.delay(3)
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - PIN'), 0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - PIN'), 0)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 0)
+
+WebUI.delay(3)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - Continue'), 0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - Continue'), 0)
+
+WebUI.delay(3)
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 0)
+
+WebUI.delay(3)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(1)
+
+Mobile.tapAtPosition(200, 1635)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - OK'), 0)
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - OK'), 0)
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.pressBack()
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.pressBack()
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.pressBack()
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+not_run: Mobile.pressBack()
+
+WebUI.delay(3)
+
+Mobile.takeScreenshot()
+
+Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 
 Mobile.takeScreenshot()
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
 
-not_run: def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
+def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
 
-not_run: Mobile.takeScreenshot()
+Mobile.takeScreenshot()
 
-not_run: Mobile.delay(2)
+Mobile.delay(2)
 
-not_run: for (def i = 16; i <= 21; i++) {
+for (def i = 16; i <= 21; i++) {
     def TapNo = OTP[i]
 
     Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
-not_run: Mobile.takeScreenshot()
+Mobile.takeScreenshot()
 
-not_run: Mobile.delay(3)
+Mobile.delay(3)
 
 'Tick button'
-not_run: Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Enter your ID number'), 
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Enter your ID number'), 0)
+
+Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget.EditText - Your ID number'), '960829149762', 
     0)
 
-not_run: Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget.EditText - Your ID number'), '960829149762', 
-    0)
+Mobile.hideKeyboard()
 
-not_run: Mobile.hideKeyboard()
+Mobile.takeScreenshot()
 
-not_run: Mobile.takeScreenshot()
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
+Mobile.takeScreenshot()
 
-not_run: Mobile.takeScreenshot()
+Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-not_run: Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 
-    0)
+Mobile.takeScreenshot()
 
-not_run: Mobile.takeScreenshot()
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Home'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Home'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
+Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
+Mobile.delay(5)
 
-not_run: Mobile.delay(5)
-
-not_run: Mobile.takeScreenshot()
+Mobile.takeScreenshot()
 
