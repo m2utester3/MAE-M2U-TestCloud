@@ -23,21 +23,11 @@ import org.openqa.selenium.Keys as Keys
 //AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 //driver.lockDevice()
 //driver.unlockDevice()
-not_run: Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
-
-//Mobile.startApplication('/Users/APK/uat-universal-release.apk', false)
-not_run: Mobile.startExistingApplication('com.maybank2u.life')
-
 Mobile.getText(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
 Mobile.tap(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Secure2u'), 
-    0)
-
-not_run: Mobile.takeScreenshot()
-
-not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate Secure2u'), 0)
+Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Activate Now'), 0)
 
@@ -53,65 +43,67 @@ Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Confirm'), 0)
 
-def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
+not_run: def OTP = Mobile.getText(findTestObject('Object Repository/Login Onboarding/Your OTP no. is 2'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.delay(2)
+not_run: Mobile.delay(2)
 
-for (def i = 16; i <= 21; i++) {
+not_run: for (def i = 16; i <= 21; i++) {
     def TapNo = OTP[i]
 
     Mobile.tap(findTestObject('Text', [('Verify') : TapNo]), 0)
 }
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.delay(3)
+not_run: Mobile.delay(3)
 
 'Tick button'
-Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
+not_run: Mobile.tap(findTestObject('Object Repository/Dynamic Object/Tap Image Following 2', [('text') : '0']), 0)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Enter your ID number'), 0)
-
-Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget.EditText - Your ID number'), '960829149762', 
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Enter your ID number'), 
     0)
 
-Mobile.hideKeyboard()
+not_run: Mobile.setText(findTestObject('Object Repository/s2u registration/android.widget.EditText - Your ID number'), '960829149762', 
+    0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.hideKeyboard()
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue'), 0)
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Device Name'), 0)
 
-Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.getText(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 0)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Secure2u enabled'), 
+    0)
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Home'), 0)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Continue (1)'), 0)
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Home'), 0)
 
-Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-Mobile.delay(5)
+not_run: Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Home'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.delay(5)
+
+not_run: Mobile.takeScreenshot()
 

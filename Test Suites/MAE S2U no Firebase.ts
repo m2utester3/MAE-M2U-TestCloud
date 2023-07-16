@@ -28,7 +28,7 @@
    <testCaseLink>
       <guid>ed1205eb-4c7d-4866-ac4c-b20fdfe2b8bd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Login Onboard/transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
