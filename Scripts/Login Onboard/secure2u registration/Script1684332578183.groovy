@@ -37,129 +37,131 @@ Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate N
 
 Mobile.delay(2)
 
-if (Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 0) == true) {
+Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 
+    'Proceed')
 
 
+if (Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 'Proceed') == true) {
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Proceed'), 0)
 
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Proceed'), 0)
+    Mobile.swipe(550, 2000, 550, 1450)
 
-WebUI.delay(3)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'), 
+        0)
 
-Mobile.swipe(550, 2000, 550, 1450)
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Lock screen'), 0)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'), 
-    0)
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Lock screen'), 0)
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'), 
+        0)
 
-Mobile.takeScreenshot()
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Screen lock type'), 0)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Screen lock type'), 
-    0)
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Screen lock type'), 0)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - PIN'), 0)
 
-WebUI.delay(3)
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - PIN'), 0)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - PIN'), 0)
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - PIN'), 0)
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 
+        0)
 
-Mobile.takeScreenshot()
+    WebUI.delay(3)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 0)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(3)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(3)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - Continue'), 0)
 
-Mobile.takeScreenshot()
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - Continue'), 0)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - Continue'), 0)
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - Continue'), 0)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 
+        0)
 
-WebUI.delay(3)
+    WebUI.delay(3)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Set PIN'), 0)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(3)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(1)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.tapAtPosition(200, 1635)
 
-WebUI.delay(1)
+    WebUI.delay(3)
 
-Mobile.tapAtPosition(200, 1635)
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - OK'), 0)
 
-Mobile.takeScreenshot()
+    Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - OK'), 0)
 
-Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.Button - OK'), 0)
+    WebUI.delay(3)
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.Button - OK'), 0)
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.pressBack()
 
-Mobile.takeScreenshot()
+    WebUI.delay(3)
 
-Mobile.pressBack()
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.pressBack()
 
-Mobile.takeScreenshot()
+    WebUI.delay(3)
 
-Mobile.pressBack()
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    Mobile.pressBack()
 
-Mobile.takeScreenshot()
+    WebUI.delay(3)
 
-Mobile.pressBack()
+    Mobile.takeScreenshot()
 
-WebUI.delay(3)
+    not_run: Mobile.pressBack()
 
-Mobile.takeScreenshot()
+    WebUI.delay(3)
 
-not_run: Mobile.pressBack()
+    if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/spy3/Are you sure you want to quit the app'), 
+        'Are you sure you want to quit the app?') == true) {
+        Mobile.getText(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
 
-WebUI.delay(3)
-
-if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/spy3/Are you sure you want to quit the app'), 'Are you sure you want to quit the app?') == 
-true) {
-    Mobile.getText(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
-
-    Mobile.tap(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
-}
-
-Mobile.takeScreenshot()
+        Mobile.tap(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
+    }
+    
+    Mobile.takeScreenshot()
 }
 
 Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)

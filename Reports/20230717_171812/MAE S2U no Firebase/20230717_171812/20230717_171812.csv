@@ -1,0 +1,213 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE S2U no Firebase,,,,2023-07-17 17:18:26,2023-07-17 17:28:46,10m - 19.772s,FAILED
+,,,,,,,
+Test Cases/Mobile TC/MAE UAT Onboarding new app,,,,2023-07-17 17:18:27,2023-07-17 17:22:03,3m - 35.797s,FAILED
+"startApplication(""/Users/APK/uat_latest_withoutFirebase.apk"", false)",,,,2023-07-17 17:18:28,2023-07-17 17:18:52,24.197s,PASSED
+delay(10),,,,2023-07-17 17:18:52,2023-07-17 17:19:02,10.122s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:02,2023-07-17 17:19:03,0.919s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Next""), 0)",,,,2023-07-17 17:19:03,2023-07-17 17:19:04,0.469s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Next""), 0)",,,,2023-07-17 17:19:04,2023-07-17 17:19:04,0.422s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Next""), 0)",,,,2023-07-17 17:19:04,2023-07-17 17:19:05,1.121s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:05,2023-07-17 17:19:06,0.737s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Next""), 0)",,,,2023-07-17 17:19:06,2023-07-17 17:19:06,0.427s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Agree""), 0)",,,,2023-07-17 17:19:06,2023-07-17 17:19:07,0.746s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:07,2023-07-17 17:19:08,0.454s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Agree""), 0)",,,,2023-07-17 17:19:08,2023-07-17 17:19:08,0.281s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Log In Now""), 0)",,,,2023-07-17 17:19:08,2023-07-17 17:19:10,2.624s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:10,2023-07-17 17:19:11,0.576s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Log In Now""), 0)",,,,2023-07-17 17:19:11,2023-07-17 17:19:11,0.467s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here""), 0)",,,,2023-07-17 17:19:11,2023-07-17 17:19:13,1.685s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:13,2023-07-17 17:19:14,0.675s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Existing M2UMAE user Log in here""), 0)",,,,2023-07-17 17:19:14,2023-07-17 17:19:14,0.398s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username""), 0)",,,,2023-07-17 17:19:14,2023-07-17 17:19:16,1.300s,PASSED
+"setText(findTestObject(""Object Repository/MAE UAT new app/android.widget.EditText""), ""samuat05"", 0)",,,,2023-07-17 17:19:16,2023-07-17 17:19:17,0.952s,PASSED
+hideKeyboard(),,,,2023-07-17 17:19:17,2023-07-17 17:19:18,1.405s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:19:18,2023-07-17 17:19:18,0.324s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:18,2023-07-17 17:19:19,0.363s,PASSED
+hideKeyboard(),,,,2023-07-17 17:19:19,2023-07-17 17:19:19,0.529s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:19:19,2023-07-17 17:19:20,0.392s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Yes, Its Mine""), 0)",,,,2023-07-17 17:19:20,2023-07-17 17:19:21,1.612s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:21,2023-07-17 17:19:22,0.401s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Yes, Its Mine""), 0)",,,,2023-07-17 17:19:22,2023-07-17 17:19:22,0.325s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Enter your password""), 0)",,,,2023-07-17 17:19:22,2023-07-17 17:19:23,1.287s,PASSED
+"setText(findTestObject(""Object Repository/MAE UAT new app/android.widget.EditText (1)""), ""Maybank@1"", 0)",,,,2023-07-17 17:19:23,2023-07-17 17:19:24,0.931s,PASSED
+hideKeyboard(),,,,2023-07-17 17:19:24,2023-07-17 17:19:25,1.279s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:19:25,2023-07-17 17:19:26,0.322s,PASSED
+takeScreenshot(),,,,2023-07-17 17:19:26,2023-07-17 17:19:26,0.420s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:19:26,2023-07-17 17:19:26,0.354s,PASSED
+"if (verifyElementText(findTestObject(""SPY MAE without firebase/Proceed""), ""Proceed"") == true)",,,,2023-07-17 17:19:26,2023-07-17 17:20:26,59.285s,FAILED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app""), 0)",,,,2023-07-17 17:20:26,2023-07-17 17:20:26,0.265s,PASSED
+delay(10),,,,2023-07-17 17:20:26,2023-07-17 17:20:36,10.008s,PASSED
+takeScreenshot(),,,,2023-07-17 17:20:36,2023-07-17 17:20:36,0.366s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:36,2023-07-17 17:20:37,0.774s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:37,2023-07-17 17:20:39,1.595s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:39,2023-07-17 17:20:40,1.680s,PASSED
+takeScreenshot(),,,,2023-07-17 17:20:40,2023-07-17 17:20:41,0.390s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:41,2023-07-17 17:20:42,1.310s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:42,2023-07-17 17:20:44,1.679s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:44,2023-07-17 17:20:46,1.687s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.ImageView""), 0)",,,,2023-07-17 17:20:46,2023-07-17 17:20:47,1.650s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Confirm your 6-digit PIN""), 0)",,,,2023-07-17 17:20:47,2023-07-17 17:20:48,1.076s,PASSED
+takeScreenshot(),,,,2023-07-17 17:20:48,2023-07-17 17:20:49,0.354s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:49,2023-07-17 17:20:49,0.319s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:49,2023-07-17 17:20:51,1.710s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:51,2023-07-17 17:20:52,1.785s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:52,2023-07-17 17:20:54,1.644s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:54,2023-07-17 17:20:56,1.646s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:20:56,2023-07-17 17:20:58,2.041s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.ImageView""), 0)",,,,2023-07-17 17:20:58,2023-07-17 17:20:59,1.656s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Set Up Later""), 0)",,,,2023-07-17 17:20:59,2023-07-17 17:21:01,2.003s,PASSED
+takeScreenshot(),,,,2023-07-17 17:21:01,2023-07-17 17:21:02,0.399s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Set Up Later""), 0)",,,,2023-07-17 17:21:02,2023-07-17 17:21:03,1.237s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Yes, Proceed""), 0)",,,,2023-07-17 17:21:03,2023-07-17 17:21:03,0.206s,PASSED
+takeScreenshot(),,,,2023-07-17 17:21:03,2023-07-17 17:21:04,0.345s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Yes, Proceed""), 0)",,,,2023-07-17 17:21:04,2023-07-17 17:21:04,0.263s,PASSED
+"OTP = getText(findTestObject(""Object Repository/Login Onboarding/Your OTP no. is 2""), 0)",,,,2023-07-17 17:21:04,2023-07-17 17:21:06,2.014s,PASSED
+delay(2),,,,2023-07-17 17:21:06,2023-07-17 17:21:08,2.009s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2023-07-17 17:21:08,2023-07-17 17:21:19,11.046s,PASSED
+takeScreenshot(),,,,2023-07-17 17:21:19,2023-07-17 17:21:19,0.365s,PASSED
+delay(3),,,,2023-07-17 17:21:19,2023-07-17 17:21:22,3.008s,PASSED
+"tap(findTestObject(""Object Repository/Dynamic Object/Tap Image Following 2"", [""text"":""0""]), 0)",,Tick button,,2023-07-17 17:21:22,2023-07-17 17:21:23,0.956s,PASSED
+delay(3),,,,2023-07-17 17:21:23,2023-07-17 17:21:26,3.009s,PASSED
+takeScreenshot(),,,,2023-07-17 17:21:26,2023-07-17 17:21:27,0.365s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.EditText - Enter your name""), 0)",,,,2023-07-17 17:21:27,2023-07-17 17:21:27,0.235s,PASSED
+"setText(findTestObject(""MAE UAT new app/android.widget.EditText - Enter your name""), ""Mosaj"", 0)",,,,2023-07-17 17:21:27,2023-07-17 17:21:28,1.318s,PASSED
+hideKeyboard(),,,,2023-07-17 17:21:28,2023-07-17 17:21:29,0.475s,PASSED
+"getText(findTestObject(""MAE UAT new app/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:21:29,2023-07-17 17:21:29,0.263s,PASSED
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:21:29,2023-07-17 17:21:29,0.224s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/CASA account""), 0)",,,,2023-07-17 17:21:29,2023-07-17 17:21:31,1.481s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.ImageView (1)""), 0)",,,,2023-07-17 17:21:31,2023-07-17 17:21:31,0.243s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/CASA account number""), 0)",,,,2023-07-17 17:21:31,2023-07-17 17:21:32,0.945s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Next (2)""), 0)",,,,2023-07-17 17:21:32,2023-07-17 17:21:32,0.268s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Next (2)""), 0)",,,,2023-07-17 17:21:32,2023-07-17 17:21:32,0.255s,PASSED
+delay(5),,,,2023-07-17 17:21:32,2023-07-17 17:21:37,5.009s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/NEXT your enhanced exp""), 0)",,,,2023-07-17 17:21:37,2023-07-17 17:21:38,0.174s,PASSED
+delay(15),,,,2023-07-17 17:21:38,2023-07-17 17:21:53,15.010s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:53,2023-07-17 17:21:53,0.209s,PASSED
+"tap(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:53,2023-07-17 17:21:53,0.313s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:53,2023-07-17 17:21:54,0.870s,PASSED
+"tap(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:54,2023-07-17 17:21:54,0.286s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:54,2023-07-17 17:21:55,0.693s,PASSED
+"tap(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:55,2023-07-17 17:21:55,0.246s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:55,2023-07-17 17:21:56,0.715s,PASSED
+"tap(findTestObject(""SPY MAE without firebase/spy 2/Next 1 post onboard""), 0)",,,,2023-07-17 17:21:56,2023-07-17 17:21:56,0.299s,PASSED
+"getText(findTestObject(""SPY MAE without firebase/spy 2/Got It""), 0)",,,,2023-07-17 17:21:56,2023-07-17 17:21:57,0.685s,PASSED
+"tap(findTestObject(""SPY MAE without firebase/spy 2/Got It""), 0)",,,,2023-07-17 17:21:57,2023-07-17 17:21:57,0.258s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Skip""), 0)",,,,2023-07-17 17:21:57,2023-07-17 17:21:58,0.653s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Skip""), 0)",,,,2023-07-17 17:21:58,2023-07-17 17:21:58,0.249s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Set Up Successful""), 0)",,,,2023-07-17 17:21:58,2023-07-17 17:22:00,2.075s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:22:00,2023-07-17 17:22:00,0.182s,PASSED
+"tap(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:22:00,2023-07-17 17:22:01,0.210s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Mosaj""), 0)",,,,2023-07-17 17:22:01,2023-07-17 17:22:02,1.609s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Hello,""), 0)",,,,2023-07-17 17:22:02,2023-07-17 17:22:02,0.320s,PASSED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts""), 0)",,,,2023-07-17 17:22:02,2023-07-17 17:22:03,0.354s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/secure2u registration,,,,2023-07-17 17:22:03,2023-07-17 17:26:43,4m - 39.870s,FAILED
+"getText(findTestObject(""Transfer/android.widget.TextView - Secure2u""), 0)",,,,2023-07-17 17:22:03,2023-07-17 17:22:05,1.050s,PASSED
+"tap(findTestObject(""Transfer/android.widget.TextView - Secure2u""), 0)",,,,2023-07-17 17:22:05,2023-07-17 17:22:06,1.395s,PASSED
+takeScreenshot(),,,,2023-07-17 17:22:06,2023-07-17 17:22:06,0.498s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:22:06,2023-07-17 17:22:07,1.043s,PASSED
+takeScreenshot(),,,,2023-07-17 17:22:07,2023-07-17 17:22:08,0.440s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:22:08,2023-07-17 17:22:08,0.350s,PASSED
+delay(2),,,,2023-07-17 17:22:08,2023-07-17 17:22:10,2.010s,PASSED
+"verifyElementText(findTestObject(""Object Repository/cloud device PIN registration/android.widget.TextView - Proceed""), ""Proceed"")",,,,2023-07-17 17:22:10,2023-07-17 17:22:10,0.171s,PASSED
+"if (verifyElementText(findTestObject(""Object Repository/cloud device PIN registration/android.widget.TextView - Proceed""), ""Proceed"") == true)",,,,2023-07-17 17:22:10,2023-07-17 17:24:18,2m - 7.467s,PASSED
+"getText(findTestObject(""cloud device PIN registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:24:18,2023-07-17 17:24:18,0.216s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:18,2023-07-17 17:24:18,0.369s,PASSED
+"tap(findTestObject(""cloud device PIN registration/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:24:18,2023-07-17 17:24:19,0.272s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Confirm""), 0)",,,,2023-07-17 17:24:19,2023-07-17 17:24:21,1.887s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:21,2023-07-17 17:24:21,0.390s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Confirm""), 0)",,,,2023-07-17 17:24:21,2023-07-17 17:24:21,0.246s,PASSED
+"OTP = getText(findTestObject(""Object Repository/Login Onboarding/Your OTP no. is 2""), 0)",,,,2023-07-17 17:24:21,2023-07-17 17:24:23,2.039s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:23,2023-07-17 17:24:24,0.402s,PASSED
+delay(2),,,,2023-07-17 17:24:24,2023-07-17 17:24:26,2.012s,PASSED
+"for ([i = 16, i <= 21, (i++)])",,,,2023-07-17 17:24:26,2023-07-17 17:24:36,10.616s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:36,2023-07-17 17:24:37,0.372s,PASSED
+delay(3),,,,2023-07-17 17:24:37,2023-07-17 17:24:40,3.007s,PASSED
+"tap(findTestObject(""Object Repository/Dynamic Object/Tap Image Following 2"", [""text"":""0""]), 0)",,Tick button,,2023-07-17 17:24:40,2023-07-17 17:24:40,0.606s,PASSED
+delay(2),,,,2023-07-17 17:24:40,2023-07-17 17:24:42,2.009s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Enter your ID number""), 0)",,,,2023-07-17 17:24:42,2023-07-17 17:24:43,0.169s,PASSED
+"setText(findTestObject(""Object Repository/s2u registration/android.widget.EditText - Your ID number""), ""960829149762"", 0)",,,,2023-07-17 17:24:43,2023-07-17 17:24:44,1.506s,PASSED
+hideKeyboard(),,,,2023-07-17 17:24:44,2023-07-17 17:24:45,1.376s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:45,2023-07-17 17:24:46,0.322s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:24:46,2023-07-17 17:24:46,0.267s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:24:46,2023-07-17 17:24:46,0.248s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Device Name""), 0)",,,,2023-07-17 17:24:46,2023-07-17 17:24:48,1.986s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:48,2023-07-17 17:24:49,0.371s,PASSED
+"getText(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:24:49,2023-07-17 17:24:49,0.261s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:24:49,2023-07-17 17:24:49,0.294s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Secure2u enabled""), 0)",,,,2023-07-17 17:24:49,2023-07-17 17:24:52,3.283s,PASSED
+takeScreenshot(),,,,2023-07-17 17:24:52,2023-07-17 17:24:53,0.796s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:24:53,2023-07-17 17:24:53,0.205s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Continue (1)""), 0)",,,,2023-07-17 17:24:53,2023-07-17 17:24:54,0.309s,PASSED
+"getText(findTestObject(""Object Repository/s2u registration/android.widget.TextView - Home""), 0)",,,,2023-07-17 17:24:54,2023-07-17 17:25:44,50.533s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Home""), 0)",,,,2023-07-17 17:25:44,2023-07-17 17:26:37,52.362s,PASSED
+"tap(findTestObject(""s2u registration/android.widget.TextView - Home""), 0)",,,,2023-07-17 17:26:37,2023-07-17 17:26:37,0.364s,PASSED
+delay(5),,,,2023-07-17 17:26:37,2023-07-17 17:26:42,5.010s,PASSED
+takeScreenshot(),,,,2023-07-17 17:26:42,2023-07-17 17:26:43,0.635s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/transfer,,,,2023-07-17 17:26:43,2023-07-17 17:28:46,2m - 3.273s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Transfer""), 0)",,,,2023-07-17 17:26:43,2023-07-17 17:26:44,0.226s,PASSED
+takeScreenshot(),,,,2023-07-17 17:26:44,2023-07-17 17:26:44,0.569s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Transfer""), 0)",,,,2023-07-17 17:26:44,2023-07-17 17:26:45,0.591s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - 5623 6601 0806""), 0)",,,,2023-07-17 17:26:45,2023-07-17 17:27:35,50.474s,PASSED
+takeScreenshot(),,,,2023-07-17 17:27:35,2023-07-17 17:27:36,0.479s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - 5623 6601 0806""), 0)",,,,2023-07-17 17:27:36,2023-07-17 17:28:27,51.667s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Enter amount""), 0)",,,,2023-07-17 17:28:27,2023-07-17 17:28:28,0.197s,PASSED
+"tap(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - 1""), 0)",,,,2023-07-17 17:28:28,2023-07-17 17:28:28,0.246s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:28,2023-07-17 17:28:28,0.457s,PASSED
+"tap(findTestObject(""Object Repository/MAE new app Transfer/android.widget.ImageView""), 0)",,,,2023-07-17 17:28:28,2023-07-17 17:28:29,0.369s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Enter recipient reference""), 0)",,,,2023-07-17 17:28:29,2023-07-17 17:28:30,1.268s,PASSED
+"setText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.EditText""), ""samuat06"", 0)",,,,2023-07-17 17:28:30,2023-07-17 17:28:31,0.878s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:31,2023-07-17 17:28:31,0.386s,PASSED
+hideKeyboard(),,,,2023-07-17 17:28:31,2023-07-17 17:28:32,1.233s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:32,2023-07-17 17:28:33,0.181s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:33,2023-07-17 17:28:33,0.319s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:33,2023-07-17 17:28:33,0.291s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Confirmation""), 0)",,,,2023-07-17 17:28:33,2023-07-17 17:28:35,1.943s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Transfer Now""), 0)",,,,2023-07-17 17:28:35,2023-07-17 17:28:35,0.209s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:35,2023-07-17 17:28:36,0.403s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Transfer Now""), 0)",,,,2023-07-17 17:28:36,2023-07-17 17:28:36,0.229s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Transfer successful""), 0)",,,,2023-07-17 17:28:36,2023-07-17 17:28:39,2.741s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Share Receipt""), 0)",,,,2023-07-17 17:28:39,2023-07-17 17:28:39,0.182s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:39,2023-07-17 17:28:39,0.354s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Share Receipt""), 0)",,,,2023-07-17 17:28:39,2023-07-17 17:28:40,0.239s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Own Account Transfer""), 0)",,,,2023-07-17 17:28:40,2023-07-17 17:28:41,1.989s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Successful""), 0)",,,,2023-07-17 17:28:42,2023-07-17 17:28:42,0.341s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:42,2023-07-17 17:28:42,0.420s,PASSED
+"tap(findTestObject(""Object Repository/MAE new app Transfer/android.widget.ImageView (1)""), 0)",,,,2023-07-17 17:28:42,2023-07-17 17:28:43,0.264s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:28:43,2023-07-17 17:28:44,1.096s,PASSED
+takeScreenshot(),,,,2023-07-17 17:28:44,2023-07-17 17:28:44,0.353s,PASSED
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:28:44,2023-07-17 17:28:44,0.463s,PASSED
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Hello,""), 0)",,,,2023-07-17 17:28:44,2023-07-17 17:28:46,1.488s,PASSED
+"tap(findTestObject(""Object Repository/MAE new app Transfer/android.widget.ImageView (2)""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Maybank2u""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Maybank2u""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.002s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Secure2u""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Home""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.007s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Home""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Activate Secure2u to approve transactions safely and quickly with a single tap""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Activate Now""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.002s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - One Time Password""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.002s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Confirm""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.000s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Confirm""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.003s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Your OTP no. is 977143""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.002s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Enter your ID number""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.019s,NOT_RUN
+"setText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.EditText - Your ID number""), ""960829143986"", 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+hideKeyboard(),,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Confirm your device name""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.002s,NOT_RUN
+"getText(findTestObject(""MAE UAT new app/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE UAT new app/android.widget.TextView - Done""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.004s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Secure2u activation in progress""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Continue""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.000s,NOT_RUN
+"getText(findTestObject(""MAE new app Transfer/android.widget.TextView - Transfer""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.000s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - Transfer""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - MAYBANK""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+"tap(findTestObject(""MAE new app Transfer/android.widget.TextView - MAYBANK""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.000s,NOT_RUN
+"getText(findTestObject(""Object Repository/MAE new app Transfer/android.widget.TextView - Account number""), 0)",,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN
+closeApplication(),,,,2023-07-17 17:28:46,2023-07-17 17:28:46,0.001s,NOT_RUN

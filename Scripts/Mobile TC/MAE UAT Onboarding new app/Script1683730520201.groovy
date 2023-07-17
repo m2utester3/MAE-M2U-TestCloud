@@ -93,7 +93,7 @@ if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/Proceed'),
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
     0)
 
-WebUI.delay(10)
+WebUI.delay(3)
 
 Mobile.takeScreenshot()
 
