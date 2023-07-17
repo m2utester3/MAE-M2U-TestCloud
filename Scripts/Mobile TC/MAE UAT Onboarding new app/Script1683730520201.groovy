@@ -57,9 +57,9 @@ Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.
 
 WebUI.delay(5)
 
-Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('SPY MAE without firebase/spy3/userid EditText'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText'), 'samuat05', 0)
+Mobile.setText(findTestObject('SPY MAE without firebase/spy3/userid EditText'), 'samuat05', 0)
 
 Mobile.hideKeyboard()
 
