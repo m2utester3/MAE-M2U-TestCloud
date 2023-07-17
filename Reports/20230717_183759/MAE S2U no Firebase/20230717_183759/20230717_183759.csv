@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE S2U no Firebase,,,,2023-07-17 18:38:13,2023-07-17 18:38:31,17.382s,FAILED
+,,,,,,,
+Test Cases/Mobile TC/MAE UAT Onboarding new app,,,,2023-07-17 18:38:14,2023-07-17 18:38:30,15.967s,FAILED
+"startApplication(""/Users/APK/uat_latest_withoutFirebase.apk"", false)",,,,2023-07-17 18:38:15,2023-07-17 18:38:19,4.595s,FAILED
+delay(10),,,,2023-07-17 18:38:19,2023-07-17 18:38:30,10.136s,PASSED
+takeScreenshot(),,,,2023-07-17 18:38:30,2023-07-17 18:38:30,0.131s,FAILED
+"getText(findTestObject(""Object Repository/MAE UAT new app/android.widget.TextView - Next""), 0)",,,,2023-07-17 18:38:30,2023-07-17 18:38:30,0.269s,PASSED
+,,,,,,,
+Test Cases/Login Onboard/secure2u registration,,,,2023-07-17 18:38:30,2023-07-17 18:38:31,0.725s,FAILED
+"getText(findTestObject(""Transfer/android.widget.TextView - Secure2u""), 0)",,,,2023-07-17 18:38:31,2023-07-17 18:38:31,0.119s,PASSED
