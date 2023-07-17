@@ -55,6 +55,8 @@ Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Existing M2
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Please enter your username'), 
     0)
 
+WebUI.delay(5)
+
 Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText'), 'samuat05', 0)
 
 Mobile.hideKeyboard()

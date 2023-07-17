@@ -21,7 +21,7 @@
    <testCaseLink>
       <guid>bac02ec3-4ff1-4d07-ab5f-b4fb7dc21c54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Login Onboard/secure2u registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
