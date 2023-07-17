@@ -149,6 +149,15 @@ not_run: Mobile.pressBack()
 
 WebUI.delay(3)
 
+if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/spy3/Are you sure you want to quit the app'), 'Are you sure you want to quit the app?') == true) {
+	Mobile.getText(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
+	Mobile.tap(findTestObject('SPY MAE without firebase/spy3/Quit App - No'), 0)
+	}
+
+
+
+
+
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
