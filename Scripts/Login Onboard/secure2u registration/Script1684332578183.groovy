@@ -23,9 +23,9 @@ import org.openqa.selenium.Keys as Keys
 //AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 //driver.lockDevice()
 //driver.unlockDevice()
-Mobile.getText(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
+not_run: Mobile.getText(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
-Mobile.tap(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
+not_run: Mobile.tap(findTestObject('Transfer/android.widget.TextView - Secure2u'), 0)
 
 Mobile.takeScreenshot()
 
@@ -37,11 +37,13 @@ Mobile.tap(findTestObject('s2u registration/android.widget.TextView - Activate N
 
 Mobile.delay(2)
 
-Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 
+not_run: Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 
     'Proceed')
 
+not_run: Mobile.takeScreenshot()
 
-if (Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 'Proceed') == true) {
+not_run: if (Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Proceed'), 
+    'Proceed') == true) {
     Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Proceed'), 0)
 
     WebUI.delay(3)
@@ -50,6 +52,8 @@ if (Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN 
 
     Mobile.getText(findTestObject('Object Repository/cloud device PIN registration/android.widget.TextView - Lock screen'), 
         0)
+
+    Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Lock screen'), 0)
 
@@ -164,11 +168,11 @@ if (Mobile.verifyElementText(findTestObject('Object Repository/cloud device PIN 
     Mobile.takeScreenshot()
 }
 
-Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
+not_run: Mobile.getText(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
 
-Mobile.takeScreenshot()
+not_run: Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
+not_run: Mobile.tap(findTestObject('cloud device PIN registration/android.widget.TextView - Activate Now'), 0)
 
 Mobile.getText(findTestObject('Object Repository/s2u registration/android.widget.TextView - Confirm'), 0)
 

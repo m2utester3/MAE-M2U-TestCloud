@@ -28,3 +28,4 @@
 [35m[BaseDriver][39m Session created with session id: 23188785-5ea0-448e-9230-ebfebdd00a5a
 [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m1073 ms - 683[39m
 [35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down

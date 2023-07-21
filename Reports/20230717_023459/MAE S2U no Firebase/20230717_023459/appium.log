@@ -2243,3 +2243,4 @@
 [35m[Appium][39m Removing session 'e745fc61-06df-406e-9d92-85e3098972fa' from our master session list
 [35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[Appium][39m Received SIGTERM - shutting down

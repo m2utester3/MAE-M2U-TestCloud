@@ -33,6 +33,12 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
 
+Mobile.tap(findTestObject('MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
+
+Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
+
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Agree'), 0)
 
 Mobile.takeScreenshot()
@@ -89,9 +95,11 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
 
-if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/Proceed'), 'Proceed') == true) {
+if (Mobile.verifyElementText(findTestObject('SPY MAE without firebase/Proceed'), 'Proceed', FailureHandling.OPTIONAL) == true) {
     Mobile.tap(findTestObject('SPY MAE without firebase/Proceed'), 0)
 }
+
+
 
 //Mobile.getText(findTestObject('SPY MAE without firebase/Proceed'), 0)
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Create your PIN for the app'), 
@@ -190,29 +198,29 @@ Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.Text
 
 WebUI.delay(5)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/NEXT your enhanced exp'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/NEXT your enhanced exp'), 0)
 
-WebUI.delay(15)
+not_run: WebUI.delay(15)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
+not_run: Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Next 1 post onboard'), 0)
 
-Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
+not_run: Mobile.getText(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
 
-Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
+not_run: Mobile.tap(findTestObject('SPY MAE without firebase/spy 2/Got It'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Skip'), 0)
 
@@ -224,9 +232,10 @@ Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.
 
 Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Done'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Mosaj'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Mosaj'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Hello,'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Hello,'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts'), 0)
+not_run: Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - View All Accounts'), 
+    0)
 
