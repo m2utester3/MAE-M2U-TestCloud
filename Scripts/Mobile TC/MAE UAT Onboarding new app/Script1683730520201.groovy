@@ -87,6 +87,8 @@ Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.
 
 Mobile.setText(findTestObject('Object Repository/MAE UAT new app/android.widget.EditText (1)'), 'Maybank@1', 0)
 
+WebUI.delay(3)
+
 Mobile.hideKeyboard()
 
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Continue (1)'), 0)
