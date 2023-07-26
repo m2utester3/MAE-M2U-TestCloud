@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>34890479-e81c-4f11-8d74-3d73e08345ce</testSuiteGuid>
    <testCaseLink>
-      <guid>5cb393a1-336d-482d-bb3f-97187576b7ae</guid>
+      <guid>f5f4abbe-15d3-4ca4-8be8-db6e01702f09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile TC/MAE UAT Onboarding new app</testCaseId>
+      <testCaseId>Test Cases/Login Onboard/MAE sanity cloud</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
