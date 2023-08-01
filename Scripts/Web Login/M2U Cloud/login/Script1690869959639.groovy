@@ -17,30 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.takeScreenshot()
-
-WebUI.navigateToUrl('https://m2umobilesit.maybank.com.my/mbb/m2u/common/login.do')
-
-WebUI.delay(15)
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
-    'tunnel')
-
-WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
-
-WebUI.click(findTestObject('Object Repository/m2u login/Page_Maybank2u  Maybank Malaysia/button_YES'))
-
-WebUI.delay(15)
-
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
-
