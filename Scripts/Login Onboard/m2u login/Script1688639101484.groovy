@@ -22,8 +22,9 @@ WebUI.openBrowser('')
 WebUI.takeScreenshot()
 
 //WebUI.navigateToUrl('https://m2umobilesit.maybank.com.my/mbb/m2u/common/login.do')
+not_run: WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
-WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+WebUI.navigateToUrl('https://sitm2uweb.maybank.com/cgi-bin/bvRSA2/m2u/common/login.do')
 
 WebUI.delay(15)
 
