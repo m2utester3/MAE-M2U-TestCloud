@@ -11,8 +11,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 257,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;114&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/board/login only</testSuiteEntity>
@@ -21,8 +36,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 257,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;114&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/board/board_m2u_transfe</testSuiteEntity>
@@ -31,8 +61,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 257,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;114&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/board/m2u navigation</testSuiteEntity>
@@ -41,8 +86,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 257,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;114&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/board/m2u registration</testSuiteEntity>
@@ -51,8 +111,23 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 257,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;114&quot;,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;timeout&quot;: 15,
+  &quot;usingTunnel&quot;: false
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/board/transfer - negativeTest</testSuiteEntity>
