@@ -27,7 +27,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.getText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account'))
 
