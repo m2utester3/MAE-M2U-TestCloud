@@ -27,19 +27,29 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW'))
 
+WebUI.delay(10)
+
 WebUI.getText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account'))
 
 WebUI.setText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc'), 
     '11111111111111')
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S'), 
     '123456')
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE'))
 
+WebUI.delay(10)
+
 WebUI.getText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number'))
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

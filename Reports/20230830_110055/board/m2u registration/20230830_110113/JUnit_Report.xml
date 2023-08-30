@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="m2u registration" time="242.245" tests="1" failures="0" errors="0">
+   <testsuite name="m2u registration" tests="1" failures="0" errors="0" time="242.245" skipped="0" timestamp="2023-08-30 11:02:06" hostname="mosaj - 192.168.1.183" id="Test Suites/board/m2u registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230830_110055/board/m2u registration/20230830_110113"/>
+         <property name="logFiles" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230830_110055/board/m2u registration/20230830_110113/execution0.log"/>
+         <property name="attachments" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20230830_110055/board/m2u registration/20230830_110113/1693364549378.png"/>
+         <property name="hostName" value="mosaj - 192.168.1.183"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="10.154.6.164"/>
+         <property name="sessionId" value="f9e018ee31e4f6d095d38d39fb0f85eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web Login/m2u registration" time="76.052" classname="Test Cases/Web Login/m2u registration" status="PASSED">
+         <system-out><![CDATA[2023-08-30 11:04:53 - [TEST_CASE][PASSED] - Test Cases/Web Login/m2u registration: Test Cases/Web Login/m2u registration
+
+2023-08-30 11:04:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-30 11:04:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-30 11:04:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-30 11:04:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-30 11:04:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-30 11:04:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-30 11:04:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-30 11:04:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.maybank2u.com.my/home/m2u/common/login.do"): Navigate to 'https://www.maybank2u.com.my/home/m2u/common/login.do' successfully
+
+2023-08-30 11:05:00 - [MESSAGE][PASSED] - Navigate to 'https://www.maybank2u.com.my/home/m2u/common/login.do' successfully
+
+2023-08-30 11:05:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-30 11:05:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-30 11:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW")): Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW' is clicked on
+
+2023-08-30 11:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW' is clicked on
+
+2023-08-30 11:05:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-30 11:05:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-30 11:05:13 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account")): Text of object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account' is: 'Ready to create an account?'
+
+2023-08-30 11:05:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account' is: 'Ready to create an account?'
+
+2023-08-30 11:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc"), "11111111111111"): Text '11111111111111' is set on object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc'
+
+2023-08-30 11:05:19 - [MESSAGE][PASSED] - Text '11111111111111' is set on object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc'
+
+2023-08-30 11:05:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-30 11:05:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-30 11:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S"), "123456"): Text '123456' is set on object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S'
+
+2023-08-30 11:05:33 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S'
+
+2023-08-30 11:05:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-30 11:05:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-30 11:05:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f")): Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f' is clicked on
+
+2023-08-30 11:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f' is clicked on
+
+2023-08-30 11:05:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-30 11:05:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-30 11:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE")): Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE' is clicked on
+
+2023-08-30 11:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE' is clicked on
+
+2023-08-30 11:05:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-08-30 11:06:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-08-30 11:06:07 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number")): Text of object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number' is: 'Invalid Card Access Number'
+
+2023-08-30 11:06:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number' is: 'Invalid Card Access Number'
+
+2023-08-30 11:06:09 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2023-08-30 11:06:09 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-30 11:02:06 - [TEST_SUITE][FAILED] - m2u registration: Test Cases/Web Login/m2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at m2u registration.run(m2u registration:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693364473981.run(TempTestSuite1693364473981.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'fullscreen'
+  (Session info: chrome=116.0.5845.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: 'fe80:0:0:0:4a4:e36e:145a:5e93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/pj/tdgwyxh90y7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e68339ca7c908753e2541e750473d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at Script1676539932356.run(Script1676539932356.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at m2u registration.run(m2u registration:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693364473981.run(TempTestSuite1693364473981.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	... 21 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'fullscreen'
+  (Session info: chrome=116.0.5845.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: 'fe80:0:0:0:4a4:e36e:145a:5e93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/pj/tdgwyxh90y7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e68339ca7c908753e2541e750473d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-30 11:02:06 - [TEST_SUITE][FAILED] - m2u registration: Test Cases/Web Login/m2u registration FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at m2u registration.run(m2u registration:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693364473981.run(TempTestSuite1693364473981.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'fullscreen'
+  (Session info: chrome=116.0.5845.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: 'fe80:0:0:0:4a4:e36e:145a:5e93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/pj/tdgwyxh90y7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e68339ca7c908753e2541e750473d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at Script1676539932356.run(Script1676539932356.groovy:22)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow(MaximizeWindowKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.execute(MaximizeWindowKeyword.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.maximizeWindow(WebUiBuiltInKeywords.groovy:283)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$maximizeWindow$0.call(Unknown Source)
+	at m2u registration.run(m2u registration:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1693364473981.run(TempTestSuite1693364473981.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to maximize current window
+	... 21 more
+Caused by: org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'maximized', current state is 'fullscreen'
+  (Session info: chrome=116.0.5845.140)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MOHAMMADs-MacBook-Air.local', ip: 'fe80:0:0:0:4a4:e36e:145a:5e93%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /var/folders/pj/tdgwyxh90y7...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3e68339ca7c908753e2541e750473d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWindow.maximize(EventFiringWebDriver.java:769)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.doCall(MaximizeWindowKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword$_maximizeWindow_closure1.call(MaximizeWindowKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

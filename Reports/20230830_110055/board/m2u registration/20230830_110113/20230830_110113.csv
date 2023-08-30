@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+m2u registration,Chrome 116.0.0.0,,,2023-08-30 11:02:06,2023-08-30 11:06:09,4m - 2.245s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u registration,Chrome 116.0.0.0,,,2023-08-30 11:04:53,2023-08-30 11:06:09,1m - 16.052s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-30 11:04:53,2023-08-30 11:04:55,2.735s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-30 11:04:55,2023-08-30 11:04:56,0.480s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Chrome 116.0.0.0,,,2023-08-30 11:04:56,2023-08-30 11:05:00,3.734s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 11:05:00,2023-08-30 11:05:02,2.010s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW""))",Chrome 116.0.0.0,,,2023-08-30 11:05:02,2023-08-30 11:05:03,1.079s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-30 11:05:03,2023-08-30 11:05:13,10.011s,PASSED
+"getText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Ready to create an account""))",Chrome 116.0.0.0,,,2023-08-30 11:05:13,2023-08-30 11:05:15,1.891s,PASSED
+"setText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_Card  Access Number_Registration---pa_a8d3dc""), ""11111111111111"")",Chrome 116.0.0.0,,,2023-08-30 11:05:15,2023-08-30 11:05:19,4.611s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-30 11:05:19,2023-08-30 11:05:29,10.015s,PASSED
+"setText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/input_PIN_Registration---pair-input---2_o7S""), ""123456"")",Chrome 116.0.0.0,,,2023-08-30 11:05:29,2023-08-30 11:05:33,3.598s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-30 11:05:33,2023-08-30 11:05:43,10.011s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_PIN_Registration---radios---3V54f""))",Chrome 116.0.0.0,,,2023-08-30 11:05:43,2023-08-30 11:05:45,1.880s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-30 11:05:45,2023-08-30 11:05:55,10.012s,PASSED
+"click(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/button_CONTINUE""))",Chrome 116.0.0.0,,,2023-08-30 11:05:55,2023-08-30 11:05:57,1.975s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-30 11:05:57,2023-08-30 11:06:07,10.011s,PASSED
+"getText(findTestObject(""Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number""))",Chrome 116.0.0.0,,,2023-08-30 11:06:07,2023-08-30 11:06:09,1.942s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-30 11:06:09,2023-08-30 11:06:09,0.000s,NOT_RUN

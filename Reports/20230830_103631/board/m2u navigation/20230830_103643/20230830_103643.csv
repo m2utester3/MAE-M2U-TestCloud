@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+m2u navigation,Chrome 116.0.0.0,,,2023-08-30 10:41:17,2023-08-30 10:41:54,37.599s,PASSED
+,,,,,,,
+Test Cases/Web Login/m2u home page Navigation,Chrome 116.0.0.0,,,2023-08-30 10:41:17,2023-08-30 10:41:54,36.867s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-30 10:41:18,2023-08-30 10:41:22,4.195s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-30 10:41:22,2023-08-30 10:41:23,0.486s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Chrome 116.0.0.0,,,2023-08-30 10:41:23,2023-08-30 10:41:27,4.455s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:41:27,2023-08-30 10:41:29,2.075s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u  Maybank Malaysia/a_BUSINESS""))",Chrome 116.0.0.0,,,2023-08-30 10:41:29,2023-08-30 10:41:32,3.022s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:41:32,2023-08-30 10:41:34,2.012s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""), ""LOGIN"")",Chrome 116.0.0.0,,,2023-08-30 10:41:34,2023-08-30 10:41:35,0.405s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login""))",Chrome 116.0.0.0,,,2023-08-30 10:41:35,2023-08-30 10:41:37,2.050s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-30 10:41:37,2023-08-30 10:41:42,5.010s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/button_close""))",Chrome 116.0.0.0,,,2023-08-30 10:41:42,2023-08-30 10:41:43,0.813s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-30 10:41:43,2023-08-30 10:41:48,5.006s,PASSED
+"click(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/input_Username_action""))",Chrome 116.0.0.0,,,2023-08-30 10:41:48,2023-08-30 10:41:48,0.592s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-30 10:41:48,2023-08-30 10:41:53,5.007s,PASSED
+"getText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""))",Chrome 116.0.0.0,,,2023-08-30 10:41:53,2023-08-30 10:41:54,0.508s,PASSED
+"verifyElementText(findTestObject(""Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required""), ""Username is required."")",Chrome 116.0.0.0,,,2023-08-30 10:41:54,2023-08-30 10:41:54,0.461s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-30 10:41:54,2023-08-30 10:41:54,0.002s,NOT_RUN

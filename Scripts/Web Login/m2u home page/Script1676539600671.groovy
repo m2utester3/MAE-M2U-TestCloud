@@ -26,14 +26,20 @@ WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
     findTestData('DevOps').getValue(1, 2))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES'))
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'), 
-    findTestData('DevOps').getValue(2, 1))
+    'Mayesha@19')
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

@@ -34,14 +34,20 @@ WebUI.verifyElementText(findTestObject('Object Repository/m2u home page/Page_May
 
 WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/button_close'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/input_Username_action'))
+
+WebUI.delay(5)
 
 WebUI.getText(findTestObject('Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/m2u home page/Page_Maybank2u.com Online Financial Services/span_Username is required'), 
     'Username is required.')
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

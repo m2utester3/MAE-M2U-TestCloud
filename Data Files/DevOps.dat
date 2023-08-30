@@ -3,6 +3,7 @@
    <description></description>
    <name>DevOps</name>
    <tag></tag>
+   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>f19a0c1f-e38e-4bbf-8981-081dca5f859c</dataFileGUID>

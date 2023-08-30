@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Maybank2u\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230830_105306/board/transfer - negativeTest/20230830_105322/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES_neighbor.png"
+    }
+  ]
+}

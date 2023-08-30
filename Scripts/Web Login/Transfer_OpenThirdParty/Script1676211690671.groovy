@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES'))
 
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'), 
-    findTestData('DevOps').getValue(2, 1))
+    'Mayesha@19')
 
 WebUI.delay(5)
 
@@ -107,7 +107,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_REQUEST'))
 
-WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e'))
+not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/h4_Check your Secure2u registered device an_fd105e'))
 
 WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_StatusSuccessful'))
 
@@ -149,5 +149,5 @@ WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Mayban
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

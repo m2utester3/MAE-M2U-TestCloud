@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS",
+      "brokenLocator": "//div[@id\u003d\u0027scrollToDetails\u0027]/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTACT US\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW",
+      "brokenLocator": "//*[(text() \u003d \u0027REGISTER NOW\u0027 or . \u003d \u0027REGISTER NOW\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027HELP \u0026 TIPS\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Maybank2u\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES_neighbor.png"
+    }
+  ]
 }

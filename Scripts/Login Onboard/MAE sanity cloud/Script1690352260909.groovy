@@ -17,13 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/APK/uat_MAEs2uCPuplift.apk', false)
+Mobile.startApplication('/Users/APK/uat_MAE_0917_Aug11_Edward.apk', false)
 
 WebUI.delay(10)
 
 Mobile.takeScreenshot()
 
 Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.getText(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
+
+Mobile.tap(findTestObject('Object Repository/MAE UAT new app/android.widget.TextView - Next'), 0)
 
 Mobile.takeScreenshot()
 

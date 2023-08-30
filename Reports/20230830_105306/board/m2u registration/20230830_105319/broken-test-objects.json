@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW",
+      "brokenLocator": "//*[(text() \u003d \u0027REGISTER NOW\u0027 or . \u003d \u0027REGISTER NOW\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027HELP \u0026 TIPS\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230830_105306/board/m2u registration/20230830_105319/Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_REGISTER NOW_neighbor.png"
+    }
+  ]
+}

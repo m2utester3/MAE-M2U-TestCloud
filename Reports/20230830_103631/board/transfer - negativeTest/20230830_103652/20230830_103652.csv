@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+transfer - negativeTest,Chrome 116.0.0.0,,,2023-08-30 10:43:48,2023-08-30 10:44:41,52.632s,PASSED
+,,,,,,,
+Test Cases/Web Login/transfer - negativeTest,Chrome 116.0.0.0,,,2023-08-30 10:43:49,2023-08-30 10:44:41,52.055s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-30 10:43:50,2023-08-30 10:43:55,4.933s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-30 10:43:55,2023-08-30 10:43:57,2.488s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-30 10:43:57,2023-08-30 10:43:58,0.588s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Chrome 116.0.0.0,,,2023-08-30 10:43:58,2023-08-30 10:44:05,7.534s,PASSED
+getPageHeight(),Chrome 116.0.0.0,,,2023-08-30 10:44:05,2023-08-30 10:44:05,0.092s,PASSED
+getPageWidth(),Chrome 116.0.0.0,,,2023-08-30 10:44:05,2023-08-30 10:44:05,0.092s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), findTestData(""DevOps"").getValue(1, 1))",Chrome 116.0.0.0,,,2023-08-30 10:44:05,2023-08-30 10:44:13,7.117s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_LOGIN""))",Chrome 116.0.0.0,,,2023-08-30 10:44:13,2023-08-30 10:44:14,1.117s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES""))",Chrome 116.0.0.0,,,2023-08-30 10:44:14,2023-08-30 10:44:15,1.771s,PASSED
+"setText(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), ""Mayesha@19"")",Chrome 116.0.0.0,,,2023-08-30 10:44:15,2023-08-30 10:44:16,0.877s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-30 10:44:16,2023-08-30 10:44:21,5.032s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-08-30 10:44:21,2023-08-30 10:44:22,0.439s,PASSED
+delay(4),Chrome 116.0.0.0,,,2023-08-30 10:44:22,2023-08-30 10:44:26,4.009s,PASSED
+takeScreenshot(),Chrome 116.0.0.0,,,2023-08-30 10:44:26,2023-08-30 10:44:27,1.154s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS""))",Chrome 116.0.0.0,,,2023-08-30 10:44:27,2023-08-30 10:44:28,0.803s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:44:28,2023-08-30 10:44:30,2.022s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 116.0.0.0,,,2023-08-30 10:44:30,2023-08-30 10:44:31,1.171s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:44:31,2023-08-30 10:44:33,2.008s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_x""))",Chrome 116.0.0.0,,,2023-08-30 10:44:33,2023-08-30 10:44:33,0.455s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_TRANSFER""))",Chrome 116.0.0.0,,,2023-08-30 10:44:33,2023-08-30 10:44:34,0.578s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:44:34,2023-08-30 10:44:36,2.006s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Own Accounts""))",Chrome 116.0.0.0,,,2023-08-30 10:44:36,2023-08-30 10:44:36,0.404s,PASSED
+delay(2),Chrome 116.0.0.0,,,2023-08-30 10:44:36,2023-08-30 10:44:38,2.006s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )""))",Chrome 116.0.0.0,,,2023-08-30 10:44:38,2023-08-30 10:44:39,0.422s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d""))",Chrome 116.0.0.0,,,2023-08-30 10:44:39,2023-08-30 10:44:40,1.566s,PASSED
+"click(findTestObject(""Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic""))",Chrome 116.0.0.0,,,2023-08-30 10:44:40,2023-08-30 10:44:41,0.573s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-08-30 10:44:41,2023-08-30 10:44:41,0.003s,NOT_RUN

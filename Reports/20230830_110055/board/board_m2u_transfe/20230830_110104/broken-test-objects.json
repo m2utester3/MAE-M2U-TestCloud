@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS",
+      "brokenLocator": "//div[@id\u003d\u0027scrollToDetails\u0027]/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTACT US\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230830_110055/board/board_m2u_transfe/20230830_110104/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS_neighbor.png"
+    }
+  ]
+}
