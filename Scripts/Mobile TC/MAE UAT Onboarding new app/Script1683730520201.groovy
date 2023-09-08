@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/APK/uat_MAEs2uCPuplift.apk', false)
+Mobile.startApplication('/Users/APK/sit_MAE_0917_Sept04_Edward.apk', false)
 
 WebUI.delay(10)
 

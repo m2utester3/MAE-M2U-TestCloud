@@ -23,5 +23,8 @@ WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('MAE PROD/spy/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
+    findTestData('MBI').getValue(1, 1))
+
+WebUI.click(findTestObject('MAE PROD/spy/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))
 

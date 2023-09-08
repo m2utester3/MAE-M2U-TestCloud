@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Humanising Financial Services\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230908_114219/MBI123/TS_MBI/20230908_114219/Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN_neighbor.png"
+    }
+  ]
+}

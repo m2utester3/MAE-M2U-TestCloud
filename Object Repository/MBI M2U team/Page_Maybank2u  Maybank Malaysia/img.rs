@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>fae0ae92-2256-4b79-bc10-396b4dde1942</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>14fe91bd-0f7b-4a47-be54-7d12e28cda9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/lock.svg</value>
+      <webElementGuid>fa6f9d37-49bc-4612-a21a-bb8cbbe76956</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2Ns8Y container-fluid&quot;]/div[@class=&quot;login---loginContainer---3Q8YG login---freeze---2JbO6 row&quot;]/div[2]/div[@class=&quot;Header---container---9eJ1U&quot;]/div[2]/div[@class=&quot;GeneralModal---container---2eNZL undefined&quot;]/div[@class=&quot;GeneralModal---modal---3S0wp SecurityPhrase---container---1lSJY&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---3rWCl GeneralModal---slideInDown---QgFoz&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;undefined modal-body&quot;]/div[@class=&quot;SecurityPhrase---loginBox---3UGw_&quot;]/div[@class=&quot;SecurityPhrase---login-field-wrapper----9BS1 protected&quot;]/div[@class=&quot;SecurityPhrase---login-input-icon---2akHY&quot;]/img[1]</value>
+      <webElementGuid>b5eb4c83-9fc5-466f-bcb5-c25250e62c84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div/img</value>
+      <webElementGuid>86bd9fa9-cfcd-40bf-84be-0a4d1bf87ff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/img</value>
+      <webElementGuid>955dcd61-9a38-4ba7-9112-ecd6eb752e82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/icons/lock.svg']</value>
+      <webElementGuid>72cb1fbc-eb08-4e71-b488-b518fca531e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

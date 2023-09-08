@@ -29,6 +29,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/button_YES_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Humanising Financial Services\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input",
+      "brokenLocator": "//input[@id\u003d\u0027my-password-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_You do not have any activities for today",
+      "brokenLocator": "//*[(text() \u003d \u0027You do not have any activities for today.\u0027 or . \u003d \u0027You do not have any activities for today.\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027BUSINESS\u0027])[2]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_You do not have any activities for today_neighbor.png"
     }
   ]
 }

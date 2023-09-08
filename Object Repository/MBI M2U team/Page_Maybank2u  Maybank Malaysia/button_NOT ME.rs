@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_NOT ME</name>
+   <tag></tag>
+   <elementGuidId>156411d3-d9f1-4db3-8867-dc472fad9a3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default.btn.btn-default</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7614a103-4534-4049-ab3f-291e5675cf33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>68c2ff06-7242-4a95-8857-62beac59b61e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btn btn-default</value>
+      <webElementGuid>e86becbd-8eac-440a-8a17-d0dccd223dcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NOT ME</value>
+      <webElementGuid>51d124ba-f33b-4759-9e47-f7b5ae87e8f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2Ns8Y container-fluid&quot;]/div[@class=&quot;login---loginContainer---3Q8YG login---freeze---2JbO6 row&quot;]/div[2]/div[@class=&quot;Header---container---9eJ1U&quot;]/div[2]/div[@class=&quot;GeneralModal---container---2eNZL undefined&quot;]/div[@class=&quot;GeneralModal---modal---3S0wp SecurityPhrase---container---1lSJY&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---3rWCl GeneralModal---slideInDown---QgFoz&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;modal-footer&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-6 col-xs-12 SecurityPhrase---left-btn-container---1RcsC&quot;]/button[@class=&quot;btn btn-default btn btn-default&quot;]</value>
+      <webElementGuid>103c8fba-f724-4f29-beae-774e5b00d51d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>285ba474-ccf9-4425-b3f1-5de57c90e66c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/button</value>
+      <webElementGuid>56ed6642-83fc-4b42-b725-bc290ac50d21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Much to think?'])[1]/following::button[1]</value>
+      <webElementGuid>3f929ff5-1f74-48d6-9038-f9c3cbfcb859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/preceding::button[1]</value>
+      <webElementGuid>2866de43-410a-4c69-beae-56395075211d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NOT ME']/parent::*</value>
+      <webElementGuid>039e7af8-01dc-47ac-8ed2-18f7c2bc4529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>19bcf91c-f706-45fc-8631-5a95a1adb832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'NOT ME' or . = 'NOT ME')]</value>
+      <webElementGuid>65e6594a-9ad8-42b1-b1bb-006fe4eeb48f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_MBI,Chrome 116.0.0.0,,,2023-09-08 11:30:38,2023-09-08 11:34:48,4m - 9.753s,FAILED
+,,,,,,,
+Test Cases/MBI web/M2U/login negative,Chrome 116.0.0.0,,,2023-09-08 11:30:40,2023-09-08 11:31:13,32.832s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-08 11:30:42,2023-09-08 11:30:54,11.485s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-09-08 11:30:54,2023-09-08 11:30:54,0.515s,PASSED
+"navigateToUrl(""https://www.maybank2u.com.my/home/m2u/common/login.do"")",Chrome 116.0.0.0,,,2023-09-08 11:30:54,2023-09-08 11:31:03,8.346s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-09-08 11:31:03,2023-09-08 11:31:05,1.852s,PASSED
+"a = getText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_Input Username between 6 and 16 characters""))",Chrome 116.0.0.0,,,2023-09-08 11:31:05,2023-09-08 11:31:06,1.020s,PASSED
+"verifyElementText(findTestObject(""MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_Input Username between 6 and 16 characters""), ""Input Username between 6 and 16 characters."")",Chrome 116.0.0.0,,,2023-09-08 11:31:06,2023-09-08 11:31:06,0.633s,PASSED
+"verifyEqual(a, ""Input Username between 6 and 16 ch"")",Chrome 116.0.0.0,,,2023-09-08 11:31:06,2023-09-08 11:31:06,0.290s,FAILED
+delay(2),Chrome 116.0.0.0,,,2023-09-08 11:31:06,2023-09-08 11:31:09,2.069s,PASSED
+"setText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), ""rwerqrq"")",Chrome 116.0.0.0,,,2023-09-08 11:31:09,2023-09-08 11:31:10,1.447s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-09-08 11:31:10,2023-09-08 11:31:11,0.743s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/button_NOT ME""))",Chrome 116.0.0.0,,,2023-09-08 11:31:11,2023-09-08 11:31:13,1.744s,PASSED
+,,,,,,,
+Test Cases/MBI web/M2U/login postive,Chrome 116.0.0.0,,,2023-09-08 11:31:13,2023-09-08 11:34:48,3m - 34.987s,FAILED
+"setText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), ""mosajgohar1"")",Chrome 116.0.0.0,,,2023-09-08 11:31:14,2023-09-08 11:31:15,1.214s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-09-08 11:31:15,2023-09-08 11:31:15,0.538s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/button_YES""))",Chrome 116.0.0.0,,,2023-09-08 11:31:15,2023-09-08 11:31:17,2.040s,PASSED
+"setText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), ""●●●●●●●●●"")",Chrome 116.0.0.0,,,2023-09-08 11:31:17,2023-09-08 11:31:18,1.073s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-09-08 11:31:18,2023-09-08 11:31:52,34.069s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_Invalid usernamepassword. Click Forgot_0dbcbb""))",Chrome 116.0.0.0,,,2023-09-08 11:31:52,2023-09-08 11:32:30,37.882s,FAILED
+"setText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), ""●●●●●●●●●●"")",Chrome 116.0.0.0,,,2023-09-08 11:32:30,2023-09-08 11:33:36,1m - 5.150s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 116.0.0.0,,,2023-09-08 11:33:36,2023-09-08 11:33:36,0.809s,PASSED
+"click(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""))",Chrome 116.0.0.0,,,2023-09-08 11:33:36,2023-09-08 11:34:13,37.015s,FAILED
+"b = getText(findTestObject(""Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_You do not have any activities for today""))",Chrome 116.0.0.0,,,2023-09-08 11:34:13,2023-09-08 11:34:48,34.194s,PASSED
+"verifyEqual(""You do not have any activities for today."", b)",Chrome 116.0.0.0,,,2023-09-08 11:34:48,2023-09-08 11:34:48,0.009s,FAILED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-08 11:34:48,2023-09-08 11:34:48,0.004s,NOT_RUN

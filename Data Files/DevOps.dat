@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>f19a0c1f-e38e-4bbf-8981-081dca5f859c</dataFileGUID>
-   <dataSourceUrl>Data Files/DataDrivenTesting.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Data Files/DataDrivenTesting.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>
