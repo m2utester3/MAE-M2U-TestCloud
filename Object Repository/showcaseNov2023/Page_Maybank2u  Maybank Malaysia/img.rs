@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>1cda0ebf-e5aa-4e76-944d-907565e51191</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToTransactions']/div[2]/div[2]/div/div[2]/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.PdfViewer---closeBtn---2_oU_ > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b43bbe20-ae3f-43f9-b24e-5adc1b2d60e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/close_white.svg</value>
+      <webElementGuid>a85084aa-550a-47db-87de-126c54f113ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToTransactions&quot;)/div[@class=&quot;PdfViewer---container---3iMt1&quot;]/div[@class=&quot;navbar navbar-inverse navbar-fixed-top PdfViewer---pdfViewerHeader---2gUAE&quot;]/div[@class=&quot;row padding-horizontal&quot;]/div[@class=&quot;col-sm-1&quot;]/a[@class=&quot;PdfViewer---closeBtn---2_oU_&quot;]/img[1]</value>
+      <webElementGuid>ff97ca04-b03b-46c5-8e4f-6249d72b4d51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToTransactions']/div[2]/div[2]/div/div[2]/a/img</value>
+      <webElementGuid>59b3de08-d335-45f4-b028-dcc690397f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/img</value>
+      <webElementGuid>50ef4ba7-2ace-4681-9ada-f7cc4ddd6576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/icons/close_white.svg']</value>
+      <webElementGuid>03f1219c-c0c0-4581-b1bc-7603c50f6baa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

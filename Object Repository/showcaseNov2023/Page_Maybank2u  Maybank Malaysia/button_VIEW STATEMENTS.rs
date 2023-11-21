@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_VIEW STATEMENTS</name>
+   <tag></tag>
+   <elementGuidId>a86416c4-eb4c-4787-89f2-f5266343fb8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-xs-8.col-sm-10.SavingAccountContainer---footerButtonContainer---2TDZo > div > button.btn.btn-default.btn.btn-default</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>988c3e72-3228-4b00-bb24-c0458692ca3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e48851bf-9e44-4f40-a61a-67d464143665</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btn btn-default</value>
+      <webElementGuid>7237cf48-2081-480a-907f-f29353a9a2ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VIEW STATEMENTS</value>
+      <webElementGuid>443a5260-822a-4278-8786-82c223cf33b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;row SavingAccountContainer---tableHolder---2U7EY&quot;]/div[@class=&quot;col-xs-12 col-sm-10&quot;]/div[@class=&quot;SavingAccountContainer---detailsTable---17Dxk&quot;]/div[@class=&quot;AccountTable---container---2Q_2a&quot;]/div[@class=&quot;row SavingAccountContainer---tableFooter---2rC4g&quot;]/div[@class=&quot;col-xs-8 col-sm-10 SavingAccountContainer---footerButtonContainer---2TDZo&quot;]/div[1]/button[@class=&quot;btn btn-default btn btn-default&quot;]</value>
+      <webElementGuid>cf06065e-2f65-45dc-86be-e0f88d1df2dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>3a3dd4f3-79f9-4371-a67e-f21ea9567cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div/div/div[2]/div[2]/div/button</value>
+      <webElementGuid>d4507af3-80f7-40e3-9286-e5cddc62328d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[3]/following::button[1]</value>
+      <webElementGuid>4238ef39-8b03-44a7-a763-93c30b5f1eaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Conditions'])[1]/preceding::button[1]</value>
+      <webElementGuid>c3f7826c-0f57-4254-aa91-c8b2d5e4c02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='VIEW STATEMENTS']/parent::*</value>
+      <webElementGuid>8f8d037b-30b2-4bd9-adc1-aed02aa7e82d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>e55617f9-ba72-4c18-8b89-8bc7b1deb233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'VIEW STATEMENTS' or . = 'VIEW STATEMENTS')]</value>
+      <webElementGuid>1a6c0de6-1000-4fb3-85fe-bc91cf3f6e5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

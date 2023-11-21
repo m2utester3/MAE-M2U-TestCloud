@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Available Balance</name>
+   <tag></tag>
+   <elementGuidId>5bc6508f-02cc-48c4-9771-5d5712a02f75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.AvailableBalanceCard---text---32YJZ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>127f21e4-976b-44a1-807a-ccf01b72df9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AvailableBalanceCard---text---32YJZ</value>
+      <webElementGuid>43903ed1-f7c5-4e04-b7b4-330992d5a7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Available Balance</value>
+      <webElementGuid>48dd28dd-6c51-4cc4-a93a-2709fd164c8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-sm-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;row SavingAccountContainer---accountInfo---Rop87&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;SavingAccountContainer---availableBalanceSection---1up1K container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 SavingAccountContainer---firstCard---1Fnjs&quot;]/div[@class=&quot;AvailableBalanceCard---container---3qD9l&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;AvailableBalanceCard---innerPanel---3J3Ba&quot;]/div[@class=&quot;AvailableBalanceCard---longBar---v9-l-&quot;]/p[@class=&quot;AvailableBalanceCard---text---32YJZ&quot;]</value>
+      <webElementGuid>67f74b93-2710-4340-956d-ab1c378b3b97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/p</value>
+      <webElementGuid>66be4f5d-74d0-4d6b-a128-07dcfaa0ce6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Current)'])[1]/following::p[1]</value>
+      <webElementGuid>6b74f019-712d-4ec4-8834-f937beff928d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Account-ii'])[1]/following::p[1]</value>
+      <webElementGuid>69a6fc87-06eb-4829-9af1-b4ddc7108648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[1]/preceding::p[1]</value>
+      <webElementGuid>0ebf1c7a-20de-43a6-a776-d55f62003264</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current balance'])[1]/preceding::p[2]</value>
+      <webElementGuid>ae957136-528e-41e0-a058-7a482f0ee3ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Available Balance']/parent::*</value>
+      <webElementGuid>53c27801-4b10-4d50-949d-d9f1ebac450f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>cda1958b-a786-4fb4-8b3f-56e57e201a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Available Balance' or . = 'Available Balance')]</value>
+      <webElementGuid>26452617-6e27-4891-932f-1e2f3d2d0ee6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

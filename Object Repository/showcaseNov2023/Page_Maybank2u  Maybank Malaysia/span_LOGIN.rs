@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_LOGIN</name>
+   <tag></tag>
+   <elementGuidId>38196fd7-3238-4294-a2ff-238cefefbd91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'LOGIN' or . = 'LOGIN')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;button&quot;] > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fa12d2f2-938c-4c4c-8aa1-f3f065c42bfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>5edcbcf9-1ff6-4710-ac05-aab4594b45e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2GFqG container-fluid&quot;]/div[@class=&quot;login---loginContainer---216o2 login---freeze---C65sE row&quot;]/div[2]/div[@class=&quot;Header---container---kBsDt&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;Header---header---2-wUx&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;Header---intro-text---2RfhY&quot;]/div[2]/div[1]/div[@class=&quot;row LoginUsername---loginWrapper---3q7CS&quot;]/div[@class=&quot;LoginUsername---loginBox---1Yoqu&quot;]/div[@class=&quot;LoginUsername---login-field-wrapper---3lJ_b&quot;]/div[2]/button[@class=&quot;LoginUsername---login-button---3Fl8E LoginUsername---login-input-button---3yVaU&quot;]/span[1]</value>
+      <webElementGuid>5fc071c2-051d-41a2-83ad-c051ddbdd026</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/button/span</value>
+      <webElementGuid>b3f5c2eb-0dfb-4876-827d-080b8104da82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Humanising Financial Services'])[1]/following::span[1]</value>
+      <webElementGuid>930d104c-f223-419c-bd4c-cb88c66cf61a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REGISTER NOW'])[1]/following::span[1]</value>
+      <webElementGuid>514935a2-aec2-47d4-b475-656678915f31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scam Alert'])[1]/preceding::span[1]</value>
+      <webElementGuid>7dcbdb0e-64bc-46cf-a8b4-a9eca86d8d03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repayment Assistance'])[1]/preceding::span[2]</value>
+      <webElementGuid>67ccedb6-034a-4fe9-8586-c741d51859c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LOGIN']/parent::*</value>
+      <webElementGuid>85835423-417c-4126-b611-981f8f8cde42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+      <webElementGuid>e87e857d-d113-4605-96fe-355ab334e3f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'LOGIN' or . = 'LOGIN')]</value>
+      <webElementGuid>e8a97dec-820f-481c-87b7-1bfa04822467</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

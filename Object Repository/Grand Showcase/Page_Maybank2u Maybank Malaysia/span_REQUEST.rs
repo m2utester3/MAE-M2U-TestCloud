@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_REQUEST</name>
+   <tag></tag>
+   <elementGuidId>85d82c89-8dd9-4007-b69a-8059432a1876</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-success.btn-request-tac > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cbae307a-bd5b-470e-8e80-6126d5dbf350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>REQUEST</value>
+      <webElementGuid>97e124ed-6a61-446a-b90f-2f0218c59ffa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToTransactions&quot;)/div[@class=&quot;Transactions---container---3sqaa&quot;]/div[@class=&quot;Transactions---content---2P7lC&quot;]/div[@class=&quot;Transactions---withSide---2taIP container-fluid Transactions---summaryContainer---1rNvj undefined&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;Transactions---stickyConfirmation---2aISx&quot;]/div[1]/div[@class=&quot;Confirm---confirm-wrapper---2INeM Confirm---slide---3C7mA put-in-modal&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8 col-xs-12&quot;]/div[@class=&quot;Confirm---confirm-right-wrapper---1xhcG&quot;]/div[1]/div[@class=&quot;col-sm-3 col-xs-12&quot;]/button[@class=&quot;btn btn-success btn-request-tac&quot;]/span[1]</value>
+      <webElementGuid>9b2616b7-e87e-4e4a-9331-1b0e0ae604a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[3]/div/div/div/div/div[2]/div/div/div[3]/button/span</value>
+      <webElementGuid>d12c9961-60d4-4403-9f31-09404d69b204</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS TAC'])[2]/following::span[1]</value>
+      <webElementGuid>23a91f94-40e8-4cb5-b486-94b0c18ec0c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Secure Verification'])[4]/following::span[2]</value>
+      <webElementGuid>86cd7e8b-35b4-4f60-acd4-9089f78cb605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>a190a92a-b0ac-4aef-bbc2-a63a90d8e6bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'REQUEST' or . = 'REQUEST')]</value>
+      <webElementGuid>854723a7-630a-4332-8855-d73c1827dd68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

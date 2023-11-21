@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Terms  Conditions</name>
+   <tag></tag>
+   <elementGuidId>8a98cd70-f29a-44c3-a64a-b12c574a0eff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/div/div/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0aab686f-a0e6-43b5-84cf-1e74abb6914b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/tnc/general_term_and_condition.page?</value>
+      <webElementGuid>6cb2ab26-0690-4f43-b08e-b0bef0b01b61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>6bba5872-9d5d-4672-b302-63dbe0aa64c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terms &amp; Conditions</value>
+      <webElementGuid>717aa636-fb95-49e2-9928-fa649f0eeb9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[2]/div[@class=&quot;Footer---footer_wrapper---2XAxB&quot;]/div[@class=&quot;Footer---footer---2PpiC&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row Footer---terms---3v66N undefined&quot;]/div[@class=&quot;col-md-12&quot;]/span[1]/a[1]</value>
+      <webElementGuid>02581313-7386-486c-ab2b-5b1677581b10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/div/div/span/a</value>
+      <webElementGuid>2f9fb861-5f7d-4c5a-b5b2-6f87b07c1fbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Terms &amp; Conditions')]</value>
+      <webElementGuid>18ec1496-1c40-42ae-93b7-5a9c41b4ac2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW STATEMENTS'])[1]/following::a[2]</value>
+      <webElementGuid>4e042e32-5047-45b8-a646-109cc1542a37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security and Privacy'])[1]/preceding::a[1]</value>
+      <webElementGuid>90600df2-6bf9-4323-9e17-930441e5257e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Service Charter'])[1]/preceding::a[2]</value>
+      <webElementGuid>5142d5fc-cee3-46fe-8df2-bc1bca06bf4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terms &amp; Conditions']/parent::*</value>
+      <webElementGuid>b27210ea-d494-40f2-8ae7-323d1defb390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/tnc/general_term_and_condition.page?')]</value>
+      <webElementGuid>e0126c2f-0167-41cd-8018-59eb0d87c167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>66e415c8-91e9-42bf-b847-dcabef157ef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/tnc/general_term_and_condition.page?' and (text() = 'Terms &amp; Conditions' or . = 'Terms &amp; Conditions')]</value>
+      <webElementGuid>69728cc7-37af-4c33-8f32-9191c51f4a1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

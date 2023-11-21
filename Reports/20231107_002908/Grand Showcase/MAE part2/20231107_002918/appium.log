@@ -1,0 +1,30 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 64142
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/pj/tdgwyxh90y759nk534c9prjc0000gn/T//Katalon/Appium/Temp1699288193065
+[35m[Appium][39m   chromedriverPort: 64143
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 64143
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:64142
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"com.maybank2u.life.uat","appPackage":"com.maybank2u.life.uat","noReset":true,"appWaitActivity":"*","unlockKey":"2458","deviceId":"","deviceName":"samsung SM-G998B (Android 11)","fullReset":false,"platform":"ANDROID","appActivity":"com.maybank2u.life.MainActivity","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","unlockType":"pattern","autoGrantPermissions":true,"platformName":"Android","udid":"R5CR704KXSR","systemPort":64141},"capabilities":{"firstMatch":[{"appium:app":"com.maybank2u.life.uat","appium:appActivity":"com.maybank2u.life.MainActivity","appium:appPackage":"com.maybank2u.life.uat","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"","appium:deviceName":"samsung SM-G998B (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":64141,"appium:ud...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   unlockKey
+[35m[BaseDriver][39m   unlockType
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 5c9a41ac-e468-4d65-9bb2-249c50d22f67
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m679 ms - 655[39m
+[35m[HTTP][39m [90m[39m

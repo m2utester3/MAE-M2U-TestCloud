@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_</name>
+   <tag></tag>
+   <elementGuidId>63728652-b70f-4b4b-ae9c-649fed411f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-muted.pull-right</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='date-picker-popover-0']/h3/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6cb3218e-2288-4358-9fe8-f7e74c2afab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-muted pull-right</value>
+      <webElementGuid>441e635b-8263-4baa-9ec8-0498aa4177ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>></value>
+      <webElementGuid>6a4a5671-8fe7-479c-9ba3-b4bc51c28ed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;date-picker-popover-0&quot;)/h3[@class=&quot;popover-title&quot;]/div[@class=&quot;text-center&quot;]/div[@class=&quot;text-muted pull-right&quot;]</value>
+      <webElementGuid>b283489b-a9b2-4d5d-b395-26c91f005363</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='date-picker-popover-0']/h3/div/div</value>
+      <webElementGuid>abe6f04b-5f1c-47a9-b5c6-ad3e4bc67842</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='November'])[1]/following::div[1]</value>
+      <webElementGuid>bd80e51b-d68d-4065-91c5-d44544580348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Effective Date'])[1]/following::div[8]</value>
+      <webElementGuid>3ad5e76b-ec52-45fc-b777-19f038c85f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[1]/preceding::div[1]</value>
+      <webElementGuid>038869d9-58d0-413f-8c83-e1264df77062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T'])[1]/preceding::div[1]</value>
+      <webElementGuid>47dc9401-ed24-4471-9a6a-5771f0a1c3c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='>']/parent::*</value>
+      <webElementGuid>8a974717-0fe8-4040-8cbd-d5558f79096e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3/div/div</value>
+      <webElementGuid>2bdae9ca-bd35-4f36-a3d6-a487293ba0c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '>' or . = '>')]</value>
+      <webElementGuid>b2091ae7-cb75-453a-8369-3225681aad3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

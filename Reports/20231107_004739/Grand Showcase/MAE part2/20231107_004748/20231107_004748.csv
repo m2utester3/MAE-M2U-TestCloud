@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE part2,,,,2023-11-07 00:48:21,2023-11-07 00:49:23,1m - 2.041s,PASSED
+,,,,,,,
+Test Cases/Grand Showcase/MAE,,,,2023-11-07 00:48:21,2023-11-07 00:49:23,1m - 1.189s,PASSED
+"startExistingApplication(""com.maybank2u.life.uat"", CONTINUE_ON_FAILURE)",,,,2023-11-07 00:48:22,2023-11-07 00:48:56,33.527s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u""), 0)",,,,2023-11-07 00:48:56,2023-11-07 00:48:58,2.355s,PASSED
+"tap(findTestObject(""showcaseNov2023/MAE/android.widget.TextView - Secure2u""), 0)",,,,2023-11-07 00:48:58,2023-11-07 00:48:59,0.931s,PASSED
+"tap(findTestObject(""showcaseNov2023/MAE/android.widget.TextView - Approve""), 0)",,,,2023-11-07 00:48:59,2023-11-07 00:49:23,23.365s,PASSED
+closeApplication(),,,,2023-11-07 00:49:23,2023-11-07 00:49:23,0.004s,NOT_RUN

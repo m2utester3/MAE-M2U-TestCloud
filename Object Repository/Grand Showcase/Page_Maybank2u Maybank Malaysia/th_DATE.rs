@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_DATE</name>
+   <tag></tag>
+   <elementGuidId>097f4ed9-9383-4a3b-95c7-6943fce510bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>th.hidden-sm.hidden-xs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div/div/div/table/thead/tr/th</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>4e356c15-5a4d-4a2d-ac8b-5cea4b8db59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hidden-sm hidden-xs</value>
+      <webElementGuid>6960ed67-4f60-46ad-a617-17b4f7e1aef5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DATE</value>
+      <webElementGuid>dfec9636-1a58-4311-9e85-7b5335c2a3a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToDetails&quot;)/div[@class=&quot;details---container---3jYDY&quot;]/div[@class=&quot;loaderParent&quot;]/div[@class=&quot;loaderChildren&quot;]/div[@class=&quot;details---contentContainer---1GjpS details---noAccumulatedBal---20JkY&quot;]/div[2]/div[@class=&quot;row SavingAccountContainer---savingAccountContainer---ZFUGt&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;row SavingAccountContainer---tableHolder---2U7EY&quot;]/div[@class=&quot;col-xs-12 col-sm-10&quot;]/div[@class=&quot;SavingAccountContainer---detailsTable---17Dxk&quot;]/div[@class=&quot;AccountTable---container---2Q_2a&quot;]/div[@class=&quot;AccountTable---table---3pPP6 undefined&quot;]/table[@class=&quot;AccountTable---table---3pPP6 AccountTable---table---3pPP6 AccountTable---table---3pPP6&quot;]/thead[@class=&quot;AccountTable---tableHead---3JYE3&quot;]/tr[1]/th[@class=&quot;hidden-sm hidden-xs&quot;]</value>
+      <webElementGuid>98c07111-fe2e-4798-8761-053dc81dfff6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToDetails']/div/div/div/div[2]/div[2]/div/div[4]/div/div[2]/div/div/div/table/thead/tr/th</value>
+      <webElementGuid>d176f96a-14e1-4689-81b9-831c7ac6d62c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 60 days'])[1]/following::th[1]</value>
+      <webElementGuid>8fe00922-cfc4-4ec4-81ea-bfe6c7b8c234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 30 days'])[2]/following::th[1]</value>
+      <webElementGuid>d6263637-cc4d-47a9-a17a-0c42908d777a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DESCRIPTION'])[1]/preceding::th[1]</value>
+      <webElementGuid>9103a4ce-e813-4591-aff4-270894c9eaa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DETAILS'])[1]/preceding::th[2]</value>
+      <webElementGuid>8bd5d7f4-c1bd-442c-a0c3-82bc60e03c49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DATE']/parent::*</value>
+      <webElementGuid>7fff78bb-e5d6-41e2-9561-13e1f2fdddd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>5be4869c-3340-48f7-8228-9e3788c53b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'DATE' or . = 'DATE')]</value>
+      <webElementGuid>aa473d4a-c7d7-46b7-8f58-e65a340ba2ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

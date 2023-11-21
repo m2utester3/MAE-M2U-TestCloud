@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_pass1234</name>
+   <tag></tag>
+   <elementGuidId>2ecdc158-676f-49e7-a1c0-e2978b6630fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/p/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d1c1de8c-92eb-46aa-bda3-8d13ed1b6732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>SecurityPhrase---image-caption---1TK3M </value>
+      <webElementGuid>22843018-e86b-4f13-a3fa-3f67fb975f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>pass1234?</value>
+      <webElementGuid>b6b8c5e7-7712-4602-aeb1-b757fa7a86a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;core---childContainer---2GFqG container-fluid&quot;]/div[@class=&quot;login---loginContainer---216o2 login---freeze---C65sE row&quot;]/div[2]/div[@class=&quot;Header---container---kBsDt&quot;]/div[2]/div[@class=&quot;GeneralModal---container---1MI-M undefined&quot;]/div[@class=&quot;GeneralModal---modal---2RPFr SecurityPhrase---container---MbIaS&quot;]/div[@class=&quot;modal-dialog GeneralModal---animated---2vfJQ GeneralModal---slideInDown---3of__&quot;]/div[@class=&quot;modal-content&quot;]/div[2]/div[@class=&quot;modal-body&quot;]/p[1]/span[@class=&quot;SecurityPhrase---image-caption---1TK3M&quot;]</value>
+      <webElementGuid>ca8b9645-0624-411a-a242-ab1ff0b9b025</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/p/span</value>
+      <webElementGuid>442371ca-2a50-46c8-bb1d-018d40686ebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Humanising Financial Services'])[1]/following::span[2]</value>
+      <webElementGuid>6662708c-d780-415d-aafc-7839212339de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOT ME'])[1]/preceding::span[1]</value>
+      <webElementGuid>46eaa75a-c8e9-42fd-a2fb-70422fdd48c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YES'])[1]/preceding::span[1]</value>
+      <webElementGuid>35c325f7-6596-48a7-9752-e2129a4a8513</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='pass1234']/parent::*</value>
+      <webElementGuid>d09f51be-40e7-4f7d-996b-796ca5cca0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/span</value>
+      <webElementGuid>2e45838a-720b-4feb-a6b0-a01ecb46f461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'pass1234?' or . = 'pass1234?')]</value>
+      <webElementGuid>ee3f6c09-70f9-445f-9756-d826a7720a13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

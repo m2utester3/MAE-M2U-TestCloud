@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control",
+      "brokenLocator": "//input[@value\u003d\u002706/11/2023\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027scrollToTransactions\u0027]/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/span/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231107_003019/Grand Showcase/M2U part1/20231107_003025/Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control_idRelative.png"
+    }
+  ]
+}

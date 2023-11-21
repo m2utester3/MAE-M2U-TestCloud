@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/MBI M2U team/Page_Maybank2u  Mayba
 
 WebUI.click(findTestObject('Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/button_YES'))
 
+WebUI.takeAreaScreenshot(null)
+
 WebUI.setEncryptedText(findTestObject('MAE PROD/spy2/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'), 'Mayesha@19')
 
 WebUI.click(findTestObject('Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))

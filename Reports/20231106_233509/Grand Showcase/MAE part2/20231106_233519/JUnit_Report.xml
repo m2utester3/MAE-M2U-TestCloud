@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MAE part2" time="67.239" tests="1" failures="0" errors="0">
+   <testsuite name="MAE part2" tests="1" failures="0" errors="0" time="67.239" skipped="0" timestamp="2023-11-06 23:35:49" hostname="mosaj - 192.168.100.14" id="Test Suites/Grand Showcase/MAE part2">
+      <properties>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20231106_233509/Grand Showcase/MAE part2/20231106_233519"/>
+         <property name="logFiles" value="/Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20231106_233509/Grand Showcase/MAE part2/20231106_233519/execution0.log, /Users/mosaj/Documents/GitHub/MAE-M2U-TestCloud/Reports/20231106_233509/Grand Showcase/MAE part2/20231106_233519/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mosaj - 192.168.100.14"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.21.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.21.0"/>
+         <property name="deviceModel" value="SM-G998B"/>
+         <property name="hostAddress" value="192.168.100.14"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R5CR704KXSR"/>
+         <property name="deviceName" value="samsung SM-G998B (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Grand Showcase/MAE" time="66.766" classname="Test Cases/Grand Showcase/MAE" status="PASSED">
+         <system-out><![CDATA[2023-11-06 23:35:49 - [TEST_CASE][PASSED] - Test Cases/Grand Showcase/MAE: Test Cases/Grand Showcase/MAE
+
+2023-11-06 23:35:50 - [TEST_STEP][PASSED] - startExistingApplication("com.maybank2u.life.uat"): Starting app with application ID: 'com.maybank2u.life.uat'
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['appPackage', 'com.maybank2u.life.uat']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['appActivity', 'com.maybank2u.life.MainActivity']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['unlockType', 'pattern']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['unlockKey', '2458']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-11-06 23:35:51 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-06 23:35:55 - [MESSAGE][INFO] - Appium server started on port 59,886
+
+2023-11-06 23:36:17 - [MESSAGE][PASSED] - Starting app with application ID: 'com.maybank2u.life.uat'
+
+2023-11-06 23:36:17 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u"), 0): Text of element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u' is: 'Secure2u'
+
+2023-11-06 23:36:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-11-06 23:36:19 - [MESSAGE][PASSED] - Text of element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u' is: 'Secure2u'
+
+2023-11-06 23:36:19 - [TEST_STEP][PASSED] - tap(findTestObject("showcaseNov2023/MAE/android.widget.TextView - Secure2u"), 0): Tapped on element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u'
+
+2023-11-06 23:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-11-06 23:36:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u'
+
+2023-11-06 23:36:20 - [TEST_STEP][PASSED] - tap(findTestObject("showcaseNov2023/MAE/android.widget.TextView - Approve"), 0): Tapped on element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Approve'
+
+2023-11-06 23:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2023-11-06 23:36:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/showcaseNov2023/MAE/android.widget.TextView - Approve'
+
+2023-11-06 23:36:56 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2023-11-06 23:36:56 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-06 23:35:49 - [TEST_SUITE][PASSED] - MAE part2: Test Cases/Grand Showcase/MAE]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

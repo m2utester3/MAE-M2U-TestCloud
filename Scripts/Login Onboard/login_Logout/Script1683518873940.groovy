@@ -21,3 +21,28 @@ Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.CONTIN
 
 WebUI.callTestCase(findTestCase('Login Onboard/login_logout-callTestCase'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+Mobile.startExistingApplication('com.maybank2u.life.uat', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Login Onboard/login_logout-callTestCase'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+
+WebUI.setText(findTestObject('Object Repository/JY/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'), 
+    'dfsdsdf')
+
+WebUI.click(findTestObject('Object Repository/JY/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username'))
+
+WebUI.click(findTestObject('Object Repository/JY/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))
+
+WebUI.click(findTestObject('Object Repository/JY/Page_Maybank2u  Maybank Malaysia/button_YES'))
+
+WebUI.closeBrowser()
+

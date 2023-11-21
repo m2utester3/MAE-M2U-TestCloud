@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Status</name>
+   <tag></tag>
+   <elementGuidId>661f690c-7624-45e3-aae9-8f2a0dc2e49d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[4]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(4) > div.TransactionSummary---row---1zHCL > span.col-xs-12.TransactionSummary---leftLabel---1eRTf</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b5606a5d-cd3f-453a-9649-d0a9ad8c55af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-xs-12 TransactionSummary---leftLabel---1eRTf</value>
+      <webElementGuid>5f7a8605-9a7f-48d8-9806-963855ec1415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Status</value>
+      <webElementGuid>52f439ce-284e-4610-9689-cd560727757c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scrollToTransactions&quot;)/div[@class=&quot;Transactions---container---3sqaa&quot;]/div[@class=&quot;Transactions---content---2P7lC&quot;]/div[@class=&quot;Transactions---withSide---2taIP container-fluid Transactions---summaryContainer---1rNvj undefined&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[2]/div[@class=&quot;row TransactionSummary---container---3kmr0&quot;]/div[@class=&quot;col-xs-12 col-md-8&quot;]/div[2]/div[1]/div[@class=&quot;TransactionSummary---details---1paYx panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[4]/div[@class=&quot;TransactionSummary---row---1zHCL&quot;]/span[@class=&quot;col-xs-12 TransactionSummary---leftLabel---1eRTf&quot;]</value>
+      <webElementGuid>f40ee564-88c5-43ef-97a0-23edb3baaae3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='scrollToTransactions']/div/div/div[3]/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[4]/div/span</value>
+      <webElementGuid>4b76e79e-d839-4f35-9e59-f0c6febbeb86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='happy dipawali'])[1]/following::span[2]</value>
+      <webElementGuid>79f16352-fef2-4256-bf6c-037eb9a47122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipient Reference'])[1]/following::span[3]</value>
+      <webElementGuid>0dafdb3c-6076-4cde-b234-0e3435125149</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Successful'])[1]/preceding::span[1]</value>
+      <webElementGuid>aadc4017-9c28-4f43-b35b-1ffebfb4f0dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference ID'])[1]/preceding::span[3]</value>
+      <webElementGuid>2ef9ff71-d5ca-45fa-b164-0ebde5c60af0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Status']/parent::*</value>
+      <webElementGuid>0a890dd4-66a7-4207-97fc-0a028f8f0949</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/span</value>
+      <webElementGuid>b73324e6-5564-45c3-86fc-29f22cb39e32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Status' or . = 'Status')]</value>
+      <webElementGuid>046657c7-a006-4239-960e-aab4daaae054</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

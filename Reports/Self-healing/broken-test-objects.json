@@ -59,6 +59,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/MBI M2U team/Page_Maybank2u  Maybank Malaysia/span_You do not have any activities for today_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGIN",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Humanising Financial Services\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGIN_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful",
+      "brokenLocator": "//div[@id\u003d\u0027scrollToTransactions\u0027]/div/div/div[3]/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div/h6/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027RM 2.00\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control",
+      "brokenLocator": "//input[@value\u003d\u002706/11/2023\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027scrollToTransactions\u0027]/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/span/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control_idRelative.png"
     }
   ]
 }

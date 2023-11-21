@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>Maybank2u</name>
+   <tag></tag>
+   <elementGuidId>08c1270b-997d-4636-b980-a90d363f664e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maybank2u</value>
+      <webElementGuid>6278da55-2423-4353-8e4b-ab2be101259c</webElementGuid>
+   </webElementProperties>
+   <locator></locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

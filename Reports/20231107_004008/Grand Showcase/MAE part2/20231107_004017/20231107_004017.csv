@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MAE part2,,,,2023-11-07 00:40:45,2023-11-07 00:41:01,16.034s,FAILED
+,,,,,,,
+Test Cases/Grand Showcase/MAE,,,,2023-11-07 00:40:47,2023-11-07 00:41:01,13.720s,FAILED
+"startApplication(""com.maybank2u.life.uat"", false)",,,,2023-11-07 00:40:49,2023-11-07 00:41:00,10.498s,FAILED
+"getText(findTestObject(""Object Repository/showcaseNov2023/MAE/android.widget.TextView - Secure2u""), 0)",,,,2023-11-07 00:41:00,2023-11-07 00:41:01,0.954s,PASSED

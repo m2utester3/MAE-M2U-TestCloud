@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+M2U part1,Chrome 119.0.0.0,,,2023-11-06 23:35:41,2023-11-06 23:37:45,2m - 3.867s,PASSED
+,,,,,,,
+Test Cases/Grand Showcase/M2U,Chrome 119.0.0.0,,,2023-11-06 23:35:42,2023-11-06 23:37:45,2m - 2.864s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-06 23:35:44,2023-11-06 23:36:06,22.732s,PASSED
+"navigateToUrl(""https://m2umobilesit.maybank.com.my/cgi-bin/bvAT4UI1/m2u/common/login.do"")",Chrome 119.0.0.0,,,2023-11-06 23:36:06,2023-11-06 23:36:14,7.762s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-06 23:36:14,2023-11-06 23:36:14,0.007s,NOT_RUN
+takeScreenshot(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-06 23:36:14,2023-11-06 23:36:18,3.881s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Humanising Financial Services_username""), ""samuat05"")",Chrome 119.0.0.0,,,2023-11-06 23:36:18,2023-11-06 23:36:20,1.569s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 119.0.0.0,,,2023-11-06 23:36:20,2023-11-06 23:36:21,0.850s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/p_Is your security phrasepass1234""))",Chrome 119.0.0.0,,,2023-11-06 23:36:21,2023-11-06 23:36:22,1.586s,PASSED
+takeScreenshot(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-06 23:36:22,2023-11-06 23:36:23,0.736s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_pass1234""))",Chrome 119.0.0.0,,,2023-11-06 23:36:23,2023-11-06 23:36:24,1.065s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/button_YES""))",Chrome 119.0.0.0,,,2023-11-06 23:36:24,2023-11-06 23:36:24,0.487s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input""), ""Maybank@1"")",Chrome 119.0.0.0,,,2023-11-06 23:36:24,2023-11-06 23:36:25,0.963s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGIN""))",Chrome 119.0.0.0,,,2023-11-06 23:36:25,2023-11-06 23:36:26,0.487s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 119.0.0.0,,,2023-11-06 23:36:26,2023-11-06 23:36:30,3.672s,PASSED
+takeScreenshot(CONTINUE_ON_FAILURE),Chrome 119.0.0.0,,,2023-11-06 23:36:30,2023-11-06 23:36:34,4.259s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-06 23:36:34,2023-11-06 23:36:36,2.055s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 119.0.0.0,,,2023-11-06 23:36:36,2023-11-06 23:36:36,0.571s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_x""))",Chrome 119.0.0.0,,,2023-11-06 23:36:36,2023-11-06 23:36:38,1.615s,PASSED
+delay(2),Chrome 119.0.0.0,,,2023-11-06 23:36:38,2023-11-06 23:36:40,2.007s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/div_TRANSFER""))",Chrome 119.0.0.0,,,2023-11-06 23:36:40,2023-11-06 23:36:41,0.649s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/div_Own Accounts""))",Chrome 119.0.0.0,,,2023-11-06 23:36:41,2023-11-06 23:36:41,0.766s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_PAY  TRANSFER""))",Chrome 119.0.0.0,,,2023-11-06 23:36:41,2023-11-06 23:36:41,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_Other Accounts ( Maybank and other banks )""))",Chrome 119.0.0.0,,,2023-11-06 23:36:41,2023-11-06 23:36:43,1.075s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_ASNB Accounts_PayFromToContainer---pa_1bae3d""))",Chrome 119.0.0.0,,,2023-11-06 23:36:43,2023-11-06 23:36:44,1.236s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/div_Maybank  Maybank Islamic""))",Chrome 119.0.0.0,,,2023-11-06 23:36:44,2023-11-06 23:36:44,0.680s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Account number_toAccount""), ""562366010792"")",Chrome 119.0.0.0,,,2023-11-06 23:36:44,2023-11-06 23:36:46,1.368s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Transfer Amount_amount""), ""2.00"")",Chrome 119.0.0.0,,,2023-11-06 23:36:46,2023-11-06 23:36:47,0.843s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control""), ""06/11/2023"")",Chrome 119.0.0.0,,,2023-11-06 23:36:47,2023-11-06 23:36:47,0.002s,NOT_RUN
+delay(1),Chrome 119.0.0.0,,,2023-11-06 23:36:47,2023-11-06 23:36:48,1.007s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control""))",Chrome 119.0.0.0,,,2023-11-06 23:36:48,2023-11-06 23:36:48,0.676s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:36:48,2023-11-06 23:36:49,0.673s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Effective Date_form-control""))",Chrome 119.0.0.0,,,2023-11-06 23:36:49,2023-11-06 23:36:49,0.422s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/label_Effective Date""))",Chrome 119.0.0.0,,,2023-11-06 23:36:49,2023-11-06 23:36:50,0.573s,PASSED
+"setText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/input_Recipient Reference_transferPurpose""), ""happy dipawali"")",Chrome 119.0.0.0,,,2023-11-06 23:36:50,2023-11-06 23:36:51,1.137s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_TRANSFER""))",Chrome 119.0.0.0,,,2023-11-06 23:36:51,2023-11-06 23:36:52,0.633s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/h6_Tap on the notification on your smartpho_593a44""))",Chrome 119.0.0.0,,,2023-11-06 23:36:52,2023-11-06 23:36:53,1.196s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_REQUEST""))",Chrome 119.0.0.0,,,2023-11-06 23:36:53,2023-11-06 23:36:53,0.431s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:36:53,2023-11-06 23:36:55,1.711s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_Transaction Successful""))",Chrome 119.0.0.0,,,2023-11-06 23:36:55,2023-11-06 23:37:01,6.082s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:37:01,2023-11-06 23:37:02,0.595s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_SAVE RECEIPT""))",Chrome 119.0.0.0,,,2023-11-06 23:37:02,2023-11-06 23:37:02,0.549s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_This receipt is computer generated and_52c908""))",Chrome 119.0.0.0,,,2023-11-06 23:37:02,2023-11-06 23:37:04,1.347s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:37:04,2023-11-06 23:37:04,0.425s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/img""))",Chrome 119.0.0.0,,,2023-11-06 23:37:04,2023-11-06 23:37:05,0.728s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_Status""))",Chrome 119.0.0.0,,,2023-11-06 23:37:05,2023-11-06 23:37:30,24.933s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS""))",Chrome 119.0.0.0,,,2023-11-06 23:37:30,2023-11-06 23:37:31,0.857s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_562366010785""))",Chrome 119.0.0.0,,,2023-11-06 23:37:31,2023-11-06 23:37:32,1.591s,PASSED
+"rightClick(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/p_Available Balance""))",Chrome 119.0.0.0,,,2023-11-06 23:37:32,2023-11-06 23:37:36,4.228s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:37:36,2023-11-06 23:37:37,0.595s,PASSED
+"scrollToElement(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/a_Terms  Conditions""), 0)",Chrome 119.0.0.0,,,2023-11-06 23:37:37,2023-11-06 23:37:37,0.377s,PASSED
+delay(3),Chrome 119.0.0.0,,,2023-11-06 23:37:37,2023-11-06 23:37:40,3.009s,PASSED
+"rightClick(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/button_VIEW STATEMENTS""))",Chrome 119.0.0.0,,,2023-11-06 23:37:40,2023-11-06 23:37:40,0.002s,NOT_RUN
+"rightClick(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""))",Chrome 119.0.0.0,,,2023-11-06 23:37:40,2023-11-06 23:37:40,0.002s,NOT_RUN
+"scrollToElement(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""), 0)",Chrome 119.0.0.0,,,2023-11-06 23:37:40,2023-11-06 23:37:41,0.415s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:37:41,2023-11-06 23:37:42,0.793s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-06 23:37:42,2023-11-06 23:37:42,0.360s,PASSED
+"click(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_LOGOUT""), CONTINUE_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-06 23:37:42,2023-11-06 23:37:43,0.521s,PASSED
+"getText(findTestObject(""Object Repository/showcaseNov2023/Page_Maybank2u  Maybank Malaysia/span_You have logged out""))",Chrome 119.0.0.0,,,2023-11-06 23:37:43,2023-11-06 23:37:44,1.049s,PASSED
+takeScreenshot(),Chrome 119.0.0.0,,,2023-11-06 23:37:44,2023-11-06 23:37:44,0.627s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-06 23:37:44,2023-11-06 23:37:45,0.561s,PASSED
